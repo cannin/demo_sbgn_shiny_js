@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_51" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="13.0" y="371.0"/>
+            </label>
+            <bbox w="870.0" h="416.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_58" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="81.0" y="300.0"/>
+            </label>
+            <bbox w="573.0" h="317.0" x="66.0" y="30.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9774224_50">
+            <label text="SOX10:CDH19 gene"/>
+            <bbox w="128.0" h="22.0" x="362.0" y="65.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9774302_143">
+            <label text="CDH19:CTNDD1:CTNNB1/JUP:CTNNA1"/>
+            <bbox w="110.0" h="50.0" x="809.0" y="355.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9774195_89">
+            <label text="ZC3H12A binds CDH19 gene promoter"/>
+            <bbox w="10.0" h="10.0" x="293.0" y="227.0"/>
+            <port id="reactionVertex_9774195.1" x="289.66666" y="199.0"/>
+            <port id="reactionVertex_9774195.2" x="306.33334" y="240.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9774238_91">
+            <label text="ZC3H12A:CDH19 gene"/>
+            <bbox w="151.0" h="26.0" x="351.0" y="243.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9613639_43">
+            <label text="SOX10"/>
+            <bbox w="48.0" h="22.0" x="125.0" y="66.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9774220_46">
+            <label text="CDH19 gene"/>
+            <bbox w="83.0" h="51.0" x="119.0" y="146.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9773192_47">
+            <label text="SOX10 binds CDH19 gene promoter"/>
+            <bbox w="10.0" h="10.0" x="299.0" y="79.0"/>
+            <port id="reactionVertex_9773192.1" x="295.66666" y="104.0"/>
+            <port id="reactionVertex_9773192.2" x="312.33334" y="80.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9762139_141">
+            <label text="CTNNB1/JUP"/>
+            <bbox w="83.0" h="22.0" x="832.0" y="251.0"/>
+        </glyph>
+        <glyph class="uncertain process" id="reactionVertex_9773218_139">
+            <label text="CDH19 associates with catenins"/>
+            <bbox w="12.0" h="12.0" x="758.0" y="291.0"/>
+            <port id="reactionVertex_9773218.1" x="754.0" y="257.0"/>
+            <port id="reactionVertex_9773218.2" x="774.0" y="352.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_191735_142">
+            <label text="CTNNA1"/>
+            <bbox w="59.0" h="22.0" x="846.0" y="297.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_418996_140">
+            <label text="CTNND1"/>
+            <bbox w="60.0" h="22.0" x="848.0" y="204.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9774243_137">
+            <label text="CDH19"/>
+            <bbox w="51.0" h="22.0" x="834.0" y="150.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9773208_138">
+            <label text="CDH19 gene expression is stimulated by SOX10"/>
+            <bbox w="12.0" h="12.0" x="418.0" y="127.0"/>
+            <port id="reactionVertex_9773208.1" x="414.0" y="148.0"/>
+            <port id="reactionVertex_9773208.2" x="434.0" y="159.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9774235_90">
+            <label text="ZC3H12A"/>
+            <bbox w="65.0" h="22.0" x="119.0" y="242.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9774168_136">
+            <label text="CDH19 gene expression is stimulated by ZC3H12A"/>
+            <bbox w="12.0" h="12.0" x="420.0" y="192.0"/>
+            <port id="reactionVertex_9774168.1" x="416.0" y="148.0"/>
+            <port id="reactionVertex_9774168.2" x="436.0" y="163.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_90_input_89" source="entityVertex_9774235_90" target="reactionVertex_9774195.1">
+            <start x="170.0" y="239.0"/>
+            <next x="249.0" y="199.0"/>
+            <end x="249.0" y="199.0"/>
+        </arc>
+        <arc class="consumption" id="arc_46_input_136" source="entityVertex_9774220_46" target="reactionVertex_9774168.1">
+            <start x="211.0" y="148.0"/>
+            <end x="426.0" y="198.0"/>
+        </arc>
+        <arc class="consumption" id="arc_43_input_47" source="entityVertex_9613639_43" target="reactionVertex_9773192.1">
+            <start x="176.0" y="82.0"/>
+            <next x="262.0" y="104.0"/>
+            <end x="262.0" y="104.0"/>
+        </arc>
+        <arc class="consumption" id="arc_141_input_139" source="entityVertex_9762139_141" target="reactionVertex_9773218.1">
+            <start x="826.0" y="259.0"/>
+            <next x="772.0" y="257.0"/>
+            <end x="772.0" y="257.0"/>
+        </arc>
+        <arc class="consumption" id="arc_46_input_47" source="entityVertex_9774220_46" target="reactionVertex_9773192.1">
+            <start x="211.0" y="148.0"/>
+            <next x="262.0" y="104.0"/>
+            <end x="262.0" y="104.0"/>
+        </arc>
+        <arc class="production" id="arc_137_output_136" source="reactionVertex_9774168.2" target="entityVertex_9774243_137">
+            <start x="426.0" y="198.0"/>
+            <end x="426.0" y="198.0"/>
+        </arc>
+        <arc class="production" id="arc_143_output_139" source="reactionVertex_9773218.2" target="entityVertex_9774302_143">
+            <start x="764.0" y="297.0"/>
+            <end x="764.0" y="297.0"/>
+        </arc>
+        <arc class="consumption" id="arc_140_input_139" source="entityVertex_418996_140" target="reactionVertex_9773218.1">
+            <start x="850.0" y="229.0"/>
+            <next x="772.0" y="257.0"/>
+            <end x="772.0" y="257.0"/>
+        </arc>
+        <arc class="consumption" id="arc_142_input_139" source="entityVertex_191735_142" target="reactionVertex_9773218.1">
+            <start x="852.0" y="294.0"/>
+            <next x="772.0" y="257.0"/>
+            <end x="772.0" y="257.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_50_activator_138" source="entityVertex_9774224_50" target="reactionVertex_9773208_138">
+            <start x="425.0" y="90.0"/>
+            <next x="424.0" y="124.0"/>
+            <end x="424.0" y="124.0"/>
+        </arc>
+        <arc class="production" id="arc_50_output_47" source="reactionVertex_9773192.2" target="entityVertex_9774224_50">
+            <start x="304.0" y="84.0"/>
+            <end x="304.0" y="84.0"/>
+        </arc>
+        <arc class="production" id="arc_137_output_138" source="reactionVertex_9773208.2" target="entityVertex_9774243_137">
+            <start x="424.0" y="133.0"/>
+            <end x="424.0" y="133.0"/>
+        </arc>
+        <arc class="production" id="arc_91_output_89" source="reactionVertex_9774195.2" target="entityVertex_9774238_91">
+            <start x="298.0" y="232.0"/>
+            <end x="298.0" y="232.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_91_activator_136" source="entityVertex_9774238_91" target="reactionVertex_9774168_136">
+            <start x="426.0" y="240.0"/>
+            <next x="426.0" y="207.0"/>
+            <end x="426.0" y="207.0"/>
+        </arc>
+        <arc class="consumption" id="arc_46_input_89" source="entityVertex_9774220_46" target="reactionVertex_9774195.1">
+            <start x="211.0" y="148.0"/>
+            <next x="249.0" y="199.0"/>
+            <end x="249.0" y="199.0"/>
+        </arc>
+        <arc class="consumption" id="arc_137_input_139" source="entityVertex_9774243_137" target="reactionVertex_9773218.1">
+            <start x="849.0" y="175.0"/>
+            <next x="772.0" y="257.0"/>
+            <end x="772.0" y="257.0"/>
+        </arc>
+        <arc class="consumption" id="arc_46_input_138" source="entityVertex_9774220_46" target="reactionVertex_9773208.1">
+            <start x="424.0" y="133.0"/>
+            <end x="831.0" y="159.0"/>
+        </arc>
+    </map>
+</sbgn>

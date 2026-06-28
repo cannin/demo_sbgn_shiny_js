@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_17957_257" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="382.0" y="612.0"/>
+            </label>
+            <bbox w="132.0" h="79.0" x="372.0" y="596.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_5" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="120.0" y="332.0"/>
+            </label>
+            <bbox w="1700.0" h="1019.0" x="100.0" y="308.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_6" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="1440.0" y="1084.0"/>
+            </label>
+            <bbox w="378.0" h="156.0" x="1365.0" y="976.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17927_7" compartmentOrder="10.0">
+            <label text="mitochondrial intermembrane space">
+                <bbox w="280.0" h="24.0" x="1380.0" y="1123.0"/>
+            </label>
+            <bbox w="449.0" h="211.0" x="1322.0" y="958.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_171907_24" compartmentOrder="10.0">
+            <label text="endosome lumen">
+                <bbox w="134.0" h="24.0" x="928.0" y="649.0"/>
+            </label>
+            <bbox w="770.0" h="259.0" x="609.0" y="518.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5621402_143567">
+            <label text="Defective CP does not oxidise Fe2+ to Fe3+"/>
+            <bbox w="12.0" h="12.0" x="475.0" y="228.0"/>
+            <port id="reactionVertex_5621402.1" x="471.0" y="236.0"/>
+            <port id="reactionVertex_5621402.2" x="491.0" y="130.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_435347_54">
+            <label text="Fe2+"/>
+            <bbox w="48.0" h="30.0" x="579.0" y="250.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_352327_52">
+            <label text="O2"/>
+            <bbox w="34.0" h="30.0" x="587.0" y="208.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9631864_143568">
+            <label text="CP mutants:6xCu2+:SLC40A1"/>
+            <bbox w="125.0" h="22.0" x="417.0" y="301.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_351626_55">
+            <label text="H+"/>
+            <bbox w="36.0" h="30.0" x="588.0" y="170.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_52_input_143567" source="entityVertex_352327_52" target="reactionVertex_5621402.1">
+            <start x="584.0" y="225.0"/>
+            <next x="530.0" y="236.0"/>
+            <end x="530.0" y="236.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_143568_catalyst_143567" source="entityVertex_9631864_143568" target="reactionVertex_5621402_143567">
+            <start x="479.0" y="298.0"/>
+            <next x="481.0" y="250.0"/>
+            <end x="481.0" y="250.0"/>
+        </arc>
+        <arc class="consumption" id="arc_54_input_143567" source="entityVertex_435347_54" target="reactionVertex_5621402.1">
+            <glyph class="stoichiometry" id="Stoichiometry_435347_INPUT_5621402">
+                <label text="4"/>
+                <bbox w="12.0" h="12.0" x="547.0" y="239.0"/>
+            </glyph>
+            <start x="576.0" y="255.0"/>
+            <next x="530.0" y="236.0"/>
+            <end x="530.0" y="236.0"/>
+        </arc>
+        <arc class="consumption" id="arc_55_input_143567" source="entityVertex_351626_55" target="reactionVertex_5621402.1">
+            <glyph class="stoichiometry" id="Stoichiometry_351626_INPUT_5621402">
+                <label text="4"/>
+                <bbox w="12.0" h="12.0" x="551.0" y="210.0"/>
+            </glyph>
+            <start x="585.0" y="197.0"/>
+            <next x="530.0" y="236.0"/>
+            <end x="530.0" y="236.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="695.0" y="90.0"/>
+            </label>
+            <bbox w="1454.0" h="592.0" x="0.0" y="75.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_161320_2" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="185.0" y="141.0"/>
+            </label>
+            <bbox w="1372.0" h="530.0" x="42.0" y="123.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2090033_1031">
+            <label text="IdoA-GlcN6S-IdoA2S-GlcN3S- group"/>
+            <bbox w="116.0" h="59.0" x="66.0" y="481.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2207701_92588">
+            <label text="IDUA mutants"/>
+            <bbox w="37.0" h="23.0" x="732.0" y="295.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2090055_1073">
+            <label text="IdoA-GlcNS3S- group"/>
+            <bbox w="108.0" h="45.0" x="743.0" y="158.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1605715_1044">
+            <label text="H2O"/>
+            <bbox w="43.0" h="31.0" x="110.0" y="590.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2207701_92590">
+            <label text="IDUA mutants"/>
+            <bbox w="37.0" h="23.0" x="197.0" y="505.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1605715_1085">
+            <label text="H2O"/>
+            <bbox w="43.0" h="31.0" x="864.0" y="203.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9036037_92589">
+            <label text="Defective IDUA does not hydrolyse Heparan sulfate chain(1)"/>
+            <bbox w="12.0" h="12.0" x="208.0" y="568.0"/>
+            <port id="reactionVertex_9036037.1" x="204.0" y="574.0"/>
+            <port id="reactionVertex_9036037.2" x="224.0" y="574.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_2206299_92587">
+            <label text="Defective IDUA does not hydrolyse Heparan sulfate chain(6)"/>
+            <bbox w="12.0" h="12.0" x="823.0" y="286.0"/>
+            <port id="reactionVertex_2206299.1" x="828.0" y="302.0"/>
+            <port id="reactionVertex_2206299.2" x="828.0" y="282.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_1085_input_92587" source="entityVertex_1605715_1085" target="reactionVertex_2206299.1">
+            <start x="861.0" y="233.0"/>
+            <next x="828.0" y="259.0"/>
+            <end x="828.0" y="259.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_92590_catalyst_92589" source="entityVertex_2207701_92590" target="reactionVertex_9036037_92589">
+            <start x="214.0" y="534.0"/>
+            <next x="214.0" y="558.0"/>
+            <end x="214.0" y="558.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1044_input_92589" source="entityVertex_1605715_1044" target="reactionVertex_9036037.1">
+            <start x="151.0" y="587.0"/>
+            <next x="172.0" y="574.0"/>
+            <end x="172.0" y="574.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1073_input_92587" source="entityVertex_2090055_1073" target="reactionVertex_2206299.1">
+            <start x="805.0" y="206.0"/>
+            <next x="828.0" y="259.0"/>
+            <end x="828.0" y="259.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1031_input_92589" source="entityVertex_2090033_1031" target="reactionVertex_9036037.1">
+            <start x="146.0" y="543.0"/>
+            <next x="172.0" y="574.0"/>
+            <end x="172.0" y="574.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_92588_catalyst_92587" source="entityVertex_2207701_92588" target="reactionVertex_2206299_92587">
+            <start x="775.0" y="302.0"/>
+            <next x="813.0" y="295.0"/>
+            <end x="813.0" y="295.0"/>
+        </arc>
+    </map>
+</sbgn>

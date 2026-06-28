@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_17927_848" compartmentOrder="10.0">
+            <label text="mitochondrial intermembrane space">
+                <bbox w="280.0" h="24.0" x="1730.0" y="317.0"/>
+            </label>
+            <bbox w="183.0" h="330.0" x="1712.0" y="53.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_12045_5094" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum membrane">
+                <bbox w="263.0" h="24.0" x="1736.0" y="581.0"/>
+            </label>
+            <bbox w="225.0" h="85.0" x="1733.0" y="541.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_620" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="112.0" y="1246.0"/>
+            </label>
+            <bbox w="2120.0" h="1312.0" x="96.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_621" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="162.0" y="1148.0"/>
+            </label>
+            <bbox w="1456.0" h="1202.0" x="143.0" y="40.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_847" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="1754.0" y="176.0"/>
+            </label>
+            <bbox w="131.0" h="252.0" x="1741.0" y="74.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_548785_5111">
+            <label text="ELOVL3"/>
+            <bbox w="53.0" h="23.0" x="1737.0" y="538.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844437_2093">
+            <label text="EBF2, EBF2:Blnc1 lncRNA:HNRNPU:PPARA gene, PRDM16 gene, UCP1 gene, (CIDEA gene, COX7A1 gene, DIO2 gene, ELOVL3 gene, PPARGC1A gene)"/>
+            <bbox w="113.0" h="161.0" x="611.0" y="548.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_3222269_681">
+            <label text="PRDM16"/>
+            <bbox w="58.0" h="23.0" x="164.0" y="153.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844472_4978">
+            <label text="COX7A1 gene"/>
+            <bbox w="85.0" h="52.0" x="1318.0" y="259.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9844404_1072">
+            <label text="EBF2:Blnc1 lncRNA:HNRNPU"/>
+            <bbox w="125.0" h="37.0" x="613.0" y="339.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9844511_2841">
+            <label text="ZNF423:EBF2, EBF2:Blnc1 lncRNA:HNRNPU:PRDM16 gene"/>
+            <bbox w="121.0" h="61.0" x="167.0" y="634.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5640195_3038">
+            <label text="PPARA gene"/>
+            <bbox w="80.0" h="52.0" x="810.0" y="737.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9844440_5440">
+            <label text="PPARG binds EBF2-bound gene loci"/>
+            <bbox w="12.0" h="12.0" x="1096.0" y="690.0"/>
+            <port id="reactionVertex_9844440.1" x="1092.0" y="676.0"/>
+            <port id="reactionVertex_9844440.2" x="1112.0" y="798.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9844536_3037">
+            <label text="PPARA gene expression is stimulated by EBF2 and PPARG and repressed by ZNF423 and NuRD"/>
+            <bbox w="12.0" h="12.0" x="985.0" y="735.0"/>
+            <port id="reactionVertex_9844536.1" x="981.0" y="739.0"/>
+            <port id="reactionVertex_9844536.2" x="1001.0" y="736.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9844598_3489">
+            <label text="DIO2 gene transcription is stimulated by EBF2 and repressed by ZNF423"/>
+            <bbox w="12.0" h="12.0" x="1448.0" y="850.0"/>
+            <port id="reactionVertex_9844598.1" x="1444.0" y="730.0"/>
+            <port id="reactionVertex_9844598.2" x="1464.0" y="859.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9844415_2840">
+            <label text="PRDM16 gene expression is stimulated by EBF2 and PPARG and repressed by ZNF423"/>
+            <bbox w="12.0" h="12.0" x="186.0" y="407.0"/>
+            <port id="reactionVertex_9844415.1" x="182.0" y="563.0"/>
+            <port id="reactionVertex_9844415.2" x="202.0" y="179.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844503_5320">
+            <label text="EBF2, EBF2:Blnc1 lncRNA:HNRNPU: PPARA gene, PRDM16 gene, UCP1 gene, (CIDEA gene, DIO2 gene, ELOVL3 gene)"/>
+            <bbox w="111.0" h="120.0" x="366.0" y="725.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9844425_1499">
+            <label text="SMAD1:SMAD4 trimer binds ZNF423"/>
+            <bbox w="10.0" h="10.0" x="215.0" y="889.0"/>
+            <port id="reactionVertex_9844425.1" x="211.66667" y="835.0"/>
+            <port id="reactionVertex_9844425.2" x="228.33333" y="954.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_442481_1067">
+            <label text="PPARGC1A"/>
+            <bbox w="71.0" h="23.0" x="284.0" y="380.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844664_5442">
+            <label text="RXRA natural ligands"/>
+            <bbox w="92.0" h="37.0" x="1146.0" y="656.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5641216_5110">
+            <label text="ELOVL3 gene"/>
+            <bbox w="77.0" h="52.0" x="1480.0" y="580.0"/>
+        </glyph>
+        <glyph class="uncertain process" id="reactionVertex_9844600_5230">
+            <label text="CIDEA gene expression is stimulated by EBF2 and PPARG and repressed by ZNF423 and NuRD"/>
+            <bbox w="12.0" h="12.0" x="1312.0" y="695.0"/>
+            <port id="reactionVertex_9844600.1" x="1308.0" y="861.0"/>
+            <port id="reactionVertex_9844600.2" x="1328.0" y="636.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844666_5451">
+            <label text="PPARG natural ligands"/>
+            <bbox w="98.0" h="37.0" x="937.0" y="569.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9844534_3071">
+            <label text="NuRD:ZNF423:EBF2, EBF2:Blnc1 lncRNA:HNRNPU:UCP1 gene"/>
+            <bbox w="132.0" h="51.0" x="1169.0" y="480.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_166394_818">
+            <label text="UCP1"/>
+            <bbox w="39.0" h="23.0" x="1733.0" y="217.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844521_2415">
+            <label text="NuRD:ZNF423:EBF2,EBF2:Blnc1 lncRNA:HNRNPU:PPARA gene, UCP1 gene, (CIDEA gene, DIO2 gene)"/>
+            <bbox w="92.0" h="140.0" x="959.0" y="1000.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844791_4339">
+            <label text="EBF2, EBF2:Blnc1 lncRNA:HNRNPU, Activated PPARG:RXRA:PRDM16 gene"/>
+            <bbox w="137.0" h="64.0" x="423.0" y="563.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844814_4816">
+            <label text="EBF2, EBF2:Blnc1 lncRNA:HNRNPU, Activated PPARG:RXRA:UCP1 gene"/>
+            <bbox w="126.0" h="75.0" x="995.0" y="260.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844529_5470">
+            <label text="ZNF423:EBF2, EBF2:Blnc1 lncRNA:HNRNPU:PPARA gene, UCP1 gene, (CIDEA gene, DIO2 gene)"/>
+            <bbox w="126.0" h="93.0" x="636.0" y="944.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9843798_758">
+            <label text="UCP1 gene"/>
+            <bbox w="66.0" h="52.0" x="389.0" y="184.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844662_5443">
+            <label text="Brown,beige adipocyte-specific coactivators of PPARG:RXRA"/>
+            <bbox w="118.0" h="65.0" x="459.0" y="428.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_206654_1500">
+            <label text="p-2S-SMAD1:p-2S-SMAD1:SMAD4"/>
+            <bbox w="93.0" h="49.0" x="170.0" y="760.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_71953_1069">
+            <label text="HNRNPU"/>
+            <bbox w="60.0" h="23.0" x="436.0" y="344.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9844822_5228">
+            <label text="PPARGC1A  gene expression is stimulated by EBF2"/>
+            <bbox w="12.0" h="12.0" x="286.0" y="333.0"/>
+            <port id="reactionVertex_9844822.1" x="282.0" y="229.0"/>
+            <port id="reactionVertex_9844822.2" x="302.0" y="377.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844471_3342">
+            <label text="CIDEA gene"/>
+            <bbox w="77.0" h="52.0" x="1314.0" y="859.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9844538_3040">
+            <label text="NuRD:ZNF423:EBF2, EBF2:Blnc1 lncRNA:HNRNPU:PPARA gene"/>
+            <bbox w="132.0" h="65.0" x="924.0" y="772.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_8856626_3343">
+            <label text="CIDEA"/>
+            <bbox w="44.0" h="23.0" x="1626.0" y="621.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9844820_4977">
+            <label text="COX7A1 gene expression is stimulated by EBF2"/>
+            <bbox w="12.0" h="12.0" x="1506.0" y="412.0"/>
+            <port id="reactionVertex_9844820.1" x="1502.0" y="261.0"/>
+            <port id="reactionVertex_9844820.2" x="1522.0" y="286.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_4686147_964">
+            <label text="PPARGC1A gene"/>
+            <bbox w="72.0" h="52.0" x="213.0" y="227.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9843266_5441">
+            <label text="PPARG:RXRA"/>
+            <bbox w="84.0" h="23.0" x="1078.0" y="611.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_4657018_2414">
+            <label text="NuRD complex"/>
+            <bbox w="97.0" h="23.0" x="768.0" y="1148.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_381317_1071">
+            <label text="EBF2"/>
+            <bbox w="36.0" h="23.0" x="351.0" y="439.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844412_2270">
+            <label text="ZNF423:EBF2, EBF2:Blnc1 lncRNA:HNRNPU:PPARA gene, PRDM16 gene, UCP1 gene, (CIDEA gene, DIO2 gene, ELOVL3 gene)"/>
+            <bbox w="102.0" h="143.0" x="499.0" y="909.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844468_3490">
+            <label text="DIO2 gene"/>
+            <bbox w="71.0" h="52.0" x="1364.0" y="728.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9844665_5229">
+            <label text="Activated PPARG:RXRA"/>
+            <bbox w="70.0" h="50.0" x="521.0" y="303.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_3222318_1455">
+            <label text="ZNF423"/>
+            <bbox w="61.0" h="22.0" x="274.0" y="821.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9844366_5413">
+            <label text="EBF2 binds target gene loci"/>
+            <bbox w="12.0" h="12.0" x="708.0" y="503.0"/>
+            <port id="reactionVertex_9844366.1" x="704.0" y="482.0"/>
+            <port id="reactionVertex_9844366.2" x="724.0" y="542.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9844375_5319">
+            <label text="ZNF423 binds EBF2 at EBF2-target gene loci"/>
+            <bbox w="12.0" h="12.0" x="426.0" y="942.0"/>
+            <port id="reactionVertex_9844375.1" x="422.0" y="904.0"/>
+            <port id="reactionVertex_9844375.2" x="442.0" y="966.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_5336152_4979">
+            <label text="COX7A1"/>
+            <bbox w="62.0" h="25.0" x="1730.0" y="258.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844436_1641">
+            <label text="PRDM16 gene"/>
+            <bbox w="91.0" h="52.0" x="259.0" y="561.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9844360_1068">
+            <label text="EBF2 binds Blnc1 lncRNA"/>
+            <bbox w="10.0" h="10.0" x="575.0" y="384.0"/>
+            <port id="reactionVertex_9844360.1" x="571.6667" y="397.0"/>
+            <port id="reactionVertex_9844360.2" x="588.3333" y="379.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844669_3842">
+            <label text="EBF2, EBF2:Blnc1 lncRNA:HNRNPU:Activated PPARG:RXRA:PPARA gene, PRDM16 gene, UCP1 gene, (CIDEA gene, PPARGC1A gene)"/>
+            <bbox w="102.0" h="161.0" x="1123.0" y="804.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844453_1758">
+            <label text="EBF2,EBF2:Blnc1 lncRNA:HNRNPU"/>
+            <bbox w="111.0" h="37.0" x="600.0" y="413.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_206901_1502">
+            <label text="BMP7 dimer"/>
+            <bbox w="78.0" h="23.0" x="0.0" y="885.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9844818_5109">
+            <label text="ELOVL3 gene expression is stimulated by EBF2 and negatively regulated by ZNF423"/>
+            <bbox w="12.0" h="12.0" x="1564.0" y="502.0"/>
+            <port id="reactionVertex_9844818.1" x="1560.0" y="582.0"/>
+            <port id="reactionVertex_9844818.2" x="1580.0" y="543.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844801_4531">
+            <label text="EBF2, EBF2:Blnc1 lncRNA:HNRNPU, Activated PPARG:RXRA:PPARA gene"/>
+            <bbox w="161.0" h="70.0" x="699.0" y="802.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9844431_1501">
+            <label text="ZNF423:p-2S-SMAD1:p-2S-SMAD1:SMAD4"/>
+            <bbox w="140.0" h="39.0" x="202.0" y="957.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9844549_3070">
+            <label text="UCP1 gene expression is stimulated by EBF2 and PPARG and repressed by ZNF423 and NuRD"/>
+            <bbox w="12.0" h="12.0" x="766.0" y="255.0"/>
+            <port id="reactionVertex_9844549.1" x="762.0" y="186.0"/>
+            <port id="reactionVertex_9844549.2" x="782.0" y="228.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9966037_5482">
+            <label text="DIO2 mRNA"/>
+            <bbox w="102.0" h="37.0" x="1743.0" y="842.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844457_5414">
+            <label text="PPARA gene, PRDM16 gene, UCP1 gene, (CIDEA gene, COX7A1 gene, DIO2 gene, ELOVL3 gene, PPARGC1A gene)"/>
+            <bbox w="134.0" h="93.0" x="768.0" y="428.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9844438_5469">
+            <label text="ZNF423 recruits NuRD to EBF2 target genes"/>
+            <bbox w="12.0" h="12.0" x="900.0" y="1055.0"/>
+            <port id="reactionVertex_9844438.1" x="896.0" y="1057.0"/>
+            <port id="reactionVertex_9844438.2" x="916.0" y="1065.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844661_5445">
+            <label text="EBF2, EBF2:Blnc1 lncRNA:HNRNPU:PPARA gene, PRDM16 gene, UCP1 gene, (CIDEA gene, PPARGC1A gene)"/>
+            <bbox w="134.0" h="93.0" x="760.0" y="621.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9844402_1070">
+            <label text="Blnc1 lncRNA"/>
+            <bbox w="121.0" h="39.0" x="379.0" y="379.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_400186_3039">
+            <label text="PPARA"/>
+            <bbox w="47.0" h="23.0" x="1051.0" y="724.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_5414_input_5413" source="entityVertex_9844457_5414" target="reactionVertex_9844366.1">
+            <start x="762.0" y="478.0"/>
+            <next x="722.0" y="482.0"/>
+            <end x="722.0" y="482.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2414_input_5469" source="entityVertex_4657018_2414" target="reactionVertex_9844438.1">
+            <glyph class="stoichiometry" id="Stoichiometry_4657018_INPUT_9844438">
+                <label text="4"/>
+                <bbox w="12.0" h="12.0" x="817.0" y="1095.0"/>
+            </glyph>
+            <start x="817.0" y="1145.0"/>
+            <next x="830.0" y="1057.0"/>
+            <end x="830.0" y="1057.0"/>
+        </arc>
+        <arc class="production" id="arc_3343_output_5230" source="reactionVertex_9844600.2" target="entityVertex_8856626_3343">
+            <start x="1318.0" y="701.0"/>
+            <end x="1318.0" y="701.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4978_input_4977" source="entityVertex_9844472_4978" target="reactionVertex_9844820.1">
+            <start x="1412.0" y="261.0"/>
+            <end x="1512.0" y="418.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_2841_inhibitor_2840" source="entityVertex_9844511_2841" target="reactionVertex_9844415_2840">
+            <start x="222.0" y="631.0"/>
+            <next x="193.0" y="422.0"/>
+            <end x="193.0" y="422.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1455_input_1499" source="entityVertex_3222318_1455" target="reactionVertex_9844425.1">
+            <start x="271.0" y="833.0"/>
+            <next x="217.0" y="835.0"/>
+            <end x="217.0" y="835.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5470_input_5469" source="entityVertex_9844529_5470" target="reactionVertex_9844438.1">
+            <start x="768.0" y="1022.0"/>
+            <next x="830.0" y="1057.0"/>
+            <end x="830.0" y="1057.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_1455_inhibitor_5230" source="entityVertex_3222318_1455" target="reactionVertex_9844600_5230">
+            <start x="309.0" y="846.0"/>
+            <next x="472.0" y="1187.0"/>
+            <next x="1274.0" y="1200.0"/>
+            <next x="1317.0" y="710.0"/>
+            <end x="1317.0" y="710.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_4816_activator_3070" source="entityVertex_9844814_4816" target="reactionVertex_9844549_3070">
+            <start x="989.0" y="289.0"/>
+            <next x="781.0" y="262.0"/>
+            <end x="781.0" y="262.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1069_input_1068" source="entityVertex_71953_1069" target="reactionVertex_9844360.1">
+            <start x="489.0" y="370.0"/>
+            <next x="552.0" y="397.0"/>
+            <end x="552.0" y="397.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1455_input_5319" source="entityVertex_3222318_1455" target="reactionVertex_9844375.1">
+            <glyph class="stoichiometry" id="Stoichiometry_3222318_INPUT_9844375">
+                <label text="6"/>
+                <bbox w="12.0" h="12.0" x="344.0" y="869.0"/>
+            </glyph>
+            <start x="316.0" y="846.0"/>
+            <next x="384.0" y="904.0"/>
+            <end x="384.0" y="904.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1641_input_2840" source="entityVertex_9844436_1641" target="reactionVertex_9844415.1">
+            <start x="359.0" y="563.0"/>
+            <end x="192.0" y="413.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_2414_inhibitor_5230" source="entityVertex_4657018_2414" target="reactionVertex_9844600_5230">
+            <start x="868.0" y="1158.0"/>
+            <next x="1260.0" y="1151.0"/>
+            <next x="1317.0" y="710.0"/>
+            <end x="1317.0" y="710.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_4531_activator_3037" source="entityVertex_9844801_4531" target="reactionVertex_9844536_3037">
+            <start x="856.0" y="796.0"/>
+            <next x="983.0" y="744.0"/>
+            <end x="983.0" y="744.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5451_input_5440" source="entityVertex_9844666_5451" target="reactionVertex_9844440.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9844666_INPUT_9844440">
+                <label text="5"/>
+                <bbox w="12.0" h="12.0" x="1036.0" y="638.0"/>
+            </glyph>
+            <start x="1005.0" y="612.0"/>
+            <next x="1079.0" y="676.0"/>
+            <end x="1079.0" y="676.0"/>
+        </arc>
+        <arc class="production" id="arc_681_output_2840" source="reactionVertex_9844415.2" target="entityVertex_3222269_681">
+            <start x="192.0" y="413.0"/>
+            <end x="192.0" y="413.0"/>
+        </arc>
+        <arc class="production" id="arc_2270_output_5319" source="reactionVertex_9844375.2" target="entityVertex_9844412_2270">
+            <start x="432.0" y="948.0"/>
+            <end x="432.0" y="948.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_4339_activator_2840" source="entityVertex_9844791_4339" target="reactionVertex_9844415_2840">
+            <start x="438.0" y="557.0"/>
+            <next x="200.0" y="418.0"/>
+            <end x="200.0" y="418.0"/>
+        </arc>
+        <arc class="production" id="arc_3842_output_5440" source="reactionVertex_9844440.2" target="entityVertex_9844669_3842">
+            <start x="1102.0" y="696.0"/>
+            <end x="1102.0" y="696.0"/>
+        </arc>
+        <arc class="consumption" id="arc_964_input_5228" source="entityVertex_4686147_964" target="reactionVertex_9844822.1">
+            <start x="294.0" y="229.0"/>
+            <end x="292.0" y="339.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1758_input_5413" source="entityVertex_9844453_1758" target="reactionVertex_9844366.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9844453_INPUT_9844366">
+                <label text="8"/>
+                <bbox w="12.0" h="12.0" x="694.0" y="463.0"/>
+            </glyph>
+            <start x="679.0" y="456.0"/>
+            <next x="722.0" y="482.0"/>
+            <end x="722.0" y="482.0"/>
+        </arc>
+        <arc class="production" id="arc_4979_output_4977" source="reactionVertex_9844820.2" target="entityVertex_5336152_4979">
+            <start x="1512.0" y="418.0"/>
+            <end x="1512.0" y="418.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3038_input_3037" source="entityVertex_5640195_3038" target="reactionVertex_9844536.1">
+            <start x="899.0" y="739.0"/>
+            <end x="991.0" y="741.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_1758_activator_4977" source="entityVertex_9844453_1758" target="reactionVertex_9844820_4977">
+            <start x="701.0" y="407.0"/>
+            <next x="859.0" y="350.0"/>
+            <next x="1503.0" y="417.0"/>
+            <end x="1503.0" y="417.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_1758_activator_5109" source="entityVertex_9844453_1758" target="reactionVertex_9844818_5109">
+            <start x="708.0" y="407.0"/>
+            <next x="854.0" y="362.0"/>
+            <next x="1489.0" y="433.0"/>
+            <next x="1563.0" y="502.0"/>
+            <end x="1563.0" y="502.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_1455_inhibitor_3489" source="entityVertex_3222318_1455" target="reactionVertex_9844598_3489">
+            <start x="306.0" y="818.0"/>
+            <next x="340.0" y="678.0"/>
+            <next x="474.0" y="684.0"/>
+            <next x="603.0" y="891.0"/>
+            <next x="1330.0" y="1027.0"/>
+            <next x="1449.0" y="863.0"/>
+            <end x="1449.0" y="863.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5441_input_5440" source="entityVertex_9843266_5441" target="reactionVertex_9844440.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9843266_INPUT_9844440">
+                <label text="5"/>
+                <bbox w="12.0" h="12.0" x="1089.0" y="652.0"/>
+            </glyph>
+            <start x="1111.0" y="640.0"/>
+            <next x="1079.0" y="676.0"/>
+            <end x="1079.0" y="676.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1500_input_1499" source="entityVertex_206654_1500" target="reactionVertex_9844425.1">
+            <start x="216.0" y="812.0"/>
+            <next x="217.0" y="835.0"/>
+            <end x="217.0" y="835.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5445_input_5440" source="entityVertex_9844661_5445" target="reactionVertex_9844440.1">
+            <start x="900.0" y="669.0"/>
+            <next x="1079.0" y="676.0"/>
+            <end x="1079.0" y="676.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5320_input_5319" source="entityVertex_9844503_5320" target="reactionVertex_9844375.1">
+            <start x="402.0" y="851.0"/>
+            <next x="384.0" y="904.0"/>
+            <end x="384.0" y="904.0"/>
+        </arc>
+        <arc class="production" id="arc_5111_output_5109" source="reactionVertex_9844818.2" target="entityVertex_548785_5111">
+            <start x="1570.0" y="508.0"/>
+            <end x="1570.0" y="508.0"/>
+        </arc>
+        <arc class="production" id="arc_5482_output_3489" source="reactionVertex_9844598.2" target="entityVertex_9966037_5482">
+            <start x="1454.0" y="856.0"/>
+            <end x="1454.0" y="856.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_5229_activator_5228" source="entityVertex_9844665_5229" target="reactionVertex_9844822_5228">
+            <start x="518.0" y="329.0"/>
+            <next x="301.0" y="339.0"/>
+            <end x="301.0" y="339.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_5229_activator_5230" source="entityVertex_9844665_5229" target="reactionVertex_9844600_5230">
+            <start x="594.0" y="329.0"/>
+            <next x="1306.0" y="369.0"/>
+            <next x="1318.0" y="692.0"/>
+            <end x="1318.0" y="692.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5110_input_5109" source="entityVertex_5641216_5110" target="reactionVertex_9844818.1">
+            <start x="1570.0" y="508.0"/>
+            <end x="1734.0" y="543.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_1455_inhibitor_5109" source="entityVertex_3222318_1455" target="reactionVertex_9844818_5109">
+            <start x="308.0" y="846.0"/>
+            <next x="453.0" y="1199.0"/>
+            <next x="1711.0" y="1222.0"/>
+            <next x="1706.0" y="620.0"/>
+            <next x="1577.0" y="514.0"/>
+            <end x="1577.0" y="514.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5442_input_5440" source="entityVertex_9844664_5442" target="reactionVertex_9844440.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9844664_INPUT_9844440">
+                <label text="5"/>
+                <bbox w="12.0" h="12.0" x="1103.0" y="669.0"/>
+            </glyph>
+            <start x="1140.0" y="674.0"/>
+            <next x="1079.0" y="676.0"/>
+            <end x="1079.0" y="676.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_1501_inhibitor_5319" source="entityVertex_9844431_1501" target="reactionVertex_9844375_5319">
+            <start x="345.0" y="963.0"/>
+            <next x="423.0" y="950.0"/>
+            <end x="423.0" y="950.0"/>
+        </arc>
+        <arc class="production" id="arc_3039_output_3037" source="reactionVertex_9844536.2" target="entityVertex_400186_3039">
+            <start x="991.0" y="741.0"/>
+            <end x="991.0" y="741.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_1758_activator_5230" source="entityVertex_9844453_1758" target="reactionVertex_9844600_5230">
+            <start x="717.0" y="417.0"/>
+            <next x="869.0" y="379.0"/>
+            <next x="1009.0" y="404.0"/>
+            <end x="1312.0" y="695.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_1758_activator_3489" source="entityVertex_9844453_1758" target="reactionVertex_9844598_3489">
+            <start x="717.0" y="415.0"/>
+            <next x="869.0" y="370.0"/>
+            <next x="1486.0" y="446.0"/>
+            <next x="1455.0" y="847.0"/>
+            <end x="1455.0" y="847.0"/>
+        </arc>
+        <arc class="production" id="arc_1067_output_5228" source="reactionVertex_9844822.2" target="entityVertex_442481_1067">
+            <start x="292.0" y="339.0"/>
+            <end x="292.0" y="339.0"/>
+        </arc>
+        <arc class="production" id="arc_1072_output_1068" source="reactionVertex_9844360.2" target="entityVertex_9844404_1072">
+            <start x="580.0" y="389.0"/>
+            <end x="580.0" y="389.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1070_input_1068" source="entityVertex_9844402_1070" target="reactionVertex_9844360.1">
+            <start x="503.0" y="397.0"/>
+            <next x="552.0" y="397.0"/>
+            <end x="552.0" y="397.0"/>
+        </arc>
+        <arc class="consumption" id="arc_758_input_3070" source="entityVertex_9843798_758" target="reactionVertex_9844549.1">
+            <start x="464.0" y="186.0"/>
+            <end x="772.0" y="261.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_3040_inhibitor_3037" source="entityVertex_9844538_3040" target="reactionVertex_9844536_3037">
+            <start x="990.0" y="769.0"/>
+            <next x="991.0" y="750.0"/>
+            <end x="991.0" y="750.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3490_input_3489" source="entityVertex_9844468_3490" target="reactionVertex_9844598.1">
+            <start x="1454.0" y="856.0"/>
+            <end x="1740.0" y="859.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_3071_inhibitor_3070" source="entityVertex_9844534_3071" target="reactionVertex_9844549_3070">
+            <start x="1186.0" y="477.0"/>
+            <next x="780.0" y="265.0"/>
+            <end x="780.0" y="265.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5443_input_5440" source="entityVertex_9844662_5443" target="reactionVertex_9844440.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9844662_INPUT_9844440">
+                <label text="10"/>
+                <bbox w="12.0" h="12.0" x="825.0" y="573.0"/>
+            </glyph>
+            <start x="583.0" y="482.0"/>
+            <next x="1079.0" y="676.0"/>
+            <end x="1079.0" y="676.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_1758_activator_5228" source="entityVertex_9844453_1758" target="reactionVertex_9844822_5228">
+            <start x="639.0" y="456.0"/>
+            <next x="592.0" y="505.0"/>
+            <next x="357.0" y="495.0"/>
+            <next x="251.0" y="389.0"/>
+            <next x="286.0" y="346.0"/>
+            <end x="286.0" y="346.0"/>
+        </arc>
+        <arc class="production" id="arc_2093_output_5413" source="reactionVertex_9844366.2" target="entityVertex_9844437_2093">
+            <start x="714.0" y="509.0"/>
+            <end x="714.0" y="509.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_2414_inhibitor_3489" source="entityVertex_4657018_2414" target="reactionVertex_9844598_3489">
+            <start x="868.0" y="1161.0"/>
+            <next x="1300.0" y="1186.0"/>
+            <next x="1450.0" y="864.0"/>
+            <end x="1450.0" y="864.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3342_input_5230" source="entityVertex_9844471_3342" target="reactionVertex_9844600.1">
+            <start x="1318.0" y="701.0"/>
+            <end x="1623.0" y="636.0"/>
+        </arc>
+        <arc class="production" id="arc_818_output_3070" source="reactionVertex_9844549.2" target="entityVertex_166394_818">
+            <start x="772.0" y="261.0"/>
+            <end x="772.0" y="261.0"/>
+        </arc>
+        <arc class="production" id="arc_1501_output_1499" source="reactionVertex_9844425.2" target="entityVertex_9844431_1501">
+            <start x="220.0" y="894.0"/>
+            <end x="220.0" y="894.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_1502_activator_1499" source="entityVertex_206901_1502" target="reactionVertex_9844425_1499">
+            <start x="81.0" y="895.0"/>
+            <next x="211.0" y="894.0"/>
+            <end x="211.0" y="894.0"/>
+        </arc>
+        <arc class="production" id="arc_2415_output_5469" source="reactionVertex_9844438.2" target="entityVertex_9844521_2415">
+            <start x="906.0" y="1061.0"/>
+            <end x="906.0" y="1061.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1071_input_1068" source="entityVertex_381317_1071" target="reactionVertex_9844360.1">
+            <start x="390.0" y="444.0"/>
+            <next x="552.0" y="397.0"/>
+            <end x="552.0" y="397.0"/>
+        </arc>
+    </map>
+</sbgn>

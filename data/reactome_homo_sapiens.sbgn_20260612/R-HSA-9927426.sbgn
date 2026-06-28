@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="process" id="reactionVertex_9927423_316">
+            <label text="Mammary alveolar progenitor cell produces secretory lactocyte"/>
+            <bbox w="12.0" h="12.0" x="204.0" y="485.0"/>
+            <port id="reactionVertex_9927423.1" x="212.0" y="501.0"/>
+            <port id="reactionVertex_9927423.2" x="212.0" y="481.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_976984_338">
+            <label text="PRL"/>
+            <bbox w="30.0" h="24.0" x="23.0" y="351.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9927419_313">
+            <label text="secretory lactocyte"/>
+            <bbox w="127.0" h="52.0" x="150.0" y="558.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9927440_321">
+            <label text="mammary alveolar progenitor cell"/>
+            <bbox w="126.0" h="80.0" x="150.0" y="331.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9927424_315">
+            <label text="hormone receptor negative mammary luminal progenitor cell"/>
+            <bbox w="156.0" h="92.0" x="132.0" y="155.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9927438_319">
+            <label text="Mammary hormone receptor negative luminal progenitor cell produces alveolar progenitor cell"/>
+            <bbox w="12.0" h="12.0" x="204.0" y="282.0"/>
+            <port id="reactionVertex_9927438.1" x="210.0" y="298.0"/>
+            <port id="reactionVertex_9927438.2" x="211.0" y="278.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9927418_437">
+            <label text="Developmental Lineage of Mammary Gland Luminal Epithelial Cells"/>
+            <bbox w="425.0" h="62.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9960188_324">
+            <label text="hormone receptor positive mammary luminal epithelial cell"/>
+            <bbox w="127.0" h="108.0" x="420.0" y="224.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_315_input_319" source="entityVertex_9927424_315" target="reactionVertex_9927438.1">
+            <start x="210.0" y="250.0"/>
+            <end x="210.0" y="288.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_338_activator_316" source="entityVertex_976984_338" target="reactionVertex_9927423_316">
+            <start x="56.0" y="374.0"/>
+            <next x="203.0" y="486.0"/>
+            <end x="203.0" y="486.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_324_activator_319" source="entityVertex_9960188_324" target="reactionVertex_9927438_319">
+            <start x="417.0" y="280.0"/>
+            <next x="219.0" y="288.0"/>
+            <end x="219.0" y="288.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_338_activator_319" source="entityVertex_976984_338" target="reactionVertex_9927438_319">
+            <start x="56.0" y="356.0"/>
+            <next x="202.0" y="292.0"/>
+            <end x="202.0" y="292.0"/>
+        </arc>
+        <arc class="production" id="arc_321_output_319" source="reactionVertex_9927438.2" target="entityVertex_9927440_321">
+            <start x="210.0" y="288.0"/>
+            <end x="210.0" y="288.0"/>
+        </arc>
+        <arc class="consumption" id="arc_321_input_316" source="entityVertex_9927440_321" target="reactionVertex_9927423.1">
+            <start x="212.0" y="414.0"/>
+            <end x="210.0" y="491.0"/>
+        </arc>
+        <arc class="production" id="arc_313_output_316" source="reactionVertex_9927423.2" target="entityVertex_9927419_313">
+            <start x="210.0" y="491.0"/>
+            <end x="210.0" y="491.0"/>
+        </arc>
+    </map>
+</sbgn>

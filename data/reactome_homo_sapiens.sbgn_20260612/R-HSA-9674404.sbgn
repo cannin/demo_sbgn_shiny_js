@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_17957_4" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="1436.0" y="585.0"/>
+            </label>
+            <bbox w="663.0" h="165.0" x="1314.0" y="498.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_184" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="2446.0" y="550.0"/>
+            </label>
+            <bbox w="3325.0" h="730.0" x="67.0" y="306.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_45" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="442.0" y="494.0"/>
+            </label>
+            <bbox w="838.0" h="155.0" x="328.0" y="470.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_9657029_192009">
+            <label text="sorafenib"/>
+            <bbox w="126.0" h="60.0" x="1009.0" y="375.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9673718_192008">
+            <label text="sorafenib-resistant PDGFR mutants"/>
+            <bbox w="104.0" h="36.0" x="1033.0" y="305.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9674414_192007">
+            <label text="Sorafenib-resistant PDGFR mutants don't bind sorefenib"/>
+            <bbox w="12.0" h="12.0" x="1139.0" y="354.0"/>
+            <port id="reactionVertex_9674414.1" x="1135.0" y="360.0"/>
+            <port id="reactionVertex_9674414.2" x="1155.0" y="339.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_192009_input_192007" source="entityVertex_9657029_192009" target="reactionVertex_9674414.1">
+            <start x="1099.0" y="372.0"/>
+            <next x="1113.0" y="360.0"/>
+            <end x="1113.0" y="360.0"/>
+        </arc>
+        <arc class="consumption" id="arc_192008_input_192007" source="entityVertex_9673718_192008" target="reactionVertex_9674414.1">
+            <start x="1098.0" y="347.0"/>
+            <next x="1113.0" y="360.0"/>
+            <end x="1113.0" y="360.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="process" id="reactionVertex_9910607_17">
+            <label text="Primary multipotent pancreatic progenitor cell produces trunk bipotent pancreatic progenitor cell"/>
+            <bbox w="12.0" h="12.0" x="249.0" y="340.0"/>
+            <port id="reactionVertex_9910607.1" x="254.0" y="356.0"/>
+            <port id="reactionVertex_9910607.2" x="255.0" y="336.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9937554_56">
+            <label text="(FN1 dimer, VTN)"/>
+            <bbox w="78.0" h="31.0" x="434.0" y="410.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9853405_20">
+            <label text="pancreatic ductal cell"/>
+            <bbox w="125.0" h="62.0" x="197.0" y="584.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9938705_72">
+            <label text="(Laminin, Collagen)"/>
+            <bbox w="67.0" h="37.0" x="0.0" y="418.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9909323_12">
+            <label text="primary multipotent pancreatic progenitor cell"/>
+            <bbox w="135.0" h="109.0" x="187.0" y="186.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9937080_21">
+            <label text="Developmental Lineage of Multipotent Pancreatic Progenitor Cells"/>
+            <bbox w="464.0" h="73.0" x="24.0" y="0.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9910609_18">
+            <label text="pancreatic trunk bipotent progenitor cell"/>
+            <bbox w="143.0" h="86.0" x="185.0" y="396.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9853402_19">
+            <label text="Trunk bipotent pancreatic progenitor cell produces pancreatic ductal cell"/>
+            <bbox w="12.0" h="12.0" x="252.0" y="526.0"/>
+            <port id="reactionVertex_9853402.1" x="256.0" y="542.0"/>
+            <port id="reactionVertex_9853402.2" x="258.0" y="522.0"/>
+        </glyph>
+        <arc class="stimulation" id="arc_56_activator_19" source="entityVertex_9937554_56" target="reactionVertex_9853402_19">
+            <start x="441.0" y="447.0"/>
+            <next x="266.0" y="528.0"/>
+            <end x="266.0" y="528.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_72_inhibitor_19" source="entityVertex_9938705_72" target="reactionVertex_9853402_19">
+            <start x="73.0" y="450.0"/>
+            <next x="250.0" y="528.0"/>
+            <end x="250.0" y="528.0"/>
+        </arc>
+        <arc class="production" id="arc_20_output_19" source="reactionVertex_9853402.2" target="entityVertex_9853405_20">
+            <start x="258.0" y="532.0"/>
+            <end x="258.0" y="532.0"/>
+        </arc>
+        <arc class="consumption" id="arc_18_input_19" source="entityVertex_9910609_18" target="reactionVertex_9853402.1">
+            <start x="258.0" y="532.0"/>
+            <end x="258.0" y="581.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_72_inhibitor_17" source="entityVertex_9938705_72" target="reactionVertex_9910607_17">
+            <start x="73.0" y="422.0"/>
+            <next x="247.0" y="349.0"/>
+            <end x="247.0" y="349.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_56_activator_17" source="entityVertex_9937554_56" target="reactionVertex_9910607_17">
+            <start x="428.0" y="410.0"/>
+            <next x="263.0" y="349.0"/>
+            <end x="263.0" y="349.0"/>
+        </arc>
+        <arc class="production" id="arc_18_output_17" source="reactionVertex_9910607.2" target="entityVertex_9910609_18">
+            <start x="255.0" y="346.0"/>
+            <end x="255.0" y="346.0"/>
+        </arc>
+        <arc class="consumption" id="arc_12_input_17" source="entityVertex_9909323_12" target="reactionVertex_9910607.1">
+            <start x="255.0" y="346.0"/>
+            <end x="255.0" y="393.0"/>
+        </arc>
+    </map>
+</sbgn>

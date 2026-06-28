@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="717.0" y="371.0"/>
+            </label>
+            <bbox w="737.0" h="314.0" x="50.0" y="132.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9824403_211702">
+            <label text="ADAMTS13 variant"/>
+            <bbox w="121.0" h="23.0" x="808.0" y="49.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9822536_33">
+            <label text="Collagen type I fibril:VWF multimer"/>
+            <bbox w="128.0" h="37.0" x="625.0" y="45.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9824402_211701">
+            <label text="ADAMTS13 variant does not cleave VWF multimer"/>
+            <bbox w="12.0" h="12.0" x="780.0" y="79.0"/>
+            <port id="reactionVertex_9824402.1" x="776.0" y="77.0"/>
+            <port id="reactionVertex_9824402.2" x="796.0" y="96.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_33_input_211701" source="entityVertex_9822536_33" target="reactionVertex_9824402.1">
+            <start x="756.0" y="77.0"/>
+            <end x="786.0" y="85.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_211702_catalyst_211701" source="entityVertex_9824403_211702" target="reactionVertex_9824402_211701">
+            <start x="802.0" y="65.0"/>
+            <next x="791.0" y="67.0"/>
+            <next x="790.0" y="70.0"/>
+            <end x="790.0" y="70.0"/>
+        </arc>
+    </map>
+</sbgn>

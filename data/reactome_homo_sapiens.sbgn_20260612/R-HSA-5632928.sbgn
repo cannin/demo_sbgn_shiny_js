@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_1" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="71.0" y="1099.0"/>
+            </label>
+            <bbox w="1093.0" h="1124.0" x="55.0" y="28.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_459_114" compartmentOrder="10.0">
+            <label text="cytoplasm">
+                <bbox w="80.0" h="24.0" x="1053.0" y="1171.0"/>
+            </label>
+            <bbox w="1171.0" h="1216.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_5357519_247">
+            <label text="MSH3"/>
+            <bbox w="94.0" h="23.0" x="728.0" y="66.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5577244_150268">
+            <label text="MSH2 variant:MSH6-defective DNA mismatch repair"/>
+            <bbox w="12.0" h="12.0" x="393.0" y="164.0"/>
+            <port id="reactionVertex_5577244.1" x="389.0" y="152.0"/>
+            <port id="reactionVertex_5577244.2" x="409.0" y="195.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_5357528_111">
+            <label text="MSH6"/>
+            <bbox w="60.0" h="22.0" x="355.0" y="99.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5577247_150269">
+            <label text="MSH2 Variants"/>
+            <bbox w="63.0" h="25.0" x="456.0" y="80.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5577259_150270">
+            <label text="MSH2 variant:MSH3-defective DNA mismatch repair"/>
+            <bbox w="12.0" h="12.0" x="784.0" y="168.0"/>
+            <port id="reactionVertex_5577259.1" x="780.0" y="177.0"/>
+            <port id="reactionVertex_5577259.2" x="800.0" y="199.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5577247_150271">
+            <label text="MSH2 Variants"/>
+            <bbox w="63.0" h="25.0" x="591.0" y="123.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_111_input_150268" source="entityVertex_5357528_111" target="reactionVertex_5577244.1">
+            <start x="398.0" y="124.0"/>
+            <next x="436.0" y="152.0"/>
+            <end x="436.0" y="152.0"/>
+        </arc>
+        <arc class="consumption" id="arc_150271_input_150270" source="entityVertex_5577247_150271" target="reactionVertex_5577259.1">
+            <start x="660.0" y="145.0"/>
+            <next x="744.0" y="177.0"/>
+            <end x="744.0" y="177.0"/>
+        </arc>
+        <arc class="consumption" id="arc_150269_input_150268" source="entityVertex_5577247_150269" target="reactionVertex_5577244.1">
+            <start x="476.0" y="111.0"/>
+            <next x="436.0" y="152.0"/>
+            <end x="436.0" y="152.0"/>
+        </arc>
+        <arc class="consumption" id="arc_247_input_150270" source="entityVertex_5357519_247" target="reactionVertex_5577259.1">
+            <start x="771.0" y="92.0"/>
+            <next x="744.0" y="177.0"/>
+            <end x="744.0" y="177.0"/>
+        </arc>
+    </map>
+</sbgn>

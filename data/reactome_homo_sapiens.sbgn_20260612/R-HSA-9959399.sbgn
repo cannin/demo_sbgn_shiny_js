@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="747.0" y="378.0"/>
+            </label>
+            <bbox w="1200.0" h="466.0" x="0.0" y="107.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_161320_39" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="466.0" y="478.0"/>
+            </label>
+            <bbox w="458.0" h="236.0" x="214.0" y="296.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_428007_34">
+            <label text="Proton-coupled histidine and di-peptide cotransport"/>
+            <bbox w="12.0" h="12.0" x="462.0" y="293.0"/>
+            <port id="reactionVertex_428007.1" x="468.0" y="309.0"/>
+            <port id="reactionVertex_428007.2" x="468.0" y="289.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_5216075_43">
+            <label text="CTNS"/>
+            <bbox w="46.0" h="23.0" x="237.0" y="291.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_428003_37">
+            <label text="Histidine/di-peptides"/>
+            <bbox w="80.0" h="37.0" x="481.0" y="201.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_351626_9">
+            <label text="H+"/>
+            <bbox w="32.0" h="31.0" x="197.0" y="47.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_428040_36">
+            <label text="H+"/>
+            <bbox w="32.0" h="31.0" x="387.0" y="334.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_428026_12">
+            <label text="Di-peptides/tri-peptides"/>
+            <bbox w="144.0" h="35.0" x="86.0" y="172.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_70106_11">
+            <label text="H+"/>
+            <bbox w="32.0" h="31.0" x="387.0" y="203.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_427998_8">
+            <label text="SLC25A1 transports di-/tri-peptides and peptide-like drugs"/>
+            <bbox w="12.0" h="12.0" x="150.0" y="106.0"/>
+            <port id="reactionVertex_427998.1" x="157.0" y="122.0"/>
+            <port id="reactionVertex_427998.2" x="155.0" y="102.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_428024_38">
+            <label text="PHT cotransporters"/>
+            <bbox w="110.0" h="41.0" x="599.0" y="283.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_427984_35">
+            <label text="Histidine/di-peptides"/>
+            <bbox w="80.0" h="37.0" x="487.0" y="347.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_5673778_41">
+            <label text="CySS-"/>
+            <bbox w="48.0" h="31.0" x="292.0" y="359.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_428037_10">
+            <label text="Di-peptides/tri-peptides"/>
+            <bbox w="140.0" h="33.0" x="88.0" y="0.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_379444_42">
+            <label text="CySS-"/>
+            <bbox w="48.0" h="31.0" x="282.0" y="223.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5340130_40">
+            <label text="CTNS cotransports CySS-, H+ from lysosomal lumen to cytosol"/>
+            <bbox w="12.0" h="12.0" x="332.0" y="295.0"/>
+            <port id="reactionVertex_5340130.1" x="337.0" y="311.0"/>
+            <port id="reactionVertex_5340130.2" x="337.0" y="291.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_428022_13">
+            <label text="SLC15A1"/>
+            <bbox w="68.0" h="25.0" x="250.0" y="101.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_41_input_40" source="entityVertex_5673778_41" target="reactionVertex_5340130.1">
+            <start x="320.0" y="356.0"/>
+            <end x="337.0" y="301.0"/>
+        </arc>
+        <arc class="consumption" id="arc_9_input_8" source="entityVertex_351626_9" target="reactionVertex_427998.1">
+            <start x="194.0" y="76.0"/>
+            <end x="157.0" y="112.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_38_catalyst_34" source="entityVertex_428024_38" target="reactionVertex_428007_34">
+            <start x="593.0" y="301.0"/>
+            <next x="484.0" y="299.0"/>
+            <end x="484.0" y="299.0"/>
+        </arc>
+        <arc class="consumption" id="arc_10_input_8" source="entityVertex_428037_10" target="reactionVertex_427998.1">
+            <start x="157.0" y="39.0"/>
+            <end x="157.0" y="112.0"/>
+        </arc>
+        <arc class="production" id="arc_11_output_34" source="reactionVertex_428007.2" target="entityVertex_70106_11">
+            <start x="414.0" y="237.0"/>
+            <end x="468.0" y="302.0"/>
+        </arc>
+        <arc class="consumption" id="arc_36_input_40" source="entityVertex_428040_36" target="reactionVertex_5340130.1">
+            <start x="384.0" y="337.0"/>
+            <end x="337.0" y="301.0"/>
+        </arc>
+        <arc class="consumption" id="arc_35_input_34" source="entityVertex_427984_35" target="reactionVertex_428007.1">
+            <start x="509.0" y="341.0"/>
+            <end x="468.0" y="301.0"/>
+        </arc>
+        <arc class="production" id="arc_42_output_40" source="reactionVertex_5340130.2" target="entityVertex_379444_42">
+            <start x="313.0" y="257.0"/>
+            <end x="337.0" y="300.0"/>
+        </arc>
+        <arc class="production" id="arc_12_output_8" source="reactionVertex_427998.2" target="entityVertex_428026_12">
+            <start x="157.0" y="166.0"/>
+            <end x="155.0" y="113.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_43_catalyst_40" source="entityVertex_5216075_43" target="reactionVertex_5340130_40">
+            <start x="286.0" y="301.0"/>
+            <next x="322.0" y="301.0"/>
+            <end x="322.0" y="301.0"/>
+        </arc>
+        <arc class="production" id="arc_11_output_8" source="reactionVertex_427998.2" target="entityVertex_70106_11">
+            <start x="384.0" y="211.0"/>
+            <end x="155.0" y="113.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_13_catalyst_8" source="entityVertex_428022_13" target="reactionVertex_427998_8">
+            <start x="247.0" y="112.0"/>
+            <next x="172.0" y="112.0"/>
+            <end x="172.0" y="112.0"/>
+        </arc>
+        <arc class="consumption" id="arc_36_input_34" source="entityVertex_428040_36" target="reactionVertex_428007.1">
+            <start x="422.0" y="337.0"/>
+            <end x="468.0" y="301.0"/>
+        </arc>
+        <arc class="production" id="arc_37_output_34" source="reactionVertex_428007.2" target="entityVertex_428003_37">
+            <start x="509.0" y="244.0"/>
+            <end x="468.0" y="302.0"/>
+        </arc>
+        <arc class="production" id="arc_11_output_40" source="reactionVertex_5340130.2" target="entityVertex_70106_11">
+            <start x="390.0" y="237.0"/>
+            <end x="337.0" y="300.0"/>
+        </arc>
+    </map>
+</sbgn>

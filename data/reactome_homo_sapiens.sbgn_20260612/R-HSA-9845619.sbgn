@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="717.0" y="371.0"/>
+            </label>
+            <bbox w="737.0" h="314.0" x="50.0" y="132.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9822541_42">
+            <label text="glc-fuc-ADAMTS13"/>
+            <bbox w="121.0" h="23.0" x="808.0" y="49.0"/>
+            <glyph class="unit of information" id="entityVertex_5173032_1_mt">
+                <label text="G"/>
+                <bbox w="12.0" h="16.0" x="818.0" y="43.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9844209_211634">
+            <label text="Collagen type I fibril:VWF variant multimer"/>
+            <bbox w="128.0" h="37.0" x="625.0" y="45.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9844233_211635">
+            <label text="Collagen type I fibril:cleaved VWF variant multimer"/>
+            <bbox w="128.0" h="51.0" x="827.0" y="90.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9844241_211633">
+            <label text="ADAMTS13 cleaves VWF variant multimer"/>
+            <bbox w="12.0" h="12.0" x="780.0" y="79.0"/>
+            <port id="reactionVertex_9844241.1" x="776.0" y="77.0"/>
+            <port id="reactionVertex_9844241.2" x="796.0" y="96.0"/>
+        </glyph>
+        <arc class="production" id="arc_211635_output_211633" source="reactionVertex_9844241.2" target="entityVertex_9844233_211635">
+            <start x="786.0" y="85.0"/>
+            <end x="786.0" y="85.0"/>
+        </arc>
+        <arc class="consumption" id="arc_211634_input_211633" source="entityVertex_9844209_211634" target="reactionVertex_9844241.1">
+            <start x="786.0" y="85.0"/>
+            <end x="824.0" y="96.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_42_catalyst_211633" source="entityVertex_9822541_42" target="reactionVertex_9844241_211633">
+            <start x="805.0" y="65.0"/>
+            <next x="791.0" y="67.0"/>
+            <next x="790.0" y="70.0"/>
+            <end x="790.0" y="70.0"/>
+        </arc>
+    </map>
+</sbgn>

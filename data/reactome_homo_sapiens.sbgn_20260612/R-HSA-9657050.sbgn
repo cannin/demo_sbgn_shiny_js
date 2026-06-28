@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_1" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="419.0" y="1684.0"/>
+            </label>
+            <bbox w="1812.0" h="1666.0" x="402.0" y="65.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_1672" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="36.0" y="1716.0"/>
+            </label>
+            <bbox w="2284.0" h="1771.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_1774" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="72.0" y="325.0"/>
+            </label>
+            <bbox w="318.0" h="250.0" x="60.0" y="306.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9657042_182649">
+            <label text="OGG1beta G12E"/>
+            <bbox w="73.0" h="23.0" x="290.0" y="595.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9657051_182648">
+            <label text="OGG1beta G12E does not translocate to mitochondria"/>
+            <bbox w="12.0" h="12.0" x="315.0" y="518.0"/>
+            <port id="reactionVertex_9657051.1" x="325.0" y="534.0"/>
+            <port id="reactionVertex_9657051.2" x="317.0" y="514.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_182649_input_182648" source="entityVertex_9657042_182649" target="reactionVertex_9657051.1">
+            <start x="325.0" y="592.0"/>
+            <end x="321.0" y="524.0"/>
+        </arc>
+    </map>
+</sbgn>

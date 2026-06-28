@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="process" id="reactionVertex_9727354_7">
+            <label text="Transit-amplifying cell of basal layer differentiates into keratinocyte of spinosum layer in interfollicular epidermis"/>
+            <bbox w="12.0" h="12.0" x="395.0" y="196.0"/>
+            <port id="reactionVertex_9727354.1" x="391.0" y="206.0"/>
+            <port id="reactionVertex_9727354.2" x="411.0" y="212.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_74112_917">
+            <label text="Ca2+"/>
+            <bbox w="48.0" h="31.0" x="462.0" y="59.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9855603_916">
+            <label text="corneocyte"/>
+            <bbox w="82.0" h="77.0" x="949.0" y="176.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9727357_6">
+            <label text="keratinocyte of granulosum layer of epidermis"/>
+            <bbox w="127.0" h="106.0" x="680.0" y="162.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_179863_10">
+            <label text="EGF"/>
+            <bbox w="121.0" h="31.0" x="237.0" y="6.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_352327_865">
+            <label text="O2"/>
+            <bbox w="34.0" h="30.0" x="693.0" y="75.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9725559_12">
+            <label text="keratinocyte stem cell of skin epidermis basal layer"/>
+            <bbox w="137.0" h="107.0" x="0.0" y="164.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9725621_14">
+            <label text="Keratinocyte stem cell differentiates into transit amplifying cell in the basal layer of interfollicular epidermis"/>
+            <bbox w="12.0" h="12.0" x="188.0" y="206.0"/>
+            <port id="reactionVertex_9725621.1" x="184.0" y="214.0"/>
+            <port id="reactionVertex_9725621.2" x="204.0" y="212.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9727359_5">
+            <label text="Keratinocyte of spinosum layer differentiates into keratinocyte of granulosum layer in interfollicular epidermis"/>
+            <bbox w="12.0" h="12.0" x="623.0" y="202.0"/>
+            <port id="reactionVertex_9727359.1" x="619.0" y="216.0"/>
+            <port id="reactionVertex_9727359.2" x="639.0" y="211.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9727360_8">
+            <label text="keratinocyte of spinosum layer of epidermis"/>
+            <bbox w="114.0" h="105.0" x="451.0" y="172.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9727355_866">
+            <label text="Keratinocyte of granulosum layer differentiates into corneocyte of corneum layer in interfollicular epidermis"/>
+            <bbox w="12.0" h="12.0" x="887.0" y="205.0"/>
+            <port id="reactionVertex_9727355.1" x="883.0" y="213.0"/>
+            <port id="reactionVertex_9727355.2" x="903.0" y="212.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9725625_9">
+            <label text="transit-amplifying cell of epidermis basal layer"/>
+            <bbox w="124.0" h="106.0" x="245.0" y="161.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_5246462_970">
+            <label text="atRA"/>
+            <bbox w="56.0" h="32.0" x="585.0" y="60.0"/>
+        </glyph>
+        <arc class="production" id="arc_916_output_866" source="reactionVertex_9727355.2" target="entityVertex_9855603_916">
+            <start x="893.0" y="211.0"/>
+            <end x="893.0" y="211.0"/>
+        </arc>
+        <arc class="production" id="arc_6_output_5" source="reactionVertex_9727359.2" target="entityVertex_9727357_6">
+            <start x="629.0" y="208.0"/>
+            <end x="629.0" y="208.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_865_inhibitor_5" source="entityVertex_352327_865" target="reactionVertex_9727359_5">
+            <start x="699.0" y="108.0"/>
+            <next x="634.0" y="201.0"/>
+            <end x="634.0" y="201.0"/>
+        </arc>
+        <arc class="production" id="arc_8_output_7" source="reactionVertex_9727354.2" target="entityVertex_9727360_8">
+            <start x="401.0" y="202.0"/>
+            <end x="401.0" y="202.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_10_activator_14" source="entityVertex_179863_10" target="reactionVertex_9725621_14">
+            <start x="288.0" y="40.0"/>
+            <next x="198.0" y="204.0"/>
+            <end x="198.0" y="204.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_917_activator_866" source="entityVertex_74112_917" target="reactionVertex_9727355_866">
+            <start x="513.0" y="66.0"/>
+            <next x="713.0" y="5.0"/>
+            <next x="887.0" y="204.0"/>
+            <end x="887.0" y="204.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_917_activator_7" source="entityVertex_74112_917" target="reactionVertex_9727354_7">
+            <start x="475.0" y="93.0"/>
+            <next x="406.0" y="195.0"/>
+            <end x="406.0" y="195.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_917_activator_5" source="entityVertex_74112_917" target="reactionVertex_9727359_5">
+            <start x="502.0" y="93.0"/>
+            <next x="622.0" y="202.0"/>
+            <end x="622.0" y="202.0"/>
+        </arc>
+        <arc class="consumption" id="arc_9_input_7" source="entityVertex_9725625_9" target="reactionVertex_9727354.1">
+            <start x="401.0" y="202.0"/>
+            <end x="448.0" y="212.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_970_inhibitor_5" source="entityVertex_5246462_970" target="reactionVertex_9727359_5">
+            <start x="614.0" y="95.0"/>
+            <next x="628.0" y="199.0"/>
+            <end x="628.0" y="199.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_10_activator_7" source="entityVertex_179863_10" target="reactionVertex_9727354_7">
+            <start x="305.0" y="40.0"/>
+            <next x="396.0" y="194.0"/>
+            <end x="396.0" y="194.0"/>
+        </arc>
+        <arc class="production" id="arc_9_output_14" source="reactionVertex_9725621.2" target="entityVertex_9725625_9">
+            <start x="194.0" y="212.0"/>
+            <end x="194.0" y="212.0"/>
+        </arc>
+        <arc class="consumption" id="arc_6_input_866" source="entityVertex_9727357_6" target="reactionVertex_9727355.1">
+            <start x="893.0" y="211.0"/>
+            <end x="946.0" y="212.0"/>
+        </arc>
+        <arc class="consumption" id="arc_12_input_14" source="entityVertex_9725559_12" target="reactionVertex_9725621.1">
+            <start x="194.0" y="212.0"/>
+            <end x="242.0" y="212.0"/>
+        </arc>
+        <arc class="consumption" id="arc_8_input_5" source="entityVertex_9727360_8" target="reactionVertex_9727359.1">
+            <start x="629.0" y="208.0"/>
+            <end x="677.0" y="211.0"/>
+        </arc>
+    </map>
+</sbgn>

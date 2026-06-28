@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="23.0" y="78.0"/>
+            </label>
+            <bbox w="2379.0" h="1090.0" x="0.0" y="65.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_161320_2" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="1254.0" y="207.0"/>
+            </label>
+            <bbox w="1144.0" h="890.0" x="1070.0" y="191.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_9" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="174.0" y="198.0"/>
+            </label>
+            <bbox w="872.0" h="888.0" x="154.0" y="185.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_3656442_104830">
+            <label text="CHST6 mutants"/>
+            <bbox w="68.0" h="23.0" x="521.0" y="873.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2046203_48">
+            <label text="Keratan(4)-PG"/>
+            <bbox w="84.0" h="23.0" x="379.0" y="825.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_174362_587">
+            <label text="Transport and metabolism of PAPS"/>
+            <bbox w="127.0" h="51.0" x="323.0" y="940.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_741440_52">
+            <label text="PAPS"/>
+            <bbox w="46.0" h="31.0" x="459.0" y="855.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_741440_59">
+            <label text="PAPS"/>
+            <bbox w="46.0" h="31.0" x="709.0" y="855.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_3656269_104829">
+            <label text="Defective CHST6 does not transfer SO4(2-) to GlcNAc residues on keratan-PG"/>
+            <bbox w="12.0" h="12.0" x="549.0" y="819.0"/>
+            <port id="reactionVertex_3656269.1" x="545.0" y="825.0"/>
+            <port id="reactionVertex_3656269.2" x="565.0" y="825.0"/>
+        </glyph>
+        <arc class="catalysis" id="arc_104830_catalyst_104829" source="entityVertex_3656442_104830" target="reactionVertex_3656269_104829">
+            <start x="555.0" y="867.0"/>
+            <next x="555.0" y="841.0"/>
+            <end x="555.0" y="841.0"/>
+        </arc>
+        <arc class="consumption" id="arc_52_input_104829" source="entityVertex_741440_52" target="reactionVertex_3656269.1">
+            <start x="495.0" y="852.0"/>
+            <next x="521.0" y="825.0"/>
+            <end x="521.0" y="825.0"/>
+        </arc>
+        <arc class="consumption" id="arc_48_input_104829" source="entityVertex_2046203_48" target="reactionVertex_3656269.1">
+            <start x="469.0" y="831.0"/>
+            <next x="521.0" y="825.0"/>
+            <end x="521.0" y="825.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_1667" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="729.0" y="1255.0"/>
+            </label>
+            <bbox w="993.0" h="369.0" x="696.0" y="1063.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_171907_3653" compartmentOrder="10.0">
+            <label text="endosome lumen">
+                <bbox w="134.0" h="24.0" x="1825.0" y="439.0"/>
+            </label>
+            <bbox w="150.0" h="111.0" x="1815.0" y="376.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_904" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1678.0" y="1419.0"/>
+            </label>
+            <bbox w="2124.0" h="1824.0" x="36.0" y="74.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9699542_195298">
+            <label text="KW2449-resistant FLT3 mutants"/>
+            <bbox w="94.0" h="38.0" x="238.0" y="157.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9702570_195297">
+            <label text="KW2449-resistant FLT3 mutants don't bind KW2449"/>
+            <bbox w="12.0" h="12.0" x="413.0" y="220.0"/>
+            <port id="reactionVertex_9702570.1" x="409.0" y="220.0"/>
+            <port id="reactionVertex_9702570.2" x="429.0" y="203.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_9699411_195299">
+            <label text="KW-2449"/>
+            <bbox w="124.0" h="36.0" x="368.0" y="272.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_195299_input_195297" source="entityVertex_9699411_195299" target="reactionVertex_9702570.1">
+            <start x="410.0" y="269.0"/>
+            <next x="356.0" y="220.0"/>
+            <end x="356.0" y="220.0"/>
+        </arc>
+        <arc class="consumption" id="arc_195298_input_195297" source="entityVertex_9699542_195298" target="reactionVertex_9702570.1">
+            <start x="315.0" y="201.0"/>
+            <next x="356.0" y="220.0"/>
+            <end x="356.0" y="220.0"/>
+        </arc>
+    </map>
+</sbgn>

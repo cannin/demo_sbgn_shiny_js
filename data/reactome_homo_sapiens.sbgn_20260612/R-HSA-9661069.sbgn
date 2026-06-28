@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_10" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="135.0" y="2446.0"/>
+            </label>
+            <bbox w="3186.0" h="2439.0" x="37.0" y="71.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_11" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="745.0" y="2347.0"/>
+            </label>
+            <bbox w="2307.0" h="2283.0" x="727.0" y="122.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9659785_183127">
+            <label text="RB1 mutants (E2F binding)"/>
+            <bbox w="123.0" h="43.0" x="1598.0" y="1195.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_188362_129">
+            <label text="Cyclin E:p-T160-CDK2"/>
+            <bbox w="111.0" h="36.0" x="1410.0" y="1199.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_8949896_4065">
+            <label text="p-T172-CDK4,p-T177-CDK6:CCND:CDKN1A,CDKN1B,(CDKN1C); p-T172-CDK4,p-T177-CDK6:CCND; (p-T172-CDK4,p-T177-CDK6:CCND:p-Y88-CDKN1B)"/>
+            <bbox w="216.0" h="87.0" x="1494.0" y="879.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9659828_183128">
+            <label text="E2F1,(E2F2,E2F3):TFDP1,TFDP2"/>
+            <bbox w="112.0" h="36.0" x="1871.0" y="1240.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9659782_183126">
+            <label text="Defective RB1 does not bind E2F1,(E2F2,E2F3)"/>
+            <bbox w="12.0" h="12.0" x="1824.0" y="1277.0"/>
+            <port id="reactionVertex_9659782.1" x="1820.0" y="1247.0"/>
+            <port id="reactionVertex_9659782.2" x="1840.0" y="1301.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_183128_input_183126" source="entityVertex_9659828_183128" target="reactionVertex_9659782.1">
+            <start x="1868.0" y="1252.0"/>
+            <next x="1822.0" y="1247.0"/>
+            <end x="1822.0" y="1247.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_129_inhibitor_183126" source="entityVertex_188362_129" target="reactionVertex_9659782_183126">
+            <start x="1518.0" y="1238.0"/>
+            <next x="1745.0" y="1311.0"/>
+            <next x="1821.0" y="1286.0"/>
+            <end x="1821.0" y="1286.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_4065_inhibitor_183126" source="entityVertex_8949896_4065" target="reactionVertex_9659782_183126">
+            <start x="1629.0" y="972.0"/>
+            <next x="1825.0" y="1275.0"/>
+            <end x="1825.0" y="1275.0"/>
+        </arc>
+        <arc class="consumption" id="arc_183127_input_183126" source="entityVertex_9659785_183127" target="reactionVertex_9659782.1">
+            <start x="1727.0" y="1227.0"/>
+            <next x="1822.0" y="1247.0"/>
+            <end x="1822.0" y="1247.0"/>
+        </arc>
+    </map>
+</sbgn>

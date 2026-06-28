@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="665.0" y="70.0"/>
+            </label>
+            <bbox w="1270.0" h="640.0" x="0.0" y="57.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_2" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="312.0" y="251.0"/>
+            </label>
+            <bbox w="1196.0" h="567.0" x="40.0" y="102.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_425969_94">
+            <label text="H+"/>
+            <bbox w="32.0" h="31.0" x="210.0" y="278.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_2022911_88">
+            <label text="CSPG is secreted"/>
+            <bbox w="12.0" h="12.0" x="840.0" y="100.0"/>
+            <port id="reactionVertex_2022911.1" x="847.0" y="116.0"/>
+            <port id="reactionVertex_2022911.2" x="845.0" y="96.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_742343_70">
+            <label text="PAP"/>
+            <bbox w="39.0" h="31.0" x="847.0" y="624.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_742343_361">
+            <label text="PAP"/>
+            <bbox w="39.0" h="31.0" x="1109.0" y="279.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_741440_69">
+            <label text="PAPS"/>
+            <bbox w="47.0" h="31.0" x="712.0" y="536.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_2018682_72">
+            <label text="CHST3,7 transfer SO4(2-) to position 6 of GalNAc on chondroitin chains"/>
+            <bbox w="12.0" h="12.0" x="1029.0" y="490.0"/>
+            <port id="reactionVertex_2018682.1" x="1035.0" y="506.0"/>
+            <port id="reactionVertex_2018682.2" x="1034.0" y="486.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_1971475_15">
+            <label text="Glycosaminoglycan-protein linkage region biosynthesis"/>
+            <bbox w="137.0" h="65.0" x="456.0" y="131.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2064172_13">
+            <label text="chondroitin(1)-core proteins"/>
+            <bbox w="93.0" h="42.0" x="134.0" y="317.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_205687_33">
+            <label text="UDP"/>
+            <bbox w="39.0" h="31.0" x="295.0" y="520.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1889970_26">
+            <label text="UDP-GlcA"/>
+            <bbox w="41.0" h="36.0" x="77.0" y="344.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9941305_317">
+            <label text="UST transfers sulfate to (2-)GlcA-GalNAc-6-sulfate"/>
+            <bbox w="12.0" h="12.0" x="1027.0" y="337.0"/>
+            <port id="reactionVertex_9941305.1" x="1033.0" y="353.0"/>
+            <port id="reactionVertex_9941305.2" x="1033.0" y="333.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_174362_64">
+            <label text="Transport and metabolism of PAPS"/>
+            <bbox w="107.0" h="63.0" x="477.0" y="230.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2064124_93">
+            <label text="CSPGs"/>
+            <bbox w="46.0" h="23.0" x="822.0" y="6.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_741440_60">
+            <label text="PAPS"/>
+            <bbox w="47.0" h="31.0" x="450.0" y="522.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_1971496_14">
+            <label text="CSGALNACT"/>
+            <bbox w="81.0" h="23.0" x="11.0" y="238.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_2018659_66">
+            <label text="CHST15 transfers sulfate to (6-)GalNAc-4-sulfate"/>
+            <bbox w="12.0" h="12.0" x="786.0" y="597.0"/>
+            <port id="reactionVertex_2018659.1" x="782.0" y="603.0"/>
+            <port id="reactionVertex_2018659.2" x="802.0" y="603.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9632033_48">
+            <label text="CSGALNACTs transfer GalNAc to CS chain"/>
+            <bbox w="12.0" h="12.0" x="211.0" y="568.0"/>
+            <port id="reactionVertex_9632033.1" x="207.0" y="560.0"/>
+            <port id="reactionVertex_9632033.2" x="227.0" y="577.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_2022923_364">
+            <label text="DS-GAG biosynthesis"/>
+            <bbox w="111.0" h="48.0" x="373.0" y="320.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_1971543_68">
+            <label text="CHST15"/>
+            <bbox w="57.0" h="23.0" x="747.0" y="653.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_425969_135">
+            <label text="H+"/>
+            <bbox w="32.0" h="31.0" x="263.0" y="422.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_2024101_95">
+            <label text="CS/DS degradation"/>
+            <bbox w="136.0" h="43.0" x="455.0" y="0.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_1971481_63">
+            <label text="CHST9,11,12,13"/>
+            <bbox w="100.0" h="23.0" x="505.0" y="646.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2064219_73">
+            <label text="C6S-PG"/>
+            <bbox w="50.0" h="23.0" x="1009.0" y="402.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_425969_213">
+            <label text="H+"/>
+            <bbox w="32.0" h="31.0" x="621.0" y="628.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2064050_27">
+            <label text="chondroitin(2)-core proteins"/>
+            <bbox w="91.0" h="44.0" x="137.0" y="482.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_735700_47">
+            <label text="UDP-GalNAc"/>
+            <bbox w="50.0" h="41.0" x="66.0" y="520.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2064101_67">
+            <label text="CSE-PG"/>
+            <bbox w="50.0" h="23.0" x="858.0" y="592.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2024088_89">
+            <label text="CSPGs"/>
+            <bbox w="46.0" h="23.0" x="825.0" y="178.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9941268_318">
+            <label text="C2S6S-PG"/>
+            <bbox w="63.0" h="23.0" x="1002.0" y="219.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_735700_10">
+            <label text="UDP-GalNAc"/>
+            <bbox w="50.0" h="41.0" x="88.0" y="142.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_425969_146">
+            <label text="H+"/>
+            <bbox w="32.0" h="31.0" x="234.0" y="634.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9941504_133">
+            <label text="Chondroitin polymerase complex"/>
+            <bbox w="89.0" h="51.0" x="13.0" y="413.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_2022058_319">
+            <label text="UST"/>
+            <bbox w="33.0" h="23.0" x="1201.0" y="333.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_425969_233">
+            <label text="H+"/>
+            <bbox w="32.0" h="31.0" x="845.0" y="550.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_742343_84">
+            <label text="PAP"/>
+            <bbox w="39.0" h="31.0" x="952.0" y="431.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2064226_61">
+            <label text="C4S-PG"/>
+            <bbox w="50.0" h="23.0" x="632.0" y="593.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_205687_12">
+            <label text="UDP"/>
+            <bbox w="39.0" h="31.0" x="83.0" y="282.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2018661_74">
+            <label text="CHST3,7"/>
+            <bbox w="60.0" h="23.0" x="1189.0" y="483.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_425969_321">
+            <label text="H+"/>
+            <bbox w="32.0" h="31.0" x="1091.0" y="233.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2064233_11">
+            <label text="GlcA-Gal-Gal-Xyl-CS proteins"/>
+            <bbox w="119.0" h="37.0" x="177.0" y="147.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_741440_86">
+            <label text="PAPS"/>
+            <bbox w="47.0" h="31.0" x="971.0" y="560.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_1971482_9">
+            <label text="CSGALNACTs transfer GalNAc to CS linker glycan"/>
+            <bbox w="12.0" h="12.0" x="170.0" y="243.0"/>
+            <port id="reactionVertex_1971482.1" x="176.0" y="259.0"/>
+            <port id="reactionVertex_1971482.2" x="177.0" y="239.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_1971491_25">
+            <label text="Chondroitin polymerase complex transfers GlcA to CS chain"/>
+            <bbox w="12.0" h="12.0" x="176.0" y="410.0"/>
+            <port id="reactionVertex_1971491.1" x="182.0" y="426.0"/>
+            <port id="reactionVertex_1971491.2" x="182.0" y="406.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_1971487_43">
+            <label text="Chondroitin polymerase complex transfers GalNAc to CS chain"/>
+            <bbox w="12.0" h="12.0" x="177.0" y="581.0"/>
+            <port id="reactionVertex_1971487.1" x="173.0" y="560.0"/>
+            <port id="reactionVertex_1971487.2" x="193.0" y="605.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_425969_235">
+            <label text="H+"/>
+            <bbox w="32.0" h="31.0" x="1092.0" y="415.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_742343_62">
+            <label text="PAP"/>
+            <bbox w="39.0" h="31.0" x="607.0" y="542.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_741440_323">
+            <label text="PAPS"/>
+            <bbox w="47.0" h="31.0" x="934.0" y="388.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_1971483_59">
+            <label text="CHST11,12,13,9 transfer sulfate to (4-)GalNAc"/>
+            <bbox w="12.0" h="12.0" x="545.0" y="599.0"/>
+            <port id="reactionVertex_1971483.1" x="541.0" y="605.0"/>
+            <port id="reactionVertex_1971483.2" x="561.0" y="604.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_1971496_148">
+            <label text="CSGALNACT"/>
+            <bbox w="81.0" h="23.0" x="126.0" y="654.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2064075_44">
+            <label text="chondroitin(3)-core proteins"/>
+            <bbox w="93.0" h="44.0" x="309.0" y="586.0"/>
+        </glyph>
+        <arc class="production" id="arc_135_output_25" source="reactionVertex_1971491.2" target="entityVertex_425969_135">
+            <start x="260.0" y="437.0"/>
+            <next x="182.0" y="438.0"/>
+            <end x="182.0" y="438.0"/>
+        </arc>
+        <arc class="production" id="arc_33_output_48" source="reactionVertex_9632033.2" target="entityVertex_205687_33">
+            <start x="292.0" y="547.0"/>
+            <next x="248.0" y="577.0"/>
+            <end x="248.0" y="577.0"/>
+        </arc>
+        <arc class="consumption" id="arc_86_input_72" source="entityVertex_741440_86" target="reactionVertex_2018682.1">
+            <start x="1007.0" y="557.0"/>
+            <next x="1035.0" y="527.0"/>
+            <end x="1035.0" y="527.0"/>
+        </arc>
+        <arc class="consumption" id="arc_26_input_25" source="entityVertex_1889970_26" target="reactionVertex_1971491.1">
+            <start x="121.0" y="369.0"/>
+            <next x="182.0" y="395.0"/>
+            <end x="182.0" y="395.0"/>
+        </arc>
+        <arc class="consumption" id="arc_10_input_9" source="entityVertex_735700_10" target="reactionVertex_1971482.1">
+            <start x="134.0" y="186.0"/>
+            <next x="176.0" y="221.0"/>
+            <end x="176.0" y="221.0"/>
+        </arc>
+        <arc class="consumption" id="arc_27_input_43" source="entityVertex_2064050_27" target="reactionVertex_1971487.1">
+            <start x="182.0" y="532.0"/>
+            <next x="182.0" y="560.0"/>
+            <end x="182.0" y="560.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_133_catalyst_25" source="entityVertex_9941504_133" target="reactionVertex_1971491_25">
+            <start x="105.0" y="430.0"/>
+            <next x="166.0" y="419.0"/>
+            <end x="166.0" y="419.0"/>
+        </arc>
+        <arc class="production" id="arc_33_output_43" source="reactionVertex_1971487.2" target="entityVertex_205687_33">
+            <start x="292.0" y="550.0"/>
+            <next x="224.0" y="605.0"/>
+            <end x="224.0" y="605.0"/>
+        </arc>
+        <arc class="production" id="arc_84_output_72" source="reactionVertex_2018682.2" target="entityVertex_742343_84">
+            <start x="994.0" y="454.0"/>
+            <next x="1034.0" y="474.0"/>
+            <end x="1034.0" y="474.0"/>
+        </arc>
+        <arc class="production" id="arc_321_output_317" source="reactionVertex_9941305.2" target="entityVertex_425969_321">
+            <start x="1088.0" y="262.0"/>
+            <next x="1033.0" y="315.0"/>
+            <end x="1033.0" y="315.0"/>
+        </arc>
+        <arc class="production" id="arc_361_output_317" source="reactionVertex_9941305.2" target="entityVertex_742343_361">
+            <start x="1106.0" y="298.0"/>
+            <next x="1033.0" y="315.0"/>
+            <end x="1033.0" y="315.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_133_catalyst_43" source="entityVertex_9941504_133" target="reactionVertex_1971487_43">
+            <start x="58.0" y="467.0"/>
+            <next x="64.0" y="586.0"/>
+            <next x="167.0" y="587.0"/>
+            <end x="167.0" y="587.0"/>
+        </arc>
+        <arc class="production" id="arc_213_output_59" source="reactionVertex_1971483.2" target="entityVertex_425969_213">
+            <start x="618.0" y="631.0"/>
+            <next x="581.0" y="604.0"/>
+            <end x="581.0" y="604.0"/>
+        </arc>
+        <arc class="consumption" id="arc_27_input_48" source="entityVertex_2064050_27" target="reactionVertex_9632033.1">
+            <start x="187.0" y="532.0"/>
+            <next x="197.0" y="560.0"/>
+            <end x="197.0" y="560.0"/>
+        </arc>
+        <arc class="production" id="arc_93_output_88" source="reactionVertex_2022911.2" target="entityVertex_2064124_93">
+            <start x="846.0" y="106.0"/>
+            <end x="846.0" y="106.0"/>
+        </arc>
+        <arc class="production" id="arc_146_output_48" source="reactionVertex_9632033.2" target="entityVertex_425969_146">
+            <start x="249.0" y="631.0"/>
+            <next x="248.0" y="577.0"/>
+            <end x="248.0" y="577.0"/>
+        </arc>
+        <arc class="consumption" id="arc_73_input_317" source="entityVertex_2064219_73" target="reactionVertex_9941305.1">
+            <start x="1033.0" y="396.0"/>
+            <next x="1033.0" y="365.0"/>
+            <end x="1033.0" y="365.0"/>
+        </arc>
+        <arc class="consumption" id="arc_69_input_66" source="entityVertex_741440_69" target="reactionVertex_2018659.1">
+            <start x="736.0" y="570.0"/>
+            <next x="740.0" y="603.0"/>
+            <end x="740.0" y="603.0"/>
+        </arc>
+        <arc class="consumption" id="arc_60_input_59" source="entityVertex_741440_60" target="reactionVertex_1971483.1">
+            <start x="484.0" y="556.0"/>
+            <next x="524.0" y="605.0"/>
+            <end x="524.0" y="605.0"/>
+        </arc>
+        <arc class="production" id="arc_61_output_59" source="reactionVertex_1971483.2" target="entityVertex_2064226_61">
+            <start x="626.0" y="604.0"/>
+            <next x="581.0" y="604.0"/>
+            <end x="581.0" y="604.0"/>
+        </arc>
+        <arc class="production" id="arc_44_output_43" source="reactionVertex_1971487.2" target="entityVertex_2064075_44">
+            <start x="303.0" y="606.0"/>
+            <next x="224.0" y="605.0"/>
+            <end x="224.0" y="605.0"/>
+        </arc>
+        <arc class="consumption" id="arc_61_input_66" source="entityVertex_2064226_61" target="reactionVertex_2018659.1">
+            <start x="688.0" y="603.0"/>
+            <next x="740.0" y="603.0"/>
+            <end x="740.0" y="603.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_148_catalyst_48" source="entityVertex_1971496_148" target="reactionVertex_9632033_48">
+            <start x="172.0" y="648.0"/>
+            <next x="209.0" y="588.0"/>
+            <end x="209.0" y="588.0"/>
+        </arc>
+        <arc class="production" id="arc_13_output_9" source="reactionVertex_1971482.2" target="entityVertex_2064172_13">
+            <start x="178.0" y="311.0"/>
+            <next x="177.0" y="280.0"/>
+            <end x="177.0" y="280.0"/>
+        </arc>
+        <arc class="production" id="arc_62_output_59" source="reactionVertex_1971483.2" target="entityVertex_742343_62">
+            <start x="611.0" y="576.0"/>
+            <next x="581.0" y="604.0"/>
+            <end x="581.0" y="604.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_319_catalyst_317" source="entityVertex_2022058_319" target="reactionVertex_9941305_317">
+            <start x="1198.0" y="343.0"/>
+            <next x="1049.0" y="343.0"/>
+            <end x="1049.0" y="343.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_14_catalyst_9" source="entityVertex_1971496_14" target="reactionVertex_1971482_9">
+            <start x="98.0" y="249.0"/>
+            <next x="160.0" y="249.0"/>
+            <end x="160.0" y="249.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_68_catalyst_66" source="entityVertex_1971543_68" target="reactionVertex_2018659_66">
+            <start x="778.0" y="650.0"/>
+            <next x="787.0" y="618.0"/>
+            <end x="787.0" y="618.0"/>
+        </arc>
+        <arc class="production" id="arc_70_output_66" source="reactionVertex_2018659.2" target="entityVertex_742343_70">
+            <start x="848.0" y="621.0"/>
+            <next x="826.0" y="603.0"/>
+            <end x="826.0" y="603.0"/>
+        </arc>
+        <arc class="production" id="arc_33_output_25" source="reactionVertex_1971491.2" target="entityVertex_205687_33">
+            <start x="292.0" y="520.0"/>
+            <next x="182.0" y="438.0"/>
+            <end x="182.0" y="438.0"/>
+        </arc>
+        <arc class="production" id="arc_73_output_72" source="reactionVertex_2018682.2" target="entityVertex_2064219_73">
+            <start x="1034.0" y="431.0"/>
+            <next x="1034.0" y="474.0"/>
+            <end x="1034.0" y="474.0"/>
+        </arc>
+        <arc class="production" id="arc_67_output_66" source="reactionVertex_2018659.2" target="entityVertex_2064101_67">
+            <start x="852.0" y="603.0"/>
+            <next x="826.0" y="603.0"/>
+            <end x="826.0" y="603.0"/>
+        </arc>
+        <arc class="production" id="arc_235_output_72" source="reactionVertex_2018682.2" target="entityVertex_425969_235">
+            <start x="1089.0" y="439.0"/>
+            <next x="1034.0" y="474.0"/>
+            <end x="1034.0" y="474.0"/>
+        </arc>
+        <arc class="consumption" id="arc_44_input_72" source="entityVertex_2064075_44" target="reactionVertex_2018682.1">
+            <start x="383.0" y="636.0"/>
+            <next x="457.0" y="687.0"/>
+            <next x="1036.0" y="688.0"/>
+            <next x="1035.0" y="527.0"/>
+            <end x="1035.0" y="527.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_74_catalyst_72" source="entityVertex_2018661_74" target="reactionVertex_2018682_72">
+            <start x="1183.0" y="494.0"/>
+            <next x="1051.0" y="496.0"/>
+            <end x="1051.0" y="496.0"/>
+        </arc>
+        <arc class="consumption" id="arc_13_input_25" source="entityVertex_2064172_13" target="reactionVertex_1971491.1">
+            <start x="180.0" y="365.0"/>
+            <next x="182.0" y="395.0"/>
+            <end x="182.0" y="395.0"/>
+        </arc>
+        <arc class="consumption" id="arc_89_input_88" source="entityVertex_2024088_89" target="reactionVertex_2022911.1">
+            <start x="846.0" y="106.0"/>
+            <end x="845.0" y="35.0"/>
+        </arc>
+        <arc class="production" id="arc_27_output_25" source="reactionVertex_1971491.2" target="entityVertex_2064050_27">
+            <start x="182.0" y="476.0"/>
+            <next x="182.0" y="438.0"/>
+            <end x="182.0" y="438.0"/>
+        </arc>
+        <arc class="production" id="arc_44_output_48" source="reactionVertex_9632033.2" target="entityVertex_2064075_44">
+            <start x="303.0" y="594.0"/>
+            <next x="248.0" y="577.0"/>
+            <end x="248.0" y="577.0"/>
+        </arc>
+        <arc class="production" id="arc_12_output_9" source="reactionVertex_1971482.2" target="entityVertex_205687_12">
+            <start x="125.0" y="292.0"/>
+            <next x="177.0" y="280.0"/>
+            <end x="177.0" y="280.0"/>
+        </arc>
+        <arc class="production" id="arc_233_output_66" source="reactionVertex_2018659.2" target="entityVertex_425969_233">
+            <start x="846.0" y="584.0"/>
+            <next x="826.0" y="603.0"/>
+            <end x="826.0" y="603.0"/>
+        </arc>
+        <arc class="consumption" id="arc_47_input_48" source="entityVertex_735700_47" target="reactionVertex_9632033.1">
+            <start x="119.0" y="544.0"/>
+            <next x="197.0" y="560.0"/>
+            <end x="197.0" y="560.0"/>
+        </arc>
+        <arc class="production" id="arc_318_output_317" source="reactionVertex_9941305.2" target="entityVertex_9941268_318">
+            <start x="1033.0" y="248.0"/>
+            <next x="1033.0" y="315.0"/>
+            <end x="1033.0" y="315.0"/>
+        </arc>
+        <arc class="consumption" id="arc_323_input_317" source="entityVertex_741440_323" target="reactionVertex_9941305.1">
+            <start x="984.0" y="391.0"/>
+            <next x="1033.0" y="365.0"/>
+            <end x="1033.0" y="365.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_63_catalyst_59" source="entityVertex_1971481_63" target="reactionVertex_1971483_59">
+            <start x="554.0" y="640.0"/>
+            <next x="552.0" y="621.0"/>
+            <end x="552.0" y="621.0"/>
+        </arc>
+        <arc class="production" id="arc_146_output_43" source="reactionVertex_1971487.2" target="entityVertex_425969_146">
+            <start x="240.0" y="631.0"/>
+            <next x="224.0" y="605.0"/>
+            <end x="224.0" y="605.0"/>
+        </arc>
+        <arc class="production" id="arc_94_output_9" source="reactionVertex_1971482.2" target="entityVertex_425969_94">
+            <start x="207.0" y="288.0"/>
+            <next x="177.0" y="280.0"/>
+            <end x="177.0" y="280.0"/>
+        </arc>
+        <arc class="consumption" id="arc_47_input_43" source="entityVertex_735700_47" target="reactionVertex_1971487.1">
+            <start x="119.0" y="545.0"/>
+            <next x="182.0" y="560.0"/>
+            <end x="182.0" y="560.0"/>
+        </arc>
+        <arc class="consumption" id="arc_11_input_9" source="entityVertex_2064233_11" target="reactionVertex_1971482.1">
+            <start x="216.0" y="190.0"/>
+            <next x="176.0" y="221.0"/>
+            <end x="176.0" y="221.0"/>
+        </arc>
+        <arc class="consumption" id="arc_44_input_59" source="entityVertex_2064075_44" target="reactionVertex_1971483.1">
+            <start x="408.0" y="607.0"/>
+            <next x="524.0" y="605.0"/>
+            <end x="524.0" y="605.0"/>
+        </arc>
+    </map>
+</sbgn>

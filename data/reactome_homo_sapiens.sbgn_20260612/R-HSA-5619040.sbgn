@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="733.0" y="406.0"/>
+            </label>
+            <bbox w="2297.0" h="933.0" x="166.0" y="137.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5651685_141655">
+            <label text="Defective SLC34A1 does not cotransport Pi, 3Na+"/>
+            <bbox w="12.0" h="12.0" x="342.0" y="136.0"/>
+            <port id="reactionVertex_5651685.1" x="348.0" y="152.0"/>
+            <port id="reactionVertex_5651685.2" x="348.0" y="132.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_109277_17">
+            <label text="Pi"/>
+            <bbox w="25.0" h="31.0" x="348.0" y="8.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5651692_141656">
+            <label text="SLC34A1 mutants"/>
+            <bbox w="71.0" h="23.0" x="232.0" y="131.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_74113_23">
+            <label text="Na+"/>
+            <bbox w="39.0" h="31.0" x="449.0" y="11.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_23_input_141655" source="entityVertex_74113_23" target="reactionVertex_5651685.1">
+            <glyph class="stoichiometry" id="Stoichiometry_74113_INPUT_5651685">
+                <label text="3"/>
+                <bbox w="12.0" h="12.0" x="393.0" y="87.0"/>
+            </glyph>
+            <start x="451.0" y="45.0"/>
+            <end x="348.0" y="142.0"/>
+        </arc>
+        <arc class="consumption" id="arc_17_input_141655" source="entityVertex_109277_17" target="reactionVertex_5651685.1">
+            <start x="358.0" y="42.0"/>
+            <end x="348.0" y="142.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_141656_catalyst_141655" source="entityVertex_5651692_141656" target="reactionVertex_5651685_141655">
+            <start x="309.0" y="142.0"/>
+            <next x="332.0" y="142.0"/>
+            <end x="332.0" y="142.0"/>
+        </arc>
+    </map>
+</sbgn>

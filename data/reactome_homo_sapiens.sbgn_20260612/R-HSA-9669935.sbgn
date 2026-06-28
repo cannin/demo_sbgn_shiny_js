@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_680" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="2591.0" y="710.0"/>
+            </label>
+            <bbox w="179.0" h="126.0" x="2579.0" y="635.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_668" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1158.0" y="703.0"/>
+            </label>
+            <bbox w="3362.0" h="926.0" x="0.0" y="116.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113592_1407">
+            <label text="ATP"/>
+            <bbox w="40.0" h="30.0" x="898.0" y="120.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9669816_1206">
+            <label text="p7Y-juxtamembrane domain KIT mutant dimers"/>
+            <bbox w="129.0" h="64.0" x="1077.0" y="64.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29370_1405">
+            <label text="ADP"/>
+            <bbox w="42.0" h="30.0" x="1033.0" y="128.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9669754_1202">
+            <label text="juxtamembrane domain KIT mutant dimers"/>
+            <bbox w="129.0" h="50.0" x="746.0" y="76.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9669906_1411">
+            <label text="Ligand-independent dimerization of KIT juxtamembrane domain mutants"/>
+            <bbox w="12.0" h="12.0" x="713.0" y="89.0"/>
+            <port id="reactionVertex_9669906.1" x="709.0" y="98.0"/>
+            <port id="reactionVertex_9669906.2" x="729.0" y="96.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9669911_1204">
+            <label text="Phosphorylation of juxtamembrane domain KIT mutants"/>
+            <bbox w="12.0" h="12.0" x="967.0" y="79.0"/>
+            <port id="reactionVertex_9669911.1" x="963.0" y="86.0"/>
+            <port id="reactionVertex_9669911.2" x="983.0" y="83.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9669757_1412">
+            <label text="juxtamembrane domain KIT mutants"/>
+            <bbox w="119.0" h="44.0" x="559.0" y="82.0"/>
+        </glyph>
+        <arc class="catalysis" id="arc_1202_catalyst_1204" source="entityVertex_9669754_1202" target="reactionVertex_9669911_1204">
+            <start x="867.0" y="70.0"/>
+            <next x="929.0" y="49.0"/>
+            <next x="961.0" y="75.0"/>
+            <end x="961.0" y="75.0"/>
+        </arc>
+        <arc class="production" id="arc_1206_output_1204" source="reactionVertex_9669911.2" target="entityVertex_9669816_1206">
+            <start x="1071.0" y="89.0"/>
+            <next x="1007.0" y="83.0"/>
+            <end x="1007.0" y="83.0"/>
+        </arc>
+        <arc class="production" id="arc_1405_output_1204" source="reactionVertex_9669911.2" target="entityVertex_29370_1405">
+            <glyph class="stoichiometry" id="Stoichiometry_29370_OUTPUT_9669911">
+                <label text="14"/>
+                <bbox w="12.0" h="12.0" x="1018.0" y="98.0"/>
+            </glyph>
+            <start x="1042.0" y="125.0"/>
+            <next x="1007.0" y="83.0"/>
+            <end x="1007.0" y="83.0"/>
+        </arc>
+        <arc class="production" id="arc_1202_output_1411" source="reactionVertex_9669906.2" target="entityVertex_9669754_1202">
+            <start x="719.0" y="95.0"/>
+            <end x="719.0" y="95.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1202_input_1204" source="entityVertex_9669754_1202" target="reactionVertex_9669911.1">
+            <start x="881.0" y="93.0"/>
+            <next x="947.0" y="86.0"/>
+            <end x="947.0" y="86.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1407_input_1204" source="entityVertex_113592_1407" target="reactionVertex_9669911.1">
+            <glyph class="stoichiometry" id="Stoichiometry_113592_INPUT_9669911">
+                <label text="14"/>
+                <bbox w="12.0" h="12.0" x="930.0" y="95.0"/>
+            </glyph>
+            <start x="926.0" y="117.0"/>
+            <next x="947.0" y="86.0"/>
+            <end x="947.0" y="86.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1412_input_1411" source="entityVertex_9669757_1412" target="reactionVertex_9669906.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9669757_INPUT_9669906">
+                <label text="2"/>
+                <bbox w="12.0" h="12.0" x="695.0" y="90.0"/>
+            </glyph>
+            <start x="719.0" y="95.0"/>
+            <end x="740.0" y="96.0"/>
+        </arc>
+    </map>
+</sbgn>

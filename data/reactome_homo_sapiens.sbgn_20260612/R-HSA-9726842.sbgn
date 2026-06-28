@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_304" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="711.0" y="1219.0"/>
+            </label>
+            <bbox w="4428.0" h="1701.0" x="318.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_171907_2854" compartmentOrder="10.0">
+            <label text="endosome lumen">
+                <bbox w="134.0" h="24.0" x="2569.0" y="1048.0"/>
+            </label>
+            <bbox w="477.0" h="135.0" x="2519.0" y="990.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_2905" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="1597.0" y="1397.0"/>
+            </label>
+            <bbox w="249.0" h="341.0" x="1529.0" y="1171.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_2906" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="3743.0" y="1097.0"/>
+            </label>
+            <bbox w="639.0" h="277.0" x="3702.0" y="1024.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29356_6290">
+            <label text="H2O"/>
+            <bbox w="51.0" h="30.0" x="1062.0" y="521.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9660505_204544">
+            <label text="mutant MRAS:SHOC2:PP1 complexes"/>
+            <bbox w="94.0" h="59.0" x="1120.0" y="431.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9660538_204543">
+            <label text="Mutant MRAS:SHOC2:PPP1CC complexes dephosphorylate inactive RAFs"/>
+            <bbox w="12.0" h="12.0" x="1165.0" y="578.0"/>
+            <port id="reactionVertex_9660538.1" x="1161.0" y="585.0"/>
+            <port id="reactionVertex_9660538.2" x="1181.0" y="585.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_5672707_1081">
+            <label text="inactive RAFs:YWHAB dimer"/>
+            <bbox w="118.0" h="47.0" x="1030.0" y="609.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_5672728_1085">
+            <label text="dephosphorylated inactive RAFS:YWHAB dimer"/>
+            <bbox w="149.0" h="61.0" x="1280.0" y="608.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29372_6293">
+            <label text="Pi"/>
+            <bbox w="42.0" h="30.0" x="1259.0" y="557.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_1081_input_204543" source="entityVertex_5672707_1081" target="reactionVertex_9660538.1">
+            <start x="1116.0" y="606.0"/>
+            <next x="1143.0" y="585.0"/>
+            <end x="1143.0" y="585.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_204544_catalyst_204543" source="entityVertex_9660505_204544" target="reactionVertex_9660538_204543">
+            <start x="1167.0" y="496.0"/>
+            <next x="1170.0" y="568.0"/>
+            <end x="1170.0" y="568.0"/>
+        </arc>
+        <arc class="production" id="arc_6293_output_204543" source="reactionVertex_9660538.2" target="entityVertex_29372_6293">
+            <start x="1256.0" y="577.0"/>
+            <next x="1227.0" y="585.0"/>
+            <end x="1227.0" y="585.0"/>
+        </arc>
+        <arc class="consumption" id="arc_6290_input_204543" source="entityVertex_29356_6290" target="reactionVertex_9660538.1">
+            <start x="1104.0" y="554.0"/>
+            <next x="1143.0" y="585.0"/>
+            <end x="1143.0" y="585.0"/>
+        </arc>
+        <arc class="production" id="arc_1085_output_204543" source="reactionVertex_9660538.2" target="entityVertex_5672728_1085">
+            <start x="1280.0" y="605.0"/>
+            <next x="1227.0" y="585.0"/>
+            <end x="1227.0" y="585.0"/>
+        </arc>
+    </map>
+</sbgn>

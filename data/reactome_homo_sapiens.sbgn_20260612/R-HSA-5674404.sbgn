@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_316" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="685.0" y="421.0"/>
+            </label>
+            <bbox w="2183.0" h="1338.0" x="286.0" y="108.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_318" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="925.0" y="1326.0"/>
+            </label>
+            <bbox w="479.0" h="625.0" x="905.0" y="750.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29356_355">
+            <label text="H2O"/>
+            <bbox w="39.0" h="31.0" x="505.0" y="309.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_179838_313">
+            <label text="PI(3,4,5)P3"/>
+            <bbox w="73.0" h="32.0" x="258.0" y="240.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2317393_156794">
+            <label text="PTEN Mutants"/>
+            <bbox w="58.0" h="23.0" x="513.0" y="370.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_2317387_156793">
+            <label text="PTEN cancer mutants do not dephosphorylate PIP3"/>
+            <bbox w="12.0" h="12.0" x="468.0" y="378.0"/>
+            <port id="reactionVertex_2317387.1" x="473.0" y="394.0"/>
+            <port id="reactionVertex_2317387.2" x="473.0" y="374.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_355_input_156793" source="entityVertex_29356_355" target="reactionVertex_2317387.1">
+            <start x="502.0" y="335.0"/>
+            <next x="473.0" y="353.0"/>
+            <end x="473.0" y="353.0"/>
+        </arc>
+        <arc class="consumption" id="arc_313_input_156793" source="entityVertex_179838_313" target="reactionVertex_2317387.1">
+            <start x="323.0" y="275.0"/>
+            <next x="473.0" y="353.0"/>
+            <end x="473.0" y="353.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_156794_catalyst_156793" source="entityVertex_2317393_156794" target="reactionVertex_2317387_156793">
+            <start x="507.0" y="382.0"/>
+            <next x="490.0" y="383.0"/>
+            <end x="490.0" y="383.0"/>
+        </arc>
+    </map>
+</sbgn>

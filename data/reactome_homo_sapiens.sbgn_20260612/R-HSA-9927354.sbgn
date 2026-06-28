@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_259" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="88.0" y="362.0"/>
+            </label>
+            <bbox w="777.0" h="286.0" x="0.0" y="186.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_247" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="64.0" y="11.0"/>
+            </label>
+            <bbox w="206.0" h="102.0" x="6.0" y="0.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_197910_74">
+            <label text="ICOSLG"/>
+            <bbox w="63.0" h="28.0" x="64.0" y="84.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_388817_101">
+            <label text="ICOS binds ICOSL/B7-H2"/>
+            <bbox w="10.0" h="10.0" x="194.0" y="186.0"/>
+            <port id="reactionVertex_388817.1" x="190.66667" y="191.0"/>
+            <port id="reactionVertex_388817.2" x="207.33333" y="191.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_388830_102">
+            <label text="PI3K binds ICOS"/>
+            <bbox w="10.0" h="10.0" x="542.0" y="187.0"/>
+            <port id="reactionVertex_388830.1" x="538.6667" y="192.0"/>
+            <port id="reactionVertex_388830.2" x="555.3333" y="192.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_388785_78">
+            <label text="ICOS:PI3K"/>
+            <bbox w="81.0" h="24.0" x="609.0" y="180.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_389927_77">
+            <label text="p-Y180-ICOS"/>
+            <bbox w="106.0" h="30.0" x="352.0" y="177.0"/>
+            <glyph class="unit of information" id="entityVertex_389928_1_mt">
+                <label text="P"/>
+                <bbox w="10.0" h="16.0" x="362.0" y="171.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_198144_75">
+            <label text="ICOS-1"/>
+            <bbox w="55.0" h="25.0" x="66.0" y="180.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9927349_271">
+            <label text="Class 1A PI3Ks"/>
+            <bbox w="95.0" h="23.0" x="397.0" y="248.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_388788_76">
+            <label text="ICOS:ICOSL"/>
+            <bbox w="66.0" h="38.0" x="247.0" y="173.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_1257604_269">
+            <label text="PIP3 activates AKT signaling"/>
+            <bbox w="156.0" h="66.0" x="577.0" y="360.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_77_input_102" source="entityVertex_389927_77" target="reactionVertex_388830.1">
+            <start x="461.0" y="192.0"/>
+            <next x="504.0" y="192.0"/>
+            <end x="504.0" y="192.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_76_activator_102" source="entityVertex_388788_76" target="reactionVertex_388830_102">
+            <start x="279.0" y="170.0"/>
+            <next x="279.0" y="115.0"/>
+            <next x="546.0" y="115.0"/>
+            <next x="547.0" y="183.0"/>
+            <end x="547.0" y="183.0"/>
+        </arc>
+        <arc class="consumption" id="arc_74_input_101" source="entityVertex_197910_74" target="reactionVertex_388817.1">
+            <start x="104.0" y="115.0"/>
+            <next x="155.0" y="191.0"/>
+            <end x="155.0" y="191.0"/>
+        </arc>
+        <arc class="production" id="arc_78_output_102" source="reactionVertex_388830.2" target="entityVertex_388785_78">
+            <start x="547.0" y="192.0"/>
+            <end x="547.0" y="192.0"/>
+        </arc>
+        <arc class="consumption" id="arc_75_input_101" source="entityVertex_198144_75" target="reactionVertex_388817.1">
+            <start x="124.0" y="191.0"/>
+            <next x="155.0" y="191.0"/>
+            <end x="155.0" y="191.0"/>
+        </arc>
+        <arc class="production" id="arc_76_output_101" source="reactionVertex_388817.2" target="entityVertex_388788_76">
+            <start x="199.0" y="191.0"/>
+            <end x="199.0" y="191.0"/>
+        </arc>
+        <arc class="consumption" id="arc_271_input_102" source="entityVertex_9927349_271" target="reactionVertex_388830.1">
+            <start x="454.0" y="242.0"/>
+            <next x="504.0" y="192.0"/>
+            <end x="504.0" y="192.0"/>
+        </arc>
+    </map>
+</sbgn>

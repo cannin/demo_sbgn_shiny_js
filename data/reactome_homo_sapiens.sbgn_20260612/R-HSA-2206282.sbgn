@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="695.0" y="90.0"/>
+            </label>
+            <bbox w="1454.0" h="592.0" x="0.0" y="75.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_161320_2" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="185.0" y="141.0"/>
+            </label>
+            <bbox w="1372.0" h="530.0" x="42.0" y="123.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2090053_1096">
+            <label text="GlcNAc- group"/>
+            <bbox w="103.0" h="31.0" x="997.0" y="554.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9036052_92126">
+            <label text="Defective NAGLU does not hydrolyse heparan chain(2)"/>
+            <bbox w="12.0" h="12.0" x="1060.0" y="472.0"/>
+            <port id="reactionVertex_9036052.1" x="1066.0" y="488.0"/>
+            <port id="reactionVertex_9036052.2" x="1067.0" y="468.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1605715_1108">
+            <label text="H2O"/>
+            <bbox w="43.0" h="31.0" x="1105.0" y="536.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2219572_92125">
+            <label text="NAGLU mutants"/>
+            <bbox w="104.0" h="23.0" x="381.0" y="237.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2090069_1064">
+            <label text="GlcNAc-IdoA2S-GlcNS3S- group"/>
+            <bbox w="112.0" h="45.0" x="473.0" y="312.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2219572_92127">
+            <label text="NAGLU mutants"/>
+            <bbox w="104.0" h="23.0" x="912.0" y="453.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1605715_1067">
+            <label text="H2O"/>
+            <bbox w="43.0" h="31.0" x="423.0" y="291.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_2263496_92124">
+            <label text="Defective NAGLU does not hydrolyse Heparan sulfate chain(4)"/>
+            <bbox w="12.0" h="12.0" x="519.0" y="241.0"/>
+            <port id="reactionVertex_2263496.1" x="526.0" y="257.0"/>
+            <port id="reactionVertex_2263496.2" x="526.0" y="237.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_1064_input_92124" source="entityVertex_2090069_1064" target="reactionVertex_2263496.1">
+            <start x="527.0" y="309.0"/>
+            <next x="526.0" y="272.0"/>
+            <end x="526.0" y="272.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1067_input_92124" source="entityVertex_1605715_1067" target="reactionVertex_2263496.1">
+            <start x="469.0" y="297.0"/>
+            <next x="526.0" y="272.0"/>
+            <end x="526.0" y="272.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1108_input_92126" source="entityVertex_1605715_1108" target="reactionVertex_9036052.1">
+            <start x="1102.0" y="537.0"/>
+            <next x="1066.0" y="512.0"/>
+            <end x="1066.0" y="512.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1096_input_92126" source="entityVertex_2090053_1096" target="reactionVertex_9036052.1">
+            <start x="1052.0" y="551.0"/>
+            <next x="1066.0" y="512.0"/>
+            <end x="1066.0" y="512.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_92127_catalyst_92126" source="entityVertex_2219572_92127" target="reactionVertex_9036052_92126">
+            <start x="1022.0" y="471.0"/>
+            <next x="1050.0" y="475.0"/>
+            <end x="1050.0" y="475.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_92125_catalyst_92124" source="entityVertex_2219572_92125" target="reactionVertex_2263496_92124">
+            <start x="491.0" y="247.0"/>
+            <next x="509.0" y="247.0"/>
+            <end x="509.0" y="247.0"/>
+        </arc>
+    </map>
+</sbgn>

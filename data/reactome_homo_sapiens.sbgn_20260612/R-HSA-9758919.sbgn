@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_1" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="44.0" y="452.0"/>
+            </label>
+            <bbox w="1000.0" h="500.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9756414_13">
+            <label text="SNAI1 binds the CDH1 gene"/>
+            <bbox w="10.0" h="10.0" x="441.0" y="329.0"/>
+            <port id="reactionVertex_9756414.1" x="447.0" y="342.33334"/>
+            <port id="reactionVertex_9756414.2" x="446.0" y="325.66666"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9756435_15">
+            <label text="SNAI1:CDH1 gene"/>
+            <bbox w="147.0" h="32.0" x="373.0" y="403.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_2980903_11">
+            <label text="SNAI1"/>
+            <bbox w="80.0" h="34.0" x="584.0" y="213.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9756448_7">
+            <label text="SNAI1 gene"/>
+            <bbox w="124.0" h="65.0" x="56.0" y="158.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9759751_16">
+            <label text="SNAI1 binds the CLDN7 gene"/>
+            <bbox w="10.0" h="10.0" x="648.0" y="355.0"/>
+            <port id="reactionVertex_9759751.1" x="653.0" y="368.33334"/>
+            <port id="reactionVertex_9759751.2" x="653.0" y="351.66666"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_452976_8">
+            <label text="TBXT"/>
+            <bbox w="82.0" h="33.0" x="92.0" y="53.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9756422_14">
+            <label text="CDH1 gene"/>
+            <bbox w="99.0" h="51.0" x="292.0" y="252.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9756439_10">
+            <label text="Expression of SNAI1 during gastrulation"/>
+            <bbox w="12.0" h="12.0" x="520.0" y="207.0"/>
+            <port id="reactionVertex_9756439.1" x="516.0" y="160.0"/>
+            <port id="reactionVertex_9756439.2" x="536.0" y="223.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9759736_21">
+            <label text="SNAI1:OCLN gene"/>
+            <bbox w="133.0" h="33.0" x="812.0" y="397.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9756662_9">
+            <label text="EOMES:TBXT:SNAI1 gene"/>
+            <bbox w="183.0" h="33.0" x="405.0" y="142.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9759731_19">
+            <label text="SNAI1 binds the OCLN gene"/>
+            <bbox w="10.0" h="10.0" x="841.0" y="331.0"/>
+            <port id="reactionVertex_9759731.1" x="837.6667" y="297.0"/>
+            <port id="reactionVertex_9759731.2" x="854.3333" y="394.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9759745_17">
+            <label text="CLDN7 gene"/>
+            <bbox w="118.0" h="51.0" x="500.0" y="308.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_452232_6">
+            <label text="EOMES"/>
+            <bbox w="88.0" h="31.0" x="213.0" y="55.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9759747_18">
+            <label text="SNAI1:CLDN7 gene"/>
+            <bbox w="140.0" h="30.0" x="584.0" y="403.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9756433_12">
+            <label text="FGFR1"/>
+            <bbox w="72.0" h="33.0" x="610.0" y="143.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9756666_5">
+            <label text="EOMES and TBXT (T, Brachyury) bind the SNAI1 gene"/>
+            <bbox w="10.0" h="10.0" x="364.0" y="158.0"/>
+            <port id="reactionVertex_9756666.1" x="360.66666" y="163.0"/>
+            <port id="reactionVertex_9756666.2" x="377.33334" y="161.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_8935981_20">
+            <label text="OCLN gene"/>
+            <bbox w="98.0" h="51.0" x="689.0" y="300.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_7_input_10" source="entityVertex_9756448_7" target="reactionVertex_9756439.1">
+            <start x="189.0" y="160.0"/>
+            <end x="526.0" y="213.0"/>
+        </arc>
+        <arc class="consumption" id="arc_14_input_13" source="entityVertex_9756422_14" target="reactionVertex_9756414.1">
+            <start x="400.0" y="254.0"/>
+            <next x="447.0" y="276.0"/>
+            <end x="447.0" y="276.0"/>
+        </arc>
+        <arc class="consumption" id="arc_8_input_5" source="entityVertex_452976_8" target="reactionVertex_9756666.1">
+            <start x="168.0" y="89.0"/>
+            <next x="334.0" y="163.0"/>
+            <end x="334.0" y="163.0"/>
+        </arc>
+        <arc class="production" id="arc_15_output_13" source="reactionVertex_9756414.2" target="entityVertex_9756435_15">
+            <start x="446.0" y="334.0"/>
+            <end x="446.0" y="334.0"/>
+        </arc>
+        <arc class="consumption" id="arc_11_input_13" source="entityVertex_2980903_11" target="reactionVertex_9756414.1">
+            <start x="581.0" y="240.0"/>
+            <next x="447.0" y="276.0"/>
+            <end x="447.0" y="276.0"/>
+        </arc>
+        <arc class="consumption" id="arc_6_input_5" source="entityVertex_452232_6" target="reactionVertex_9756666.1">
+            <start x="269.0" y="89.0"/>
+            <next x="334.0" y="163.0"/>
+            <end x="334.0" y="163.0"/>
+        </arc>
+        <arc class="production" id="arc_9_output_5" source="reactionVertex_9756666.2" target="entityVertex_9756662_9">
+            <start x="369.0" y="163.0"/>
+            <end x="369.0" y="163.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_12_activator_10" source="entityVertex_9756433_12" target="reactionVertex_9756439_10">
+            <start x="607.0" y="175.0"/>
+            <next x="534.0" y="209.0"/>
+            <end x="534.0" y="209.0"/>
+        </arc>
+        <arc class="production" id="arc_18_output_16" source="reactionVertex_9759751.2" target="entityVertex_9759747_18">
+            <start x="653.0" y="360.0"/>
+            <end x="653.0" y="360.0"/>
+        </arc>
+        <arc class="production" id="arc_11_output_10" source="reactionVertex_9756439.2" target="entityVertex_2980903_11">
+            <start x="526.0" y="213.0"/>
+            <end x="526.0" y="213.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_9_activator_10" source="entityVertex_9756662_9" target="reactionVertex_9756439_10">
+            <start x="505.0" y="178.0"/>
+            <next x="521.0" y="205.0"/>
+            <end x="521.0" y="205.0"/>
+        </arc>
+        <arc class="consumption" id="arc_11_input_16" source="entityVertex_2980903_11" target="reactionVertex_9759751.1">
+            <start x="629.0" y="250.0"/>
+            <next x="653.0" y="313.0"/>
+            <end x="653.0" y="313.0"/>
+        </arc>
+        <arc class="consumption" id="arc_20_input_19" source="entityVertex_8935981_20" target="reactionVertex_9759731.1">
+            <start x="796.0" y="302.0"/>
+            <next x="822.0" y="297.0"/>
+            <end x="822.0" y="297.0"/>
+        </arc>
+        <arc class="consumption" id="arc_17_input_16" source="entityVertex_9759745_17" target="reactionVertex_9759751.1">
+            <start x="627.0" y="310.0"/>
+            <next x="653.0" y="313.0"/>
+            <end x="653.0" y="313.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7_input_5" source="entityVertex_9756448_7" target="reactionVertex_9756666.1">
+            <start x="189.0" y="160.0"/>
+            <next x="334.0" y="163.0"/>
+            <end x="334.0" y="163.0"/>
+        </arc>
+        <arc class="consumption" id="arc_11_input_19" source="entityVertex_2980903_11" target="reactionVertex_9759731.1">
+            <start x="667.0" y="243.0"/>
+            <next x="822.0" y="297.0"/>
+            <end x="822.0" y="297.0"/>
+        </arc>
+        <arc class="production" id="arc_21_output_19" source="reactionVertex_9759731.2" target="entityVertex_9759736_21">
+            <start x="846.0" y="336.0"/>
+            <end x="846.0" y="336.0"/>
+        </arc>
+    </map>
+</sbgn>

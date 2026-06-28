@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="23.0" y="78.0"/>
+            </label>
+            <bbox w="2379.0" h="1090.0" x="0.0" y="65.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_161320_2" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="1254.0" y="207.0"/>
+            </label>
+            <bbox w="1144.0" h="890.0" x="1070.0" y="191.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_9" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="174.0" y="198.0"/>
+            </label>
+            <bbox w="872.0" h="888.0" x="154.0" y="185.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2046187_20">
+            <label text="Keratan(1)-PG"/>
+            <bbox w="88.0" h="23.0" x="505.0" y="321.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_735682_42">
+            <label text="UDP-Gal"/>
+            <bbox w="40.0" h="39.0" x="590.0" y="611.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_735682_34">
+            <label text="UDP-Gal"/>
+            <bbox w="40.0" h="39.0" x="600.0" y="366.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9035950_105161">
+            <label text="Defective B4GALT1 does not transfer Gal to a branch of keratan"/>
+            <bbox w="12.0" h="12.0" x="481.0" y="599.0"/>
+            <port id="reactionVertex_9035950.1" x="477.0" y="606.0"/>
+            <port id="reactionVertex_9035950.2" x="497.0" y="605.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2046280_11">
+            <label text="N-glycan-protein"/>
+            <bbox w="60.0" h="33.0" x="280.0" y="556.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_3656417_105159">
+            <label text="B4GALT1 R345Kfs*6"/>
+            <bbox w="82.0" h="37.0" x="367.0" y="452.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9035949_105160">
+            <label text="Defective B4GALT1 does not transfer Gal to the N-glycan precursor"/>
+            <bbox w="12.0" h="12.0" x="257.0" y="473.0"/>
+            <port id="reactionVertex_9035949.1" x="263.0" y="489.0"/>
+            <port id="reactionVertex_9035949.2" x="263.0" y="469.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_3656230_105158">
+            <label text="Defective B4GALT1 does not transfer Gal to the keratan chain"/>
+            <bbox w="12.0" h="12.0" x="554.0" y="441.0"/>
+            <port id="reactionVertex_3656230.1" x="560.0" y="457.0"/>
+            <port id="reactionVertex_3656230.2" x="560.0" y="437.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_735682_12">
+            <label text="UDP-Gal"/>
+            <bbox w="40.0" h="39.0" x="189.0" y="522.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_12_input_105160" source="entityVertex_735682_12" target="reactionVertex_9035949.1">
+            <start x="232.0" y="528.0"/>
+            <next x="263.0" y="507.0"/>
+            <end x="263.0" y="507.0"/>
+        </arc>
+        <arc class="consumption" id="arc_20_input_105158" source="entityVertex_2046187_20" target="reactionVertex_3656230.1">
+            <start x="550.0" y="350.0"/>
+            <next x="560.0" y="413.0"/>
+            <end x="560.0" y="413.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_105159_catalyst_105158" source="entityVertex_3656417_105159" target="reactionVertex_3656230_105158">
+            <start x="452.0" y="463.0"/>
+            <next x="544.0" y="449.0"/>
+            <end x="544.0" y="449.0"/>
+        </arc>
+        <arc class="consumption" id="arc_42_input_105161" source="entityVertex_735682_42" target="reactionVertex_9035950.1">
+            <start x="587.0" y="625.0"/>
+            <next x="511.0" y="606.0"/>
+            <end x="511.0" y="606.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_105159_catalyst_105161" source="entityVertex_3656417_105159" target="reactionVertex_9035950_105161">
+            <start x="418.0" y="492.0"/>
+            <next x="479.0" y="591.0"/>
+            <end x="479.0" y="591.0"/>
+        </arc>
+        <arc class="consumption" id="arc_11_input_105160" source="entityVertex_2046280_11" target="reactionVertex_9035949.1">
+            <start x="298.0" y="550.0"/>
+            <next x="263.0" y="507.0"/>
+            <end x="263.0" y="507.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_105159_catalyst_105160" source="entityVertex_3656417_105159" target="reactionVertex_9035949_105160">
+            <start x="364.0" y="472.0"/>
+            <next x="279.0" y="478.0"/>
+            <end x="279.0" y="478.0"/>
+        </arc>
+        <arc class="consumption" id="arc_34_input_105158" source="entityVertex_735682_34" target="reactionVertex_3656230.1">
+            <start x="597.0" y="394.0"/>
+            <next x="560.0" y="413.0"/>
+            <end x="560.0" y="413.0"/>
+        </arc>
+    </map>
+</sbgn>

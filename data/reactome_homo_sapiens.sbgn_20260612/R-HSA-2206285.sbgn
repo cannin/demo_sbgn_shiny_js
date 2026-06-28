@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="631.0" y="97.0"/>
+            </label>
+            <bbox w="1395.0" h="725.0" x="0.0" y="79.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_161320_2" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="367.0" y="219.0"/>
+            </label>
+            <bbox w="1235.0" h="593.0" x="113.0" y="186.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_2282889_92196">
+            <label text="Defective ARSB does not hydrolyse C4S/C6S chains"/>
+            <bbox w="12.0" h="12.0" x="219.0" y="532.0"/>
+            <port id="reactionVertex_2282889.1" x="226.0" y="548.0"/>
+            <port id="reactionVertex_2282889.2" x="226.0" y="528.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9036065_92194">
+            <label text="Defective ARSB does not hydrolyse DS"/>
+            <bbox w="12.0" h="12.0" x="415.0" y="532.0"/>
+            <port id="reactionVertex_9036065.1" x="420.0" y="548.0"/>
+            <port id="reactionVertex_9036065.2" x="421.0" y="528.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2065231_38">
+            <label text="ChEBI:63519 chain"/>
+            <bbox w="116.0" h="31.0" x="443.0" y="421.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9631731_92195">
+            <label text="ARSB mutants:Ca2+"/>
+            <bbox w="44.0" h="36.0" x="293.0" y="514.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1605715_93">
+            <label text="H2O"/>
+            <bbox w="40.0" h="31.0" x="366.0" y="448.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1605715_121">
+            <label text="H2O"/>
+            <bbox w="40.0" h="31.0" x="148.0" y="471.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2065251_45">
+            <label text="C4S/C6S chains"/>
+            <bbox w="96.0" h="23.0" x="154.0" y="442.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_93_input_92194" source="entityVertex_1605715_93" target="reactionVertex_9036065.1">
+            <start x="396.0" y="482.0"/>
+            <next x="420.0" y="512.0"/>
+            <end x="420.0" y="512.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_92195_catalyst_92194" source="entityVertex_9631731_92195" target="reactionVertex_9036065_92194">
+            <start x="340.0" y="533.0"/>
+            <next x="405.0" y="537.0"/>
+            <end x="405.0" y="537.0"/>
+        </arc>
+        <arc class="consumption" id="arc_45_input_92196" source="entityVertex_2065251_45" target="reactionVertex_2282889.1">
+            <start x="208.0" y="471.0"/>
+            <next x="226.0" y="496.0"/>
+            <end x="226.0" y="496.0"/>
+        </arc>
+        <arc class="consumption" id="arc_121_input_92196" source="entityVertex_1605715_121" target="reactionVertex_2282889.1">
+            <start x="191.0" y="489.0"/>
+            <next x="226.0" y="496.0"/>
+            <end x="226.0" y="496.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_92195_catalyst_92196" source="entityVertex_9631731_92195" target="reactionVertex_2282889_92196">
+            <start x="290.0" y="533.0"/>
+            <next x="241.0" y="537.0"/>
+            <end x="241.0" y="537.0"/>
+        </arc>
+        <arc class="consumption" id="arc_38_input_92194" source="entityVertex_2065231_38" target="reactionVertex_9036065.1">
+            <start x="484.0" y="455.0"/>
+            <next x="420.0" y="512.0"/>
+            <end x="420.0" y="512.0"/>
+        </arc>
+    </map>
+</sbgn>

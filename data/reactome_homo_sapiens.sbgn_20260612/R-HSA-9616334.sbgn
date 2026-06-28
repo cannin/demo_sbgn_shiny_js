@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_1" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="419.0" y="1684.0"/>
+            </label>
+            <bbox w="1812.0" h="1666.0" x="402.0" y="65.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_1672" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="36.0" y="1716.0"/>
+            </label>
+            <bbox w="2284.0" h="1771.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_1774" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="72.0" y="325.0"/>
+            </label>
+            <bbox w="318.0" h="250.0" x="60.0" y="306.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9628737_177886">
+            <label text="NEIL1 G83D does not cleave DHU"/>
+            <bbox w="12.0" h="12.0" x="935.0" y="755.0"/>
+            <port id="reactionVertex_9628737.1" x="931.0" y="765.0"/>
+            <port id="reactionVertex_9628737.2" x="951.0" y="767.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9629915_177895">
+            <label text="NEIL1 Q282*"/>
+            <bbox w="44.0" h="21.0" x="282.0" y="794.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9628756_177890">
+            <label text="NEIL1 G83D does not cleave FapyA"/>
+            <bbox w="12.0" h="12.0" x="909.0" y="800.0"/>
+            <port id="reactionVertex_9628756.1" x="905.0" y="804.0"/>
+            <port id="reactionVertex_9628756.2" x="925.0" y="807.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9628740_177887">
+            <label text="NEIL1 G83D:DHU-dsDNA"/>
+            <bbox w="123.0" h="21.0" x="735.0" y="758.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9629917_177894">
+            <label text="NEIL1 Q282TER does not translocate to the nucleus"/>
+            <bbox w="12.0" h="12.0" x="401.0" y="797.0"/>
+            <port id="reactionVertex_9629917.1" x="397.0" y="803.0"/>
+            <port id="reactionVertex_9629917.2" x="417.0" y="804.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9628768_177889">
+            <label text="NEIL1 G83D:FapyG-dsDNA"/>
+            <bbox w="135.0" h="21.0" x="746.0" y="715.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9629152_177893">
+            <label text="NEIL1 G83D,NEIL1 E28del:Tg-dsDNA"/>
+            <bbox w="114.0" h="22.0" x="770.0" y="836.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9628771_177891">
+            <label text="NEIL1 G83D:FapyA-dsDNA"/>
+            <bbox w="135.0" h="23.0" x="732.0" y="792.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9628758_177888">
+            <label text="NEIL1 G83D does not cleave FapyG"/>
+            <bbox w="12.0" h="12.0" x="923.0" y="725.0"/>
+            <port id="reactionVertex_9628758.1" x="919.0" y="728.0"/>
+            <port id="reactionVertex_9628758.2" x="939.0" y="734.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9629166_177892">
+            <label text="Defective NEIL1 variants do not cleave Tg"/>
+            <bbox w="12.0" h="12.0" x="936.0" y="844.0"/>
+            <port id="reactionVertex_9629166.1" x="932.0" y="848.0"/>
+            <port id="reactionVertex_9629166.2" x="952.0" y="854.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_177889_input_177888" source="entityVertex_9628768_177889" target="reactionVertex_9628758.1">
+            <start x="884.0" y="728.0"/>
+            <end x="929.0" y="731.0"/>
+        </arc>
+        <arc class="consumption" id="arc_177895_input_177894" source="entityVertex_9629915_177895" target="reactionVertex_9629917.1">
+            <start x="329.0" y="803.0"/>
+            <end x="407.0" y="803.0"/>
+        </arc>
+        <arc class="consumption" id="arc_177893_input_177892" source="entityVertex_9629152_177893" target="reactionVertex_9629166.1">
+            <start x="887.0" y="848.0"/>
+            <end x="942.0" y="850.0"/>
+        </arc>
+        <arc class="consumption" id="arc_177887_input_177886" source="entityVertex_9628740_177887" target="reactionVertex_9628737.1">
+            <start x="861.0" y="765.0"/>
+            <end x="941.0" y="761.0"/>
+        </arc>
+        <arc class="consumption" id="arc_177891_input_177890" source="entityVertex_9628771_177891" target="reactionVertex_9628756.1">
+            <start x="870.0" y="804.0"/>
+            <end x="915.0" y="806.0"/>
+        </arc>
+    </map>
+</sbgn>

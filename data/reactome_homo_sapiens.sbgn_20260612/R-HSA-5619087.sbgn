@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="733.0" y="406.0"/>
+            </label>
+            <bbox w="2297.0" h="933.0" x="166.0" y="137.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_74113_83">
+            <label text="Na+"/>
+            <bbox w="39.0" h="31.0" x="1647.0" y="12.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_188972_89">
+            <label text="Cl-"/>
+            <bbox w="33.0" h="31.0" x="1771.0" y="4.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5623704_145887">
+            <label text="SLC12A3 mutants"/>
+            <bbox w="70.0" h="25.0" x="1835.0" y="132.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5623705_145886">
+            <label text="Defective SLC12A3 does not cotransport Cl-, Na+ from extracellular region to cytosol"/>
+            <bbox w="12.0" h="12.0" x="1784.0" y="137.0"/>
+            <port id="reactionVertex_5623705.1" x="1788.0" y="153.0"/>
+            <port id="reactionVertex_5623705.2" x="1793.0" y="133.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_89_input_145886" source="entityVertex_188972_89" target="reactionVertex_5623705.1">
+            <start x="1787.0" y="38.0"/>
+            <end x="1788.0" y="142.0"/>
+        </arc>
+        <arc class="consumption" id="arc_83_input_145886" source="entityVertex_74113_83" target="reactionVertex_5623705.1">
+            <start x="1682.0" y="46.0"/>
+            <end x="1788.0" y="142.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_145887_catalyst_145886" source="entityVertex_5623704_145887" target="reactionVertex_5623705_145886">
+            <start x="1829.0" y="143.0"/>
+            <next x="1806.0" y="143.0"/>
+            <end x="1806.0" y="143.0"/>
+        </arc>
+    </map>
+</sbgn>

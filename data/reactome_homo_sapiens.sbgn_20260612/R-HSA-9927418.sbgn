@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="unspecified entity" id="entityVertex_9960159_593">
+            <label text="hormone receptor positive mammary luminal progenitor cell"/>
+            <bbox w="141.0" h="108.0" x="443.0" y="315.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9927428_149">
+            <label text="Mammary stem cell produces hormone receptor negative luminal progenitor cell"/>
+            <bbox w="12.0" h="12.0" x="244.0" y="246.0"/>
+            <port id="reactionVertex_9927428.1" x="240.0" y="179.0"/>
+            <port id="reactionVertex_9927428.2" x="260.0" y="316.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9927426_179">
+            <label text="Developmental Lineage of Mammary Gland Alveolar Cells"/>
+            <bbox w="373.0" h="54.0" x="0.0" y="721.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9927424_146">
+            <label text="hormone receptor negative mammary luminal progenitor cell"/>
+            <bbox w="144.0" h="112.0" x="119.0" y="319.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9925889_142">
+            <label text="mammary stem cell"/>
+            <bbox w="129.0" h="80.0" x="282.0" y="96.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9624190_151">
+            <label text="AREG"/>
+            <bbox w="45.0" h="23.0" x="329.0" y="293.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9624183_152">
+            <label text="TGFA(40-89)"/>
+            <bbox w="84.0" h="25.0" x="324.0" y="229.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9960188_708">
+            <label text="hormone receptor positive mammary luminal epithelial cell"/>
+            <bbox w="127.0" h="108.0" x="412.0" y="547.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_374146_2180">
+            <label text="ESTG"/>
+            <bbox w="48.0" h="31.0" x="556.0" y="469.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9938206_153">
+            <label text="Developmental Lineage of Mammary Stem Cells"/>
+            <bbox w="309.0" h="48.0" x="192.0" y="0.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9960175_592">
+            <label text="Mammary stem cell produces hormone receptor positive luminal progenitor cell"/>
+            <bbox w="12.0" h="12.0" x="465.0" y="249.0"/>
+            <port id="reactionVertex_9960175.1" x="461.0" y="179.0"/>
+            <port id="reactionVertex_9960175.2" x="481.0" y="312.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1449667_2179">
+            <label text="P4"/>
+            <bbox w="31.0" h="31.0" x="399.0" y="329.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_179863_150">
+            <label text="EGF"/>
+            <bbox w="32.0" h="23.0" x="335.0" y="353.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9960183_707">
+            <label text="Hormone receptor positive mammary luminal progenitor cell produces hormone receptor positive luminal epithelial cell"/>
+            <bbox w="12.0" h="12.0" x="487.0" y="491.0"/>
+            <port id="reactionVertex_9960183.1" x="483.0" y="426.0"/>
+            <port id="reactionVertex_9960183.2" x="503.0" y="544.0"/>
+        </glyph>
+        <arc class="production" id="arc_708_output_707" source="reactionVertex_9960183.2" target="entityVertex_9960188_708">
+            <start x="493.0" y="497.0"/>
+            <end x="493.0" y="497.0"/>
+        </arc>
+        <arc class="production" id="arc_146_output_149" source="reactionVertex_9927428.2" target="entityVertex_9927424_146">
+            <start x="250.0" y="252.0"/>
+            <end x="250.0" y="252.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_708_activator_149" source="entityVertex_9960188_708" target="reactionVertex_9927428_149">
+            <start x="440.0" y="544.0"/>
+            <next x="255.0" y="260.0"/>
+            <end x="255.0" y="260.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_151_activator_592" source="entityVertex_9624190_151" target="reactionVertex_9960175_592">
+            <start x="377.0" y="294.0"/>
+            <next x="463.0" y="258.0"/>
+            <end x="463.0" y="258.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_150_activator_592" source="entityVertex_179863_150" target="reactionVertex_9960175_592">
+            <start x="363.0" y="350.0"/>
+            <next x="464.0" y="261.0"/>
+            <end x="464.0" y="261.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_150_activator_707" source="entityVertex_179863_150" target="reactionVertex_9960183_707">
+            <start x="363.0" y="379.0"/>
+            <next x="486.0" y="491.0"/>
+            <end x="486.0" y="491.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_151_activator_149" source="entityVertex_9624190_151" target="reactionVertex_9927428_149">
+            <start x="328.0" y="290.0"/>
+            <next x="258.0" y="256.0"/>
+            <end x="258.0" y="256.0"/>
+        </arc>
+        <arc class="consumption" id="arc_142_input_149" source="entityVertex_9925889_142" target="reactionVertex_9927428.1">
+            <start x="250.0" y="252.0"/>
+            <end x="217.0" y="316.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_2180_activator_707" source="entityVertex_374146_2180" target="reactionVertex_9960183_707">
+            <start x="553.0" y="487.0"/>
+            <next x="502.0" y="496.0"/>
+            <end x="502.0" y="496.0"/>
+        </arc>
+        <arc class="consumption" id="arc_593_input_707" source="entityVertex_9960159_593" target="reactionVertex_9960183.1">
+            <start x="493.0" y="497.0"/>
+            <end x="484.0" y="544.0"/>
+        </arc>
+        <arc class="production" id="arc_593_output_592" source="reactionVertex_9960175.2" target="entityVertex_9960159_593">
+            <start x="471.0" y="255.0"/>
+            <end x="471.0" y="255.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_150_activator_149" source="entityVertex_179863_150" target="reactionVertex_9927428_149">
+            <start x="340.0" y="350.0"/>
+            <next x="256.0" y="259.0"/>
+            <end x="256.0" y="259.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_2179_activator_592" source="entityVertex_1449667_2179" target="reactionVertex_9960175_592">
+            <start x="423.0" y="326.0"/>
+            <next x="466.0" y="262.0"/>
+            <end x="466.0" y="262.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_152_inhibitor_592" source="entityVertex_9624183_152" target="reactionVertex_9960175_592">
+            <start x="411.0" y="246.0"/>
+            <next x="462.0" y="254.0"/>
+            <end x="462.0" y="254.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_151_activator_707" source="entityVertex_9624190_151" target="reactionVertex_9960183_707">
+            <start x="359.0" y="319.0"/>
+            <next x="488.0" y="490.0"/>
+            <end x="488.0" y="490.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_152_inhibitor_149" source="entityVertex_9624183_152" target="reactionVertex_9927428_149">
+            <start x="321.0" y="244.0"/>
+            <next x="259.0" y="251.0"/>
+            <end x="259.0" y="251.0"/>
+        </arc>
+        <arc class="consumption" id="arc_142_input_592" source="entityVertex_9925889_142" target="reactionVertex_9960175.1">
+            <start x="471.0" y="255.0"/>
+            <end x="493.0" y="312.0"/>
+        </arc>
+    </map>
+</sbgn>

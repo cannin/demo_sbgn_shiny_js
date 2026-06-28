@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_886" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1305.0" y="547.0"/>
+            </label>
+            <bbox w="2670.0" h="840.0" x="0.0" y="144.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_20600_1352" compartmentOrder="10.0">
+            <label text="synaptic vesicle">
+                <bbox w="121.0" h="24.0" x="1759.0" y="600.0"/>
+            </label>
+            <bbox w="392.0" h="218.0" x="1496.0" y="457.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29404_1366">
+            <label text="L-Glu"/>
+            <bbox w="46.0" h="31.0" x="1654.0" y="334.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_428548_1360">
+            <label text="H+"/>
+            <bbox w="33.0" h="31.0" x="1610.0" y="573.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5624256_145031">
+            <label text="Defective SLC17A8 does not exchange cytosolic L-Glu for synaptic vesicle H+"/>
+            <bbox w="12.0" h="12.0" x="1775.0" y="459.0"/>
+            <port id="reactionVertex_5624256.1" x="1781.0" y="475.0"/>
+            <port id="reactionVertex_5624256.2" x="1782.0" y="455.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_5624277_145032">
+            <label text="SLC17A8 A211V"/>
+            <bbox w="84.0" h="25.0" x="1848.0" y="477.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_1360_input_145031" source="entityVertex_428548_1360" target="reactionVertex_5624256.1">
+            <start x="1646.0" y="574.0"/>
+            <end x="1781.0" y="463.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_145032_catalyst_145031" source="entityVertex_5624277_145032" target="reactionVertex_5624256_145031">
+            <start x="1845.0" y="478.0"/>
+            <next x="1797.0" y="468.0"/>
+            <end x="1797.0" y="468.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1366_input_145031" source="entityVertex_29404_1366" target="reactionVertex_5624256.1">
+            <start x="1691.0" y="368.0"/>
+            <end x="1781.0" y="463.0"/>
+        </arc>
+    </map>
+</sbgn>

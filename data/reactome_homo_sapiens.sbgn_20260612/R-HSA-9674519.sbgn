@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="37.0" y="1642.0"/>
+            </label>
+            <bbox w="2751.0" h="1722.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_2" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="1535.0" y="1260.0"/>
+            </label>
+            <bbox w="756.0" h="1289.0" x="905.0" y="42.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_3" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="135.0" y="1512.0"/>
+            </label>
+            <bbox w="761.0" h="1551.0" x="100.0" y="39.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_1093" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="2217.0" y="404.0"/>
+            </label>
+            <bbox w="740.0" h="398.0" x="1969.0" y="54.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9668148_192453">
+            <label text="F8 variant is not sulfonated at Y1699"/>
+            <bbox w="12.0" h="12.0" x="1195.0" y="1273.0"/>
+            <port id="reactionVertex_9668148.1" x="1191.0" y="1280.0"/>
+            <port id="reactionVertex_9668148.2" x="1211.0" y="1280.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_741440_1178">
+            <label text="PAPS"/>
+            <bbox w="43.0" h="30.0" x="1131.0" y="1232.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9668150_192454">
+            <label text="F8 Y1699F"/>
+            <bbox w="125.0" h="22.0" x="1015.0" y="1271.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_8954265_1182">
+            <label text="TPST1,2"/>
+            <bbox w="57.0" h="22.0" x="1173.0" y="1316.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_1178_input_192453" source="entityVertex_741440_1178" target="reactionVertex_9668148.1">
+            <glyph class="stoichiometry" id="Stoichiometry_741440_INPUT_9668148">
+                <label text="2"/>
+                <bbox w="12.0" h="12.0" x="1162.0" y="1266.0"/>
+            </glyph>
+            <start x="1162.0" y="1265.0"/>
+            <next x="1174.0" y="1280.0"/>
+            <end x="1174.0" y="1280.0"/>
+        </arc>
+        <arc class="consumption" id="arc_192454_input_192453" source="entityVertex_9668150_192454" target="reactionVertex_9668148.1">
+            <start x="1143.0" y="1280.0"/>
+            <next x="1174.0" y="1280.0"/>
+            <end x="1174.0" y="1280.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_1182_catalyst_192453" source="entityVertex_8954265_1182" target="reactionVertex_9668148_192453">
+            <start x="1201.0" y="1310.0"/>
+            <next x="1201.0" y="1295.0"/>
+            <end x="1201.0" y="1295.0"/>
+        </arc>
+    </map>
+</sbgn>

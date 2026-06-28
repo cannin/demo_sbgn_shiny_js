@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="631.0" y="97.0"/>
+            </label>
+            <bbox w="1395.0" h="725.0" x="0.0" y="79.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_161320_2" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="367.0" y="219.0"/>
+            </label>
+            <bbox w="1235.0" h="593.0" x="113.0" y="186.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9036070_219919">
+            <label text="Defective GUSB does not hydrolyse CS/HS precursor"/>
+            <bbox w="12.0" h="12.0" x="995.0" y="419.0"/>
+            <port id="reactionVertex_9036070.1" x="991.0" y="427.0"/>
+            <port id="reactionVertex_9036070.2" x="1011.0" y="426.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2065212_128">
+            <label text="CS/HS precursor"/>
+            <bbox w="109.0" h="31.0" x="830.0" y="410.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2318394_219920">
+            <label text="GUSB mutants"/>
+            <bbox w="90.0" h="23.0" x="956.0" y="355.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1605715_135">
+            <label text="H2O"/>
+            <bbox w="39.0" h="31.0" x="898.0" y="372.0"/>
+        </glyph>
+        <arc class="catalysis" id="arc_219920_catalyst_219919" source="entityVertex_2318394_219920" target="reactionVertex_9036070_219919">
+            <start x="1001.0" y="384.0"/>
+            <next x="1001.0" y="409.0"/>
+            <end x="1001.0" y="409.0"/>
+        </arc>
+        <arc class="consumption" id="arc_135_input_219919" source="entityVertex_1605715_135" target="reactionVertex_9036070.1">
+            <start x="940.0" y="400.0"/>
+            <next x="977.0" y="427.0"/>
+            <end x="977.0" y="427.0"/>
+        </arc>
+        <arc class="consumption" id="arc_128_input_219919" source="entityVertex_2065212_128" target="reactionVertex_9036070.1">
+            <start x="942.0" y="426.0"/>
+            <next x="977.0" y="427.0"/>
+            <end x="977.0" y="427.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="23.0" y="78.0"/>
+            </label>
+            <bbox w="2379.0" h="1090.0" x="0.0" y="65.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_161320_2" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="1254.0" y="207.0"/>
+            </label>
+            <bbox w="1144.0" h="890.0" x="1070.0" y="191.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_9" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="174.0" y="198.0"/>
+            </label>
+            <bbox w="872.0" h="888.0" x="154.0" y="185.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_2263495_92675">
+            <label text="Defective GNS does not hydrolyse 6-sulfate from GlcNAc6S"/>
+            <bbox w="12.0" h="12.0" x="1587.0" y="541.0"/>
+            <port id="reactionVertex_2263495.1" x="1592.0" y="557.0"/>
+            <port id="reactionVertex_2263495.2" x="1593.0" y="537.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2245240_92676">
+            <label text="GNS mutants"/>
+            <bbox w="63.0" h="37.0" x="1634.0" y="529.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1605715_483">
+            <label text="H2O"/>
+            <bbox w="41.0" h="31.0" x="1514.0" y="579.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2104995_479">
+            <label text="GlcNAc(S)-Gal-GlcNAc(S)-Gal"/>
+            <bbox w="106.0" h="53.0" x="1542.0" y="609.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_479_input_92675" source="entityVertex_2104995_479" target="reactionVertex_2263495.1">
+            <start x="1593.0" y="606.0"/>
+            <next x="1592.0" y="575.0"/>
+            <end x="1592.0" y="575.0"/>
+        </arc>
+        <arc class="consumption" id="arc_483_input_92675" source="entityVertex_1605715_483" target="reactionVertex_2263495.1">
+            <start x="1558.0" y="587.0"/>
+            <next x="1592.0" y="575.0"/>
+            <end x="1592.0" y="575.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_92676_catalyst_92675" source="entityVertex_2245240_92676" target="reactionVertex_2263495_92675">
+            <start x="1628.0" y="547.0"/>
+            <next x="1609.0" y="547.0"/>
+            <end x="1609.0" y="547.0"/>
+        </arc>
+    </map>
+</sbgn>

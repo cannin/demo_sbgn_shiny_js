@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_304" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="711.0" y="1219.0"/>
+            </label>
+            <bbox w="4428.0" h="1701.0" x="318.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_171907_2854" compartmentOrder="10.0">
+            <label text="endosome lumen">
+                <bbox w="134.0" h="24.0" x="2569.0" y="1048.0"/>
+            </label>
+            <bbox w="477.0" h="135.0" x="2519.0" y="990.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_2905" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="1597.0" y="1397.0"/>
+            </label>
+            <bbox w="249.0" h="341.0" x="1529.0" y="1171.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_2906" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="3743.0" y="1097.0"/>
+            </label>
+            <bbox w="639.0" h="277.0" x="3702.0" y="1024.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9665332_165761">
+            <label text="NF1 GTPase mutants:SPRED dimer:p21 RAS:GTP"/>
+            <bbox w="96.0" h="45.0" x="468.0" y="858.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_6802837_165760">
+            <label text="Loss-of-function NF1 variants don't stimulate RAS GTPase activity"/>
+            <bbox w="12.0" h="12.0" x="481.0" y="788.0"/>
+            <port id="reactionVertex_6802837.1" x="477.0" y="855.0"/>
+            <port id="reactionVertex_6802837.2" x="497.0" y="759.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_165761_input_165760" source="entityVertex_9665332_165761" target="reactionVertex_6802837.1">
+            <start x="508.0" y="855.0"/>
+            <end x="487.0" y="794.0"/>
+        </arc>
+    </map>
+</sbgn>

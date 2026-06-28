@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_680" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="2591.0" y="710.0"/>
+            </label>
+            <bbox w="179.0" h="126.0" x="2579.0" y="635.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_668" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1158.0" y="703.0"/>
+            </label>
+            <bbox w="3362.0" h="926.0" x="0.0" y="116.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2077524_187391">
+            <label text="masitinib"/>
+            <bbox w="122.0" h="36.0" x="288.0" y="522.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9669863_187389">
+            <label text="Masitinib-resistant KIT mutants do not bind masitinib"/>
+            <bbox w="12.0" h="12.0" x="372.0" y="425.0"/>
+            <port id="reactionVertex_9669863.1" x="368.0" y="466.0"/>
+            <port id="reactionVertex_9669863.2" x="388.0" y="433.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9669762_187390">
+            <label text="masitinib resistant KIT mutants"/>
+            <bbox w="28.0" h="22.0" x="293.0" y="400.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_187390_input_187389" source="entityVertex_9669762_187390" target="reactionVertex_9669863.1">
+            <start x="313.0" y="428.0"/>
+            <next x="337.0" y="466.0"/>
+            <end x="337.0" y="466.0"/>
+        </arc>
+        <arc class="consumption" id="arc_187391_input_187389" source="entityVertex_2077524_187391" target="reactionVertex_9669863.1">
+            <start x="346.0" y="519.0"/>
+            <next x="337.0" y="466.0"/>
+            <end x="337.0" y="466.0"/>
+        </arc>
+    </map>
+</sbgn>

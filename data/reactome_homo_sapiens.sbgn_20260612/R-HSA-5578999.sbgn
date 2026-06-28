@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1681.0" y="841.0"/>
+            </label>
+            <bbox w="4538.0" h="1801.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_1554" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="4277.0" y="524.0"/>
+            </label>
+            <bbox w="246.0" h="304.0" x="4266.0" y="265.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17927_308" compartmentOrder="10.0">
+            <label text="mitochondrial intermembrane space">
+                <bbox w="280.0" h="24.0" x="1950.0" y="1034.0"/>
+            </label>
+            <bbox w="1743.0" h="611.0" x="1933.0" y="1031.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_27" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="571.0" y="1490.0"/>
+            </label>
+            <bbox w="557.0" h="887.0" x="225.0" y="653.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_1708" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="41.0" y="533.0"/>
+            </label>
+            <bbox w="248.0" h="363.0" x="27.0" y="226.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_733" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="2732.0" y="33.0"/>
+            </label>
+            <bbox w="660.0" h="152.0" x="2559.0" y="20.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_223" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="3231.0" y="1081.0"/>
+            </label>
+            <bbox w="1681.0" h="549.0" x="1962.0" y="1068.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29404_148">
+            <label text="L-Glu"/>
+            <bbox w="49.0" h="31.0" x="1070.0" y="1108.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9631740_124317">
+            <label text="GCLC mutants:GCLM"/>
+            <bbox w="32.0" h="23.0" x="1026.0" y="1249.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113592_345">
+            <label text="ATP"/>
+            <bbox w="40.0" h="31.0" x="1035.0" y="1172.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5602892_124316">
+            <label text="Defective GCLC does not ligate L-Glu to L-Cys"/>
+            <bbox w="12.0" h="12.0" x="1086.0" y="1254.0"/>
+            <port id="reactionVertex_5602892.1" x="1093.0" y="1270.0"/>
+            <port id="reactionVertex_5602892.2" x="1092.0" y="1250.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_111707_152">
+            <label text="L-Cys"/>
+            <bbox w="50.0" h="31.0" x="1278.0" y="1211.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_148_input_124316" source="entityVertex_29404_148" target="reactionVertex_5602892.1">
+            <start x="1093.0" y="1142.0"/>
+            <next x="1093.0" y="1226.0"/>
+            <end x="1093.0" y="1226.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_124317_catalyst_124316" source="entityVertex_9631740_124317" target="reactionVertex_5602892_124316">
+            <start x="1061.0" y="1260.0"/>
+            <next x="1076.0" y="1260.0"/>
+            <end x="1076.0" y="1260.0"/>
+        </arc>
+        <arc class="consumption" id="arc_152_input_124316" source="entityVertex_111707_152" target="reactionVertex_5602892.1">
+            <start x="1275.0" y="1226.0"/>
+            <next x="1093.0" y="1226.0"/>
+            <end x="1093.0" y="1226.0"/>
+        </arc>
+        <arc class="consumption" id="arc_345_input_124316" source="entityVertex_113592_345" target="reactionVertex_5602892.1">
+            <start x="1070.0" y="1206.0"/>
+            <next x="1093.0" y="1226.0"/>
+            <end x="1093.0" y="1226.0"/>
+        </arc>
+    </map>
+</sbgn>

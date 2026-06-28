@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="717.0" y="371.0"/>
+            </label>
+            <bbox w="737.0" h="314.0" x="50.0" y="132.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9823706_211767">
+            <label text="VWF variant does not bind GPIb:IX:V"/>
+            <bbox w="12.0" h="12.0" x="805.0" y="157.0"/>
+            <port id="reactionVertex_9823706.1" x="801.0" y="117.0"/>
+            <port id="reactionVertex_9823706.2" x="821.0" y="181.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9823694_211768">
+            <label text="VWF variant multimer:collagen type I fibril"/>
+            <bbox w="128.0" h="37.0" x="625.0" y="45.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9823064_36">
+            <label text="GP1BA:GP1BB:GP9:GP5"/>
+            <bbox w="122.0" h="37.0" x="640.0" y="114.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_211768_input_211767" source="entityVertex_9823694_211768" target="reactionVertex_9823706.1">
+            <start x="730.0" y="85.0"/>
+            <next x="811.0" y="117.0"/>
+            <end x="811.0" y="117.0"/>
+        </arc>
+        <arc class="consumption" id="arc_36_input_211767" source="entityVertex_9823064_36" target="reactionVertex_9823706.1">
+            <start x="765.0" y="123.0"/>
+            <next x="811.0" y="117.0"/>
+            <end x="811.0" y="117.0"/>
+        </arc>
+    </map>
+</sbgn>

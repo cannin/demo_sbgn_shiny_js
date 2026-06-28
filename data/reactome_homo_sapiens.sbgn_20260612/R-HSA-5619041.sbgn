@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1098.0" y="516.0"/>
+            </label>
+            <bbox w="2225.0" h="1194.0" x="179.0" y="108.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5653860_141835">
+            <label text="SLC36A2 mutants"/>
+            <bbox w="64.0" h="25.0" x="461.0" y="102.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_351626_34">
+            <label text="H+"/>
+            <bbox w="31.0" h="31.0" x="330.0" y="46.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5653850_141834">
+            <label text="Defective SLC36A2 does not cotransport Gly, L-Pro with H+ from extracellular region to cytosol"/>
+            <bbox w="12.0" h="12.0" x="414.0" y="108.0"/>
+            <port id="reactionVertex_5653850.1" x="421.0" y="124.0"/>
+            <port id="reactionVertex_5653850.2" x="421.0" y="104.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_375409_54">
+            <label text="Gly, L-Pro"/>
+            <bbox w="64.0" h="25.0" x="407.0" y="8.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_34_input_141834" source="entityVertex_351626_34" target="reactionVertex_5653850.1">
+            <start x="364.0" y="72.0"/>
+            <end x="421.0" y="115.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_141835_catalyst_141834" source="entityVertex_5653860_141835" target="reactionVertex_5653850_141834">
+            <start x="455.0" y="114.0"/>
+            <next x="436.0" y="114.0"/>
+            <end x="436.0" y="114.0"/>
+        </arc>
+        <arc class="consumption" id="arc_54_input_141834" source="entityVertex_375409_54" target="reactionVertex_5653850.1">
+            <start x="436.0" y="39.0"/>
+            <end x="421.0" y="115.0"/>
+        </arc>
+    </map>
+</sbgn>

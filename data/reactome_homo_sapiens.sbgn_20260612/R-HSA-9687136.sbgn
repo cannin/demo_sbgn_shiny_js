@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_5" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="1330.0" y="661.0"/>
+            </label>
+            <bbox w="1467.0" h="667.0" x="30.0" y="44.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_6" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1416.0" y="1605.0"/>
+            </label>
+            <bbox w="1541.0" h="1663.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9661042_193564">
+            <label text="RB1 T738_R775del"/>
+            <bbox w="78.0" h="21.0" x="943.0" y="117.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_975554_2007">
+            <label text="SKP2"/>
+            <bbox w="43.0" h="24.0" x="1246.0" y="83.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_174250_3">
+            <label text="Cdh1:phospho-APC/C complex"/>
+            <bbox w="104.0" h="36.0" x="161.0" y="147.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9687377_193563">
+            <label text="Defective RB1 does not form a complex with SKP2 and FZR1"/>
+            <bbox w="12.0" h="12.0" x="1210.0" y="142.0"/>
+            <port id="reactionVertex_9687377.1" x="1206.0" y="92.0"/>
+            <port id="reactionVertex_9687377.2" x="1226.0" y="198.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_3_input_193563" source="entityVertex_174250_3" target="reactionVertex_9687377.1">
+            <start x="231.0" y="144.0"/>
+            <next x="298.0" y="84.0"/>
+            <next x="1197.0" y="92.0"/>
+            <end x="1197.0" y="92.0"/>
+        </arc>
+        <arc class="consumption" id="arc_193564_input_193563" source="entityVertex_9661042_193564" target="reactionVertex_9687377.1">
+            <start x="1024.0" y="120.0"/>
+            <next x="1197.0" y="92.0"/>
+            <end x="1197.0" y="92.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2007_input_193563" source="entityVertex_975554_2007" target="reactionVertex_9687377.1">
+            <start x="1243.0" y="94.0"/>
+            <next x="1197.0" y="92.0"/>
+            <end x="1197.0" y="92.0"/>
+        </arc>
+    </map>
+</sbgn>

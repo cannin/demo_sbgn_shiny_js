@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_161320_315" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="560.0" y="437.0"/>
+            </label>
+            <bbox w="229.0" h="188.0" x="496.0" y="300.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_351" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="2131.0" y="545.0"/>
+            </label>
+            <bbox w="432.0" h="258.0" x="1858.0" y="502.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_63" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="869.0" y="271.0"/>
+            </label>
+            <bbox w="2318.0" h="967.0" x="175.0" y="75.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_429056_214">
+            <label text="urate"/>
+            <bbox w="46.0" h="31.0" x="39.0" y="763.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29708_215">
+            <label text="LACT"/>
+            <bbox w="46.0" h="31.0" x="280.0" y="828.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5625210_144618">
+            <label text="Defective SLC22A12 does not exchange extracellular urate for cytosolic LACT"/>
+            <bbox w="12.0" h="12.0" x="174.0" y="780.0"/>
+            <port id="reactionVertex_5625210.1" x="180.0" y="796.0"/>
+            <port id="reactionVertex_5625210.2" x="180.0" y="776.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5625250_144619">
+            <label text="SLC22A12 mutants"/>
+            <bbox w="73.0" h="25.0" x="145.0" y="828.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_215_input_144618" source="entityVertex_29708_215" target="reactionVertex_5625210.1">
+            <start x="277.0" y="832.0"/>
+            <end x="180.0" y="788.0"/>
+        </arc>
+        <arc class="consumption" id="arc_214_input_144618" source="entityVertex_429056_214" target="reactionVertex_5625210.1">
+            <start x="88.0" y="779.0"/>
+            <end x="180.0" y="788.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_144619_catalyst_144618" source="entityVertex_5625250_144619" target="reactionVertex_5625210_144618">
+            <start x="180.0" y="822.0"/>
+            <next x="180.0" y="802.0"/>
+            <end x="180.0" y="802.0"/>
+        </arc>
+    </map>
+</sbgn>

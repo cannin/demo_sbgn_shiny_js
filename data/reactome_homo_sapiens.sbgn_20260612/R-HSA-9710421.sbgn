@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_2817" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="209.0" y="565.0"/>
+            </label>
+            <bbox w="633.0" h="339.0" x="51.0" y="276.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_2420" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1437.0" y="193.0"/>
+            </label>
+            <bbox w="1632.0" h="613.0" x="7.0" y="20.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5462_3374" compartmentOrder="10.0">
+            <label text="mitochondrion">
+                <bbox w="113.0" h="24.0" x="1323.0" y="424.0"/>
+            </label>
+            <bbox w="243.0" h="186.0" x="1231.0" y="310.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_212288_3923">
+            <label text="DNMT1,3A,3B:PRC2:Chromatin"/>
+            <bbox w="131.0" h="37.0" x="445.0" y="292.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9710490_3919">
+            <label text="The GSDME gene promoter is hypermethylated"/>
+            <bbox w="12.0" h="12.0" x="503.0" y="430.0"/>
+            <port id="reactionVertex_9710490.1" x="499.0" y="435.0"/>
+            <port id="reactionVertex_9710490.2" x="519.0" y="436.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_77087_3920">
+            <label text="AdoMet"/>
+            <bbox w="61.0" h="31.0" x="390.0" y="424.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9710426_3921">
+            <label text="hyper 5-mC GSDME gene promoter"/>
+            <bbox w="129.0" h="66.0" x="536.0" y="330.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_30185_3926">
+            <label text="dCTP"/>
+            <bbox w="48.0" h="31.0" x="338.0" y="405.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_9710463_3924">
+            <label text="Decitabine triphosphate"/>
+            <bbox w="90.0" h="45.0" x="397.0" y="367.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29892_3932">
+            <label text="dGTP"/>
+            <bbox w="49.0" h="31.0" x="363.0" y="291.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_30187_3927">
+            <label text="dTTP"/>
+            <bbox w="48.0" h="31.0" x="381.0" y="331.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29604_3928">
+            <label text="dATP"/>
+            <bbox w="48.0" h="31.0" x="308.0" y="290.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_68507_3943">
+            <label text="DNA polymerase alpha:primase"/>
+            <bbox w="110.0" h="37.0" x="184.0" y="395.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9710454_3931">
+            <label text="RNA primer:decitabine-DNA primer:origin duplex"/>
+            <bbox w="128.0" h="51.0" x="210.0" y="448.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9710467_200705">
+            <label text="GSDME variant"/>
+            <bbox w="97.0" h="23.0" x="741.0" y="490.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9710480_3925">
+            <label text="Decitabine triphosphate incorporates into DNA"/>
+            <bbox w="12.0" h="12.0" x="320.0" y="414.0"/>
+            <port id="reactionVertex_9710480.1" x="316.0" y="394.0"/>
+            <port id="reactionVertex_9710480.2" x="336.0" y="445.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9710319_2820">
+            <label text="GSDME gene"/>
+            <bbox w="82.0" h="52.0" x="346.0" y="485.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_77502_3922">
+            <label text="AdoHcy"/>
+            <bbox w="61.0" h="31.0" x="573.0" y="422.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5620974_2425">
+            <label text="PI4P,PI(4,5)P2,PIP3"/>
+            <bbox w="120.0" h="23.0" x="700.0" y="612.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9710468_200704">
+            <label text="GSDME variant does not bind PIPs"/>
+            <bbox w="12.0" h="12.0" x="881.0" y="591.0"/>
+            <port id="reactionVertex_9710468.1" x="877.0" y="596.0"/>
+            <port id="reactionVertex_9710468.2" x="897.0" y="615.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_68423_3929">
+            <label text="RNA primer:origin duplex:DNA polymerase alpha:primase complex"/>
+            <bbox w="117.0" h="65.0" x="177.0" y="302.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_3920_input_3919" source="entityVertex_77087_3920" target="reactionVertex_9710490.1">
+            <glyph class="stoichiometry" id="Stoichiometry_77087_INPUT_9710490">
+                <label text="3"/>
+                <bbox w="12.0" h="12.0" x="463.0" y="430.0"/>
+            </glyph>
+            <start x="454.0" y="437.0"/>
+            <next x="485.0" y="435.0"/>
+            <end x="485.0" y="435.0"/>
+        </arc>
+        <arc class="production" id="arc_3921_output_3919" source="reactionVertex_9710490.2" target="entityVertex_9710426_3921">
+            <start x="539.0" y="353.0"/>
+            <next x="529.0" y="436.0"/>
+            <next x="528.0" y="391.0"/>
+            <end x="529.0" y="436.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3929_input_3925" source="entityVertex_68423_3929" target="reactionVertex_9710480.1">
+            <start x="284.0" y="370.0"/>
+            <next x="327.0" y="394.0"/>
+            <end x="327.0" y="394.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_3923_catalyst_3919" source="entityVertex_212288_3923" target="reactionVertex_9710490_3919">
+            <start x="509.0" y="332.0"/>
+            <next x="509.0" y="420.0"/>
+            <end x="509.0" y="420.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3926_input_3925" source="entityVertex_30185_3926" target="reactionVertex_9710480.1">
+            <start x="341.0" y="402.0"/>
+            <next x="327.0" y="394.0"/>
+            <end x="327.0" y="394.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2820_input_3919" source="entityVertex_9710319_2820" target="reactionVertex_9710490.1">
+            <start x="437.0" y="487.0"/>
+            <next x="485.0" y="435.0"/>
+            <end x="485.0" y="435.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3932_input_3925" source="entityVertex_29892_3932" target="reactionVertex_9710480.1">
+            <start x="376.0" y="325.0"/>
+            <next x="327.0" y="394.0"/>
+            <end x="327.0" y="394.0"/>
+        </arc>
+        <arc class="production" id="arc_3931_output_3925" source="reactionVertex_9710480.2" target="entityVertex_9710454_3931">
+            <start x="326.0" y="420.0"/>
+            <end x="326.0" y="420.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2425_input_200704" source="entityVertex_5620974_2425" target="reactionVertex_9710468.1">
+            <start x="788.0" y="606.0"/>
+            <next x="826.0" y="596.0"/>
+            <end x="826.0" y="596.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_3924_inhibitor_3919" source="entityVertex_9710463_3924" target="reactionVertex_9710490_3919">
+            <start x="474.0" y="415.0"/>
+            <next x="501.0" y="431.0"/>
+            <end x="501.0" y="431.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3927_input_3925" source="entityVertex_30187_3927" target="reactionVertex_9710480.1">
+            <start x="378.0" y="360.0"/>
+            <next x="327.0" y="394.0"/>
+            <end x="327.0" y="394.0"/>
+        </arc>
+        <arc class="consumption" id="arc_200705_input_200704" source="entityVertex_9710467_200705" target="reactionVertex_9710468.1">
+            <start x="793.0" y="519.0"/>
+            <next x="826.0" y="596.0"/>
+            <end x="826.0" y="596.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_3943_catalyst_3925" source="entityVertex_68507_3943" target="reactionVertex_9710480_3925">
+            <start x="297.0" y="417.0"/>
+            <next x="310.0" y="418.0"/>
+            <end x="310.0" y="418.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3928_input_3925" source="entityVertex_29604_3928" target="reactionVertex_9710480.1">
+            <start x="331.0" y="324.0"/>
+            <next x="327.0" y="394.0"/>
+            <end x="327.0" y="394.0"/>
+        </arc>
+        <arc class="production" id="arc_3922_output_3919" source="reactionVertex_9710490.2" target="entityVertex_77502_3922">
+            <glyph class="stoichiometry" id="Stoichiometry_77502_OUTPUT_9710490">
+                <label text="3"/>
+                <bbox w="12.0" h="12.0" x="543.0" y="430.0"/>
+            </glyph>
+            <start x="570.0" y="436.0"/>
+            <next x="529.0" y="436.0"/>
+            <end x="529.0" y="436.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3924_input_3925" source="entityVertex_9710463_3924" target="reactionVertex_9710480.1">
+            <start x="394.0" y="390.0"/>
+            <next x="327.0" y="394.0"/>
+            <end x="327.0" y="394.0"/>
+        </arc>
+    </map>
+</sbgn>

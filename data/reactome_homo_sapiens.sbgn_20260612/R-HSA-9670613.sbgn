@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_1" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="1387.0" y="1222.0"/>
+            </label>
+            <bbox w="2141.0" h="1320.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9670611_188732">
+            <label text="DAXX Truncation Mutants (N-terminus)"/>
+            <bbox w="45.0" h="22.0" x="1895.0" y="583.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9670620_188731">
+            <label text="Defective DAXX does not bind ATRX"/>
+            <bbox w="12.0" h="12.0" x="1783.0" y="654.0"/>
+            <port id="reactionVertex_9670620.1" x="1779.0" y="616.0"/>
+            <port id="reactionVertex_9670620.2" x="1799.0" y="716.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9007919_2367">
+            <label text="ATRX"/>
+            <bbox w="45.0" h="22.0" x="1805.0" y="565.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_188732_input_188731" source="entityVertex_9670611_188732" target="reactionVertex_9670620.1">
+            <start x="1889.0" y="598.0"/>
+            <next x="1812.0" y="616.0"/>
+            <end x="1812.0" y="616.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2367_input_188731" source="entityVertex_9007919_2367" target="reactionVertex_9670620.1">
+            <start x="1822.0" y="590.0"/>
+            <next x="1812.0" y="616.0"/>
+            <end x="1812.0" y="616.0"/>
+        </arc>
+    </map>
+</sbgn>

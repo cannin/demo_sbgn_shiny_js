@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="13.0" y="13.0"/>
+            </label>
+            <bbox w="1040.0" h="709.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_2" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="214.0" y="116.0"/>
+            </label>
+            <bbox w="782.0" h="482.0" x="201.0" y="103.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9795931_28">
+            <label text="NFE2L2 gene:NFkB complex"/>
+            <bbox w="122.0" h="51.0" x="411.0" y="275.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9762042_4">
+            <label text="NFE2L2 gene"/>
+            <bbox w="89.0" h="66.0" x="542.0" y="364.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_194047_31">
+            <label text="NFKB1(1-433):RELA"/>
+            <bbox w="127.0" h="23.0" x="801.0" y="316.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9760062_24">
+            <label text="p-AcK-NFE2L2:CREBBP, EP300"/>
+            <bbox w="103.0" h="51.0" x="811.0" y="211.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_157939_9">
+            <label text="NICD1"/>
+            <bbox w="130.0" h="23.0" x="767.0" y="467.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9762100_3">
+            <label text="MYC- and NICD1-dependent NFE2L2 gene expression"/>
+            <bbox w="12.0" h="12.0" x="331.0" y="405.0"/>
+            <port id="reactionVertex_9762100.1" x="327.0" y="366.0"/>
+            <port id="reactionVertex_9762100.2" x="347.0" y="368.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9796056_29">
+            <label text="NFkB binds the NFE2L2 gene"/>
+            <bbox w="10.0" h="10.0" x="586.0" y="296.0"/>
+            <port id="reactionVertex_9796056.1" x="582.6667" y="333.0"/>
+            <port id="reactionVertex_9796056.2" x="599.3333" y="300.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9795932_25">
+            <label text="NFE2L2 gene:p-AcK-NFE2L2:CREBBP,EP300:MAFK"/>
+            <bbox w="135.0" h="65.0" x="404.0" y="161.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_188379_11">
+            <label text="MYC"/>
+            <bbox w="118.0" h="23.0" x="768.0" y="517.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9762097_10">
+            <label text="MYC binds the NFE2L2 promoter"/>
+            <bbox w="10.0" h="10.0" x="586.0" y="522.0"/>
+            <port id="reactionVertex_9762097.1" x="582.6667" y="528.0"/>
+            <port id="reactionVertex_9762097.2" x="599.3333" y="526.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_1008242_23">
+            <label text="MAFK"/>
+            <bbox w="125.0" h="23.0" x="784.0" y="152.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9796080_22">
+            <label text="AcK-NFE2L2 binds the NFE2L2 gene"/>
+            <bbox w="10.0" h="10.0" x="589.0" y="193.0"/>
+            <port id="reactionVertex_9796080.1" x="585.6667" y="202.0"/>
+            <port id="reactionVertex_9796080.2" x="602.3333" y="195.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9762083_7">
+            <label text="NFE2L2 gene:MYC"/>
+            <bbox w="118.0" h="37.0" x="394.0" y="508.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9796060_26">
+            <label text="NFE2L2 dependent NFE2L2 expression"/>
+            <bbox w="12.0" h="12.0" x="327.0" y="241.0"/>
+            <port id="reactionVertex_9796060.1" x="323.0" y="255.0"/>
+            <port id="reactionVertex_9796060.2" x="343.0" y="343.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9762102_8">
+            <label text="NICD1 binds the NFE2L2 promoter"/>
+            <bbox w="10.0" h="10.0" x="585.0" y="472.0"/>
+            <port id="reactionVertex_9762102.1" x="581.6667" y="478.0"/>
+            <port id="reactionVertex_9762102.2" x="598.3333" y="476.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9796046_27">
+            <label text="NFkB dependent NFE2L2 expression"/>
+            <bbox w="12.0" h="12.0" x="321.0" y="343.0"/>
+            <port id="reactionVertex_9796046.1" x="317.0" y="366.0"/>
+            <port id="reactionVertex_9796046.2" x="337.0" y="355.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9762079_6">
+            <label text="NFE2L2 gene:NICD1"/>
+            <bbox w="130.0" h="37.0" x="388.0" y="458.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_201566_5">
+            <label text="NFE2L2"/>
+            <bbox w="104.0" h="23.0" x="47.0" y="346.0"/>
+        </glyph>
+        <arc class="production" id="arc_25_output_22" source="reactionVertex_9796080.2" target="entityVertex_9795932_25">
+            <start x="594.0" y="198.0"/>
+            <end x="594.0" y="198.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_10" source="entityVertex_9762042_4" target="reactionVertex_9762097.1">
+            <start x="640.0" y="366.0"/>
+            <next x="702.0" y="528.0"/>
+            <end x="702.0" y="528.0"/>
+        </arc>
+        <arc class="consumption" id="arc_9_input_8" source="entityVertex_157939_9" target="reactionVertex_9762102.1">
+            <start x="764.0" y="478.0"/>
+            <next x="705.0" y="478.0"/>
+            <end x="705.0" y="478.0"/>
+        </arc>
+        <arc class="consumption" id="arc_11_input_10" source="entityVertex_188379_11" target="reactionVertex_9762097.1">
+            <start x="765.0" y="528.0"/>
+            <next x="702.0" y="528.0"/>
+            <end x="702.0" y="528.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_25_activator_26" source="entityVertex_9795932_25" target="reactionVertex_9796060_26">
+            <start x="401.0" y="219.0"/>
+            <next x="341.0" y="244.0"/>
+            <end x="341.0" y="244.0"/>
+        </arc>
+        <arc class="production" id="arc_5_output_26" source="reactionVertex_9796060.2" target="entityVertex_201566_5">
+            <start x="593.0" y="255.0"/>
+            <end x="333.0" y="247.0"/>
+        </arc>
+        <arc class="consumption" id="arc_24_input_22" source="entityVertex_9760062_24" target="reactionVertex_9796080.1">
+            <start x="808.0" y="221.0"/>
+            <next x="744.0" y="202.0"/>
+            <end x="744.0" y="202.0"/>
+        </arc>
+        <arc class="consumption" id="arc_31_input_29" source="entityVertex_194047_31" target="reactionVertex_9796056.1">
+            <start x="798.0" y="328.0"/>
+            <next x="615.0" y="333.0"/>
+            <end x="615.0" y="333.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_26" source="entityVertex_9762042_4" target="reactionVertex_9796060.1">
+            <start x="333.0" y="247.0"/>
+            <end x="123.0" y="343.0"/>
+        </arc>
+        <arc class="production" id="arc_6_output_8" source="reactionVertex_9762102.2" target="entityVertex_9762079_6">
+            <start x="590.0" y="477.0"/>
+            <end x="590.0" y="477.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_8" source="entityVertex_9762042_4" target="reactionVertex_9762102.1">
+            <start x="640.0" y="366.0"/>
+            <next x="705.0" y="478.0"/>
+            <end x="705.0" y="478.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_29" source="entityVertex_9762042_4" target="reactionVertex_9796056.1">
+            <start x="640.0" y="366.0"/>
+            <next x="615.0" y="333.0"/>
+            <end x="615.0" y="333.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_6_activator_3" source="entityVertex_9762079_6" target="reactionVertex_9762100_3">
+            <start x="419.0" y="455.0"/>
+            <next x="345.0" y="415.0"/>
+            <end x="345.0" y="415.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_27" source="entityVertex_9762042_4" target="reactionVertex_9796046.1">
+            <start x="640.0" y="366.0"/>
+            <end x="327.0" y="349.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_28_activator_27" source="entityVertex_9795931_28" target="reactionVertex_9796046_27">
+            <start x="408.0" y="320.0"/>
+            <next x="335.0" y="346.0"/>
+            <end x="335.0" y="346.0"/>
+        </arc>
+        <arc class="production" id="arc_5_output_3" source="reactionVertex_9762100.2" target="entityVertex_201566_5">
+            <start x="337.0" y="411.0"/>
+            <end x="337.0" y="411.0"/>
+        </arc>
+        <arc class="production" id="arc_7_output_10" source="reactionVertex_9762097.2" target="entityVertex_9762083_7">
+            <start x="591.0" y="527.0"/>
+            <end x="591.0" y="527.0"/>
+        </arc>
+        <arc class="production" id="arc_5_output_27" source="reactionVertex_9796046.2" target="entityVertex_201566_5">
+            <start x="327.0" y="349.0"/>
+            <end x="327.0" y="349.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_7_activator_3" source="entityVertex_9762083_7" target="reactionVertex_9762100_3">
+            <start x="391.0" y="528.0"/>
+            <next x="338.0" y="530.0"/>
+            <next x="337.0" y="420.0"/>
+            <end x="337.0" y="420.0"/>
+        </arc>
+        <arc class="consumption" id="arc_23_input_22" source="entityVertex_1008242_23" target="reactionVertex_9796080.1">
+            <start x="815.0" y="178.0"/>
+            <next x="744.0" y="202.0"/>
+            <end x="744.0" y="202.0"/>
+        </arc>
+        <arc class="production" id="arc_28_output_29" source="reactionVertex_9796056.2" target="entityVertex_9795931_28">
+            <start x="591.0" y="301.0"/>
+            <end x="591.0" y="301.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_3" source="entityVertex_9762042_4" target="reactionVertex_9762100.1">
+            <start x="337.0" y="411.0"/>
+            <end x="154.0" y="368.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_22" source="entityVertex_9762042_4" target="reactionVertex_9796080.1">
+            <start x="640.0" y="366.0"/>
+            <next x="744.0" y="202.0"/>
+            <end x="744.0" y="202.0"/>
+        </arc>
+    </map>
+</sbgn>

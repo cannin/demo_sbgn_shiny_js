@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_2" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="863.0" y="349.0"/>
+            </label>
+            <bbox w="2816.0" h="3320.0" x="231.0" y="71.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_8857380_16125" compartmentOrder="10.0">
+            <label text="cytolytic granule lumen">
+                <bbox w="179.0" h="24.0" x="2095.0" y="3193.0"/>
+            </label>
+            <bbox w="225.0" h="103.0" x="2058.0" y="3142.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_13903" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="1769.0" y="1102.0"/>
+            </label>
+            <bbox w="1539.0" h="2025.0" x="1174.0" y="1072.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9714053_203470">
+            <label text="lorlatinib-resistant ALK mutants"/>
+            <bbox w="121.0" h="37.0" x="469.0" y="268.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_9702126_203471">
+            <label text="lorlatinib"/>
+            <bbox w="118.0" h="37.0" x="659.0" y="184.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9715355_203469">
+            <label text="lorlatinib-resistant ALK mutants don't bind lorlatinib"/>
+            <bbox w="12.0" h="12.0" x="739.0" y="144.0"/>
+            <port id="reactionVertex_9715355.1" x="735.0" y="149.0"/>
+            <port id="reactionVertex_9715355.2" x="755.0" y="145.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_203470_input_203469" source="entityVertex_9714053_203470" target="reactionVertex_9715355.1">
+            <start x="540.0" y="262.0"/>
+            <next x="613.0" y="149.0"/>
+            <end x="613.0" y="149.0"/>
+        </arc>
+        <arc class="consumption" id="arc_203471_input_203469" source="entityVertex_9702126_203471" target="reactionVertex_9715355.1">
+            <start x="681.0" y="181.0"/>
+            <next x="613.0" y="149.0"/>
+            <end x="613.0" y="149.0"/>
+        </arc>
+    </map>
+</sbgn>

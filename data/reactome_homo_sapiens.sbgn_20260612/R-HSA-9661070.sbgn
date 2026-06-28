@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_10" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="135.0" y="2446.0"/>
+            </label>
+            <bbox w="3186.0" h="2439.0" x="37.0" y="71.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_11" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="745.0" y="2347.0"/>
+            </label>
+            <bbox w="2307.0" h="2283.0" x="727.0" y="122.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9660658_183451">
+            <label text="RB1 mutants (localization)"/>
+            <bbox w="35.0" h="22.0" x="650.0" y="1269.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9660615_183450">
+            <label text="Defective RB1 does not translocate to the nucleus"/>
+            <bbox w="12.0" h="12.0" x="1541.0" y="1166.0"/>
+            <port id="reactionVertex_9660615.1" x="1537.0" y="1159.0"/>
+            <port id="reactionVertex_9660615.2" x="1557.0" y="1192.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_183451_input_183450" source="entityVertex_9660658_183451" target="reactionVertex_9660615.1">
+            <start x="691.0" y="1279.0"/>
+            <next x="1226.0" y="1277.0"/>
+            <next x="1336.0" y="1159.0"/>
+            <end x="1226.0" y="1277.0"/>
+        </arc>
+    </map>
+</sbgn>

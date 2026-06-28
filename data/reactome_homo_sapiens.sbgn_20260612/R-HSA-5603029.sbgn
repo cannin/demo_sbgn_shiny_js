@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_6" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="108.0" y="17.0"/>
+            </label>
+            <bbox w="1060.0" h="754.0" x="17.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_606" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="478.0" y="690.0"/>
+            </label>
+            <bbox w="445.0" h="156.0" x="443.0" y="581.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113592_1692">
+            <label text="ATP"/>
+            <bbox w="40.0" h="31.0" x="315.0" y="442.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_168155_1345">
+            <label text="NFKB1(1-433), NFKB2(1-454):RELA"/>
+            <bbox w="127.0" h="37.0" x="51.0" y="440.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5228863_140377">
+            <label text="NFKBIA variants"/>
+            <bbox w="89.0" h="23.0" x="81.0" y="367.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9630921_140376">
+            <label text="NFKBIA variant binds NFkB complex"/>
+            <bbox w="10.0" h="10.0" x="186.0" y="409.0"/>
+            <port id="reactionVertex_9630921.1" x="182.66667" y="415.0"/>
+            <port id="reactionVertex_9630921.2" x="199.33333" y="414.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5228811_140374">
+            <label text="NFKBIA variant is not phosphorylated within IkBA:NF-kappaB"/>
+            <bbox w="12.0" h="12.0" x="275.0" y="476.0"/>
+            <port id="reactionVertex_5228811.1" x="281.0" y="492.0"/>
+            <port id="reactionVertex_5228811.2" x="280.0" y="472.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_202513_1443">
+            <label text="CHUK:p-S177,S181-IKBKB:IKBKG"/>
+            <bbox w="118.0" h="37.0" x="508.0" y="453.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_5228828_140375">
+            <label text="NFKBIA variants:NFkB complex"/>
+            <bbox w="126.0" h="37.0" x="219.0" y="396.0"/>
+        </glyph>
+        <arc class="catalysis" id="arc_1443_catalyst_140374" source="entityVertex_202513_1443" target="reactionVertex_5228811_140374">
+            <start x="505.0" y="479.0"/>
+            <next x="494.0" y="481.0"/>
+            <next x="297.0" y="482.0"/>
+            <end x="297.0" y="482.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1345_input_140376" source="entityVertex_168155_1345" target="reactionVertex_9630921.1">
+            <start x="137.0" y="437.0"/>
+            <next x="169.0" y="415.0"/>
+            <end x="169.0" y="415.0"/>
+        </arc>
+        <arc class="consumption" id="arc_140377_input_140376" source="entityVertex_5228863_140377" target="reactionVertex_9630921.1">
+            <start x="138.0" y="396.0"/>
+            <next x="169.0" y="415.0"/>
+            <end x="169.0" y="415.0"/>
+        </arc>
+        <arc class="consumption" id="arc_140375_input_140374" source="entityVertex_5228828_140375" target="reactionVertex_5228811.1">
+            <start x="281.0" y="436.0"/>
+            <next x="281.0" y="457.0"/>
+            <end x="281.0" y="457.0"/>
+        </arc>
+        <arc class="production" id="arc_140375_output_140376" source="reactionVertex_9630921.2" target="entityVertex_5228828_140375">
+            <start x="191.0" y="414.0"/>
+            <end x="191.0" y="414.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1692_input_140374" source="entityVertex_113592_1692" target="reactionVertex_5228811.1">
+            <glyph class="stoichiometry" id="Stoichiometry_113592_INPUT_5228811">
+                <label text="4"/>
+                <bbox w="12.0" h="12.0" x="290.0" y="451.0"/>
+            </glyph>
+            <start x="312.0" y="457.0"/>
+            <next x="281.0" y="457.0"/>
+            <end x="281.0" y="457.0"/>
+        </arc>
+    </map>
+</sbgn>

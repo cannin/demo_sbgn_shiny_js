@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1065.0" y="469.0"/>
+            </label>
+            <bbox w="2190.0" h="735.0" x="0.0" y="119.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_163" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="523.0" y="518.0"/>
+            </label>
+            <bbox w="251.0" h="149.0" x="421.0" y="414.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5625599_144081">
+            <label text="SLC22A18 mutants"/>
+            <bbox w="70.0" h="25.0" x="1436.0" y="115.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_70106_104">
+            <label text="H+"/>
+            <bbox w="27.0" h="27.0" x="1448.0" y="201.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5625574_144080">
+            <label text="Defective SLC22A18 does not exchange extracellular organic cations for cytosolic H+"/>
+            <bbox w="12.0" h="12.0" x="1378.0" y="118.0"/>
+            <port id="reactionVertex_5625574.1" x="1386.0" y="134.0"/>
+            <port id="reactionVertex_5625574.2" x="1385.0" y="114.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_597604_105">
+            <label text="SLC22A18 substrates"/>
+            <bbox w="88.0" h="39.0" x="1291.0" y="0.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_105_input_144080" source="entityVertex_597604_105" target="reactionVertex_5625574.1">
+            <start x="1344.0" y="45.0"/>
+            <end x="1386.0" y="124.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_144081_catalyst_144080" source="entityVertex_5625599_144081" target="reactionVertex_5625574_144080">
+            <start x="1430.0" y="125.0"/>
+            <next x="1400.0" y="124.0"/>
+            <end x="1400.0" y="124.0"/>
+        </arc>
+        <arc class="consumption" id="arc_104_input_144080" source="entityVertex_70106_104" target="reactionVertex_5625574.1">
+            <start x="1449.0" y="198.0"/>
+            <end x="1386.0" y="124.0"/>
+        </arc>
+    </map>
+</sbgn>

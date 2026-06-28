@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_1" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="24.0" y="475.0"/>
+            </label>
+            <bbox w="802.0" h="525.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="uncertain process" id="reactionVertex_9815789_17">
+            <label text="Expression of SHH in axial mesoderm"/>
+            <bbox w="12.0" h="12.0" x="706.0" y="352.0"/>
+            <port id="reactionVertex_9815789.1" x="712.0" y="368.0"/>
+            <port id="reactionVertex_9815789.2" x="712.0" y="348.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9817449_20">
+            <label text="LEF1,TCF7:CTNNB1"/>
+            <bbox w="131.0" h="26.0" x="215.0" y="252.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9796225_2">
+            <label text="TEAD2,TEAD4:YAP1, TBXT, FOXH1, and SMAD2,3 bind the FOXA2 gene"/>
+            <bbox w="10.0" h="10.0" x="440.0" y="132.0"/>
+            <port id="reactionVertex_9796225.1" x="436.66666" y="138.0"/>
+            <port id="reactionVertex_9796225.2" x="453.33334" y="135.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9815786_18">
+            <label text="SHH gene"/>
+            <bbox w="69.0" h="51.0" x="634.0" y="221.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9796216_13">
+            <label text="NOTO"/>
+            <bbox w="49.0" h="24.0" x="173.0" y="421.0"/>
+        </glyph>
+        <glyph class="uncertain process" id="reactionVertex_9796300_11">
+            <label text="Expression of NOTO in axial mesoderm"/>
+            <bbox w="12.0" h="12.0" x="191.0" y="310.0"/>
+            <port id="reactionVertex_9796300.1" x="187.0" y="314.0"/>
+            <port id="reactionVertex_9796300.2" x="207.0" y="418.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9796270_4">
+            <label text="TEAD2:YAP1,TEAD4:YAP1"/>
+            <bbox w="174.0" h="24.0" x="72.0" y="67.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9796194_6">
+            <label text="FOXA2 gene"/>
+            <bbox w="88.0" h="51.0" x="116.0" y="143.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_452976_7">
+            <label text="TBXT"/>
+            <bbox w="45.0" h="23.0" x="30.0" y="102.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_453074_16">
+            <label text="FOXA1"/>
+            <bbox w="57.0" h="26.0" x="414.0" y="306.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_8869640_14">
+            <label text="TEAD2:YAP1"/>
+            <bbox w="95.0" h="25.0" x="160.0" y="220.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9815791_19">
+            <label text="SHH(24-462)"/>
+            <bbox w="93.0" h="24.0" x="667.0" y="431.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_211275_10">
+            <label text="FOXA2"/>
+            <bbox w="56.0" h="22.0" x="515.0" y="258.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9796200_12">
+            <label text="NOTO gene"/>
+            <bbox w="78.0" h="51.0" x="42.0" y="312.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9796240_8">
+            <label text="TEAD2,TEAD4:YAP1:FOXH1:p-SMAD2,3:TBXT:FOXA2 gene"/>
+            <bbox w="186.0" h="41.0" x="529.0" y="114.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_1225914_5">
+            <label text="FOXH1"/>
+            <bbox w="57.0" h="24.0" x="324.0" y="30.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9796209_9">
+            <label text="Expression of FOXA2 in the anterior primitive streak"/>
+            <bbox w="12.0" h="12.0" x="538.0" y="194.0"/>
+            <port id="reactionVertex_9796209.1" x="534.0" y="145.0"/>
+            <port id="reactionVertex_9796209.2" x="554.0" y="255.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_177105_3">
+            <label text="p-2S-SMAD2,3"/>
+            <bbox w="104.0" h="23.0" x="200.0" y="32.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_3_input_2" source="entityVertex_177105_3" target="reactionVertex_9796225.1">
+            <start x="261.0" y="61.0"/>
+            <next x="332.0" y="138.0"/>
+            <end x="332.0" y="138.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7_input_2" source="entityVertex_452976_7" target="reactionVertex_9796225.1">
+            <start x="78.0" y="115.0"/>
+            <next x="332.0" y="138.0"/>
+            <end x="332.0" y="138.0"/>
+        </arc>
+        <arc class="consumption" id="arc_12_input_11" source="entityVertex_9796200_12" target="reactionVertex_9796300.1">
+            <start x="129.0" y="314.0"/>
+            <end x="197.0" y="316.0"/>
+        </arc>
+        <arc class="production" id="arc_13_output_11" source="reactionVertex_9796300.2" target="entityVertex_9796216_13">
+            <start x="197.0" y="316.0"/>
+            <end x="197.0" y="316.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_8_activator_9" source="entityVertex_9796240_8" target="reactionVertex_9796209_9">
+            <start x="597.0" y="158.0"/>
+            <next x="551.0" y="194.0"/>
+            <end x="551.0" y="194.0"/>
+        </arc>
+        <arc class="production" id="arc_8_output_2" source="reactionVertex_9796225.2" target="entityVertex_9796240_8">
+            <start x="445.0" y="137.0"/>
+            <end x="445.0" y="137.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_10_activator_11" source="entityVertex_211275_10" target="reactionVertex_9796300_11">
+            <start x="512.0" y="272.0"/>
+            <next x="206.0" y="315.0"/>
+            <end x="206.0" y="315.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_10_activator_17" source="entityVertex_211275_10" target="reactionVertex_9815789_17">
+            <start x="563.0" y="283.0"/>
+            <next x="704.0" y="354.0"/>
+            <end x="704.0" y="354.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_20_activator_11" source="entityVertex_9817449_20" target="reactionVertex_9796300_11">
+            <start x="258.0" y="281.0"/>
+            <next x="205.0" y="312.0"/>
+            <end x="205.0" y="312.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5_input_2" source="entityVertex_1225914_5" target="reactionVertex_9796225.1">
+            <start x="349.0" y="57.0"/>
+            <next x="332.0" y="138.0"/>
+            <end x="332.0" y="138.0"/>
+        </arc>
+        <arc class="consumption" id="arc_6_input_2" source="entityVertex_9796194_6" target="reactionVertex_9796225.1">
+            <start x="213.0" y="145.0"/>
+            <next x="332.0" y="138.0"/>
+            <end x="332.0" y="138.0"/>
+        </arc>
+        <arc class="production" id="arc_19_output_17" source="reactionVertex_9815789.2" target="entityVertex_9815791_19">
+            <start x="712.0" y="358.0"/>
+            <end x="712.0" y="358.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_7_activator_11" source="entityVertex_452976_7" target="reactionVertex_9796300_11">
+            <start x="60.0" y="128.0"/>
+            <next x="192.0" y="309.0"/>
+            <end x="192.0" y="309.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_16_activator_17" source="entityVertex_453074_16" target="reactionVertex_9815789_17">
+            <start x="474.0" y="323.0"/>
+            <next x="703.0" y="357.0"/>
+            <end x="703.0" y="357.0"/>
+        </arc>
+        <arc class="production" id="arc_10_output_9" source="reactionVertex_9796209.2" target="entityVertex_211275_10">
+            <start x="544.0" y="200.0"/>
+            <end x="544.0" y="200.0"/>
+        </arc>
+        <arc class="consumption" id="arc_6_input_9" source="entityVertex_9796194_6" target="reactionVertex_9796209.1">
+            <start x="544.0" y="200.0"/>
+            <end x="543.0" y="255.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_16_activator_11" source="entityVertex_453074_16" target="reactionVertex_9796300_11">
+            <start x="411.0" y="318.0"/>
+            <next x="206.0" y="316.0"/>
+            <end x="206.0" y="316.0"/>
+        </arc>
+        <arc class="consumption" id="arc_18_input_17" source="entityVertex_9815786_18" target="reactionVertex_9815789.1">
+            <start x="712.0" y="358.0"/>
+            <end x="712.0" y="428.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_2" source="entityVertex_9796270_4" target="reactionVertex_9796225.1">
+            <start x="194.0" y="97.0"/>
+            <next x="332.0" y="138.0"/>
+            <end x="332.0" y="138.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_14_activator_11" source="entityVertex_8869640_14" target="reactionVertex_9796300_11">
+            <start x="205.0" y="248.0"/>
+            <next x="198.0" y="307.0"/>
+            <end x="198.0" y="307.0"/>
+        </arc>
+    </map>
+</sbgn>

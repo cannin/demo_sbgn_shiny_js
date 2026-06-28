@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="34.0" y="618.0"/>
+            </label>
+            <bbox w="293.0" h="1031.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_4084521_128">
+            <label text="Endostatin dimer"/>
+            <bbox w="125.0" h="27.0" x="588.0" y="408.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_349628_54">
+            <label text="Integrin alpha2beta1:Laminin-332"/>
+            <bbox w="148.0" h="41.0" x="245.0" y="258.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_216048_5">
+            <label text="Integrins alpha3beta1, alpha6beta4 bind laminin-332, 511, 521, (211, 221)"/>
+            <bbox w="10.0" h="10.0" x="307.0" y="84.0"/>
+            <port id="reactionVertex_216048.1" x="312.0" y="97.333336"/>
+            <port id="reactionVertex_216048.2" x="315.0" y="80.666664"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_2465849_102">
+            <label text="Laminins:Sulfatide"/>
+            <bbox w="120.0" h="28.0" x="555.0" y="969.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2426622_4">
+            <label text="Laminin network"/>
+            <bbox w="125.0" h="27.0" x="658.0" y="829.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_2426291_90">
+            <label text="Laminins with gamma-1, gamma-3:Nidogens:HSPG2"/>
+            <bbox w="136.0" h="53.0" x="760.0" y="585.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_215998_41">
+            <label text="Integrin alpha7beta1"/>
+            <bbox w="143.0" h="27.0" x="219.0" y="842.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_216058_36">
+            <label text="Integrin alpha7beta1 binds Laminin-211, 221, 411, 512, 521"/>
+            <bbox w="10.0" h="10.0" x="291.0" y="920.0"/>
+            <port id="reactionVertex_216058.1" x="294.0" y="933.3333"/>
+            <port id="reactionVertex_216058.2" x="300.0" y="916.6667"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_2426450_103">
+            <label text="Laminins:Nidogens binds collagen type IV networks"/>
+            <bbox w="10.0" h="10.0" x="797.0" y="508.0"/>
+            <port id="reactionVertex_2426450.1" x="793.6667" y="515.0"/>
+            <port id="reactionVertex_2426450.2" x="810.3333" y="513.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_216001_11">
+            <label text="Laminin-332"/>
+            <bbox w="78.0" h="23.0" x="381.0" y="188.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2465899_101">
+            <label text="Sulfatide"/>
+            <bbox w="92.0" h="33.0" x="632.0" y="872.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_215989_50">
+            <label text="Laminin-111"/>
+            <bbox w="90.0" h="25.0" x="450.0" y="372.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2564668_44">
+            <label text="Collagen IV"/>
+            <bbox w="71.0" h="23.0" x="737.0" y="190.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_2426530_89">
+            <label text="Laminins:Nidogens binds HSPG2"/>
+            <bbox w="10.0" h="10.0" x="722.0" y="612.0"/>
+            <port id="reactionVertex_2426530.1" x="718.6667" y="617.0"/>
+            <port id="reactionVertex_2426530.2" x="735.3333" y="615.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_216051_46">
+            <label text="Integrin alpha6beta1, alpha7beta1, alpha1beta1, alpha2beta1 bind laminin-111"/>
+            <bbox w="10.0" h="10.0" x="300.0" y="470.0"/>
+            <port id="reactionVertex_216051.1" x="307.0" y="483.33334"/>
+            <port id="reactionVertex_216051.2" x="306.0" y="466.66666"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_114561_53">
+            <label text="ITGA2:ITGB1"/>
+            <bbox w="99.0" h="26.0" x="260.0" y="168.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2426529_57">
+            <label text="Laminins with gamma-1, gamma-3"/>
+            <bbox w="114.0" h="47.0" x="618.0" y="465.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_4084501_125">
+            <label text="Collagen type VII binds collagen type IV"/>
+            <bbox w="10.0" h="10.0" x="800.0" y="99.0"/>
+            <port id="reactionVertex_4084501.1" x="796.6667" y="103.0"/>
+            <port id="reactionVertex_4084501.2" x="813.3333" y="104.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2214333_123">
+            <label text="Collagen type VII fibril"/>
+            <bbox w="150.0" h="35.0" x="426.0" y="80.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_2426371_106">
+            <label text="Collagen type IV network:Laminin-1"/>
+            <bbox w="133.0" h="37.0" x="854.0" y="316.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_3907294_9">
+            <label text="Integrin alpha3beta1, alpha6beta4:Laminins-332, 511, 521, (211, 221)"/>
+            <bbox w="167.0" h="50.0" x="237.0" y="107.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_2396083_91">
+            <label text="Laminins bind galactosyl sulfatide and related sulfated glycolipids"/>
+            <bbox w="10.0" h="10.0" x="608.0" y="935.0"/>
+            <port id="reactionVertex_2396083.1" x="613.0" y="948.3333"/>
+            <port id="reactionVertex_2396083.2" x="614.0" y="931.6667"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_3787997_122">
+            <label text="Laminin-332 binds collagen type VII"/>
+            <bbox w="10.0" h="10.0" x="594.0" y="129.0"/>
+            <port id="reactionVertex_3787997.1" x="590.6667" y="135.0"/>
+            <port id="reactionVertex_3787997.2" x="607.3333" y="133.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_4084530_66">
+            <label text="Laminins with alpha-1, -2 or -5"/>
+            <bbox w="130.0" h="42.0" x="658.0" y="651.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_2426517_63">
+            <label text="Laminins with gamma-1, gamma-3:Nidogens 1,2"/>
+            <bbox w="156.0" h="38.0" x="514.0" y="567.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_4084617_129">
+            <label text="Laminin-111:Endostatin dimer"/>
+            <bbox w="115.0" h="39.0" x="859.0" y="366.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_4084523_126">
+            <label text="Collagen type IV networks:Collagen type VII fibril"/>
+            <bbox w="129.0" h="55.0" x="836.0" y="77.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_4084512_73">
+            <label text="Laminins with alpha-1, -2 or -5:HSPG2(22-4391)"/>
+            <bbox w="155.0" h="41.0" x="561.0" y="749.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2328121_92">
+            <label text="Laminins"/>
+            <bbox w="82.0" h="21.0" x="536.0" y="871.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_349626_52">
+            <label text="Integrin alpha2beta1 binds laminin-332"/>
+            <bbox w="10.0" h="10.0" x="310.0" y="231.0"/>
+            <port id="reactionVertex_349626.1" x="314.0" y="244.33333"/>
+            <port id="reactionVertex_349626.2" x="317.0" y="227.66667"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_215995_42">
+            <label text="Integrin alpha7beta1:Laminin-211, 221, 411, 512, 521"/>
+            <bbox w="135.0" h="52.0" x="237.0" y="955.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2426651_3">
+            <label text="Laminins"/>
+            <bbox w="78.0" h="25.0" x="530.0" y="830.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2426352_7">
+            <label text="Laminins-332, 511, 521, (211, 221)"/>
+            <bbox w="123.0" h="37.0" x="403.0" y="30.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2426349_6">
+            <label text="Integrin alpha3beta1, alpha6beta4"/>
+            <bbox w="130.0" h="37.0" x="241.0" y="1.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_3907306_15">
+            <label text="Laminin-211, 221, 332, 411, 512, 521"/>
+            <bbox w="137.0" h="39.0" x="375.0" y="685.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_388771_56">
+            <label text="Nidogens 1, 2"/>
+            <bbox w="97.0" h="25.0" x="490.0" y="468.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_1011570_65">
+            <label text="HSPG2(22-4391)"/>
+            <bbox w="122.0" h="27.0" x="517.0" y="639.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_3907291_47">
+            <label text="Integrin alpha6beta1, alpha7beta1, alpha1beta1, alpha2beta1, alphaVbeta1"/>
+            <bbox w="132.0" h="93.0" x="240.0" y="315.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_204443_19">
+            <label text="Integrin alpha6beta1"/>
+            <bbox w="143.0" h="28.0" x="220.0" y="656.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_4084505_64">
+            <label text="Laminins bind HSPG2"/>
+            <bbox w="10.0" h="10.0" x="629.0" y="713.0"/>
+            <port id="reactionVertex_4084505.1" x="630.0" y="726.3333"/>
+            <port id="reactionVertex_4084505.2" x="636.0" y="709.6667"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_3907299_37">
+            <label text="Laminin-211, 221, 411, 512, 521"/>
+            <bbox w="118.0" h="37.0" x="378.0" y="862.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_3907290_51">
+            <label text="Integrin alpha6beta1, alpha7beta1, alpha1beta1, alpha2beta1, alphaVbeta1:Laminin-111"/>
+            <bbox w="121.0" h="108.0" x="250.0" y="509.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_2426607_104">
+            <label text="Laminins with gamma-1, gamma-3:Nidogens:Collagen type IV network"/>
+            <bbox w="138.0" h="73.0" x="832.0" y="478.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_4084507_127">
+            <label text="Laminin-111 binds endostatin dimer"/>
+            <bbox w="10.0" h="10.0" x="819.0" y="382.0"/>
+            <port id="reactionVertex_4084507.1" x="815.6667" y="387.0"/>
+            <port id="reactionVertex_4084507.2" x="832.3333" y="386.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_2327803_55">
+            <label text="Laminins bind Nidogens 1, 2"/>
+            <bbox w="10.0" h="10.0" x="586.0" y="534.0"/>
+            <port id="reactionVertex_2327803.1" x="589.0" y="547.3333"/>
+            <port id="reactionVertex_2327803.2" x="591.0" y="530.6667"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_2426676_2">
+            <label text="Formation of laminin networks"/>
+            <bbox w="10.0" h="10.0" x="627.0" y="838.0"/>
+            <port id="reactionVertex_2426676.1" x="623.6667" y="842.0"/>
+            <port id="reactionVertex_2426676.2" x="640.3333" y="842.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_3907292_14">
+            <label text="Integrin alpha6beta1 binds laminin-322, 512, 521, 211, 221, 411"/>
+            <bbox w="10.0" h="10.0" x="289.0" y="738.0"/>
+            <port id="reactionVertex_3907292.1" x="291.0" y="751.3333"/>
+            <port id="reactionVertex_3907292.2" x="293.0" y="734.6667"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_3907287_20">
+            <label text="Integrin alpha6beta1:Laminin-211, 221, 332, 411, 512, 521"/>
+            <bbox w="141.0" h="56.0" x="222.0" y="767.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_2220790_124">
+            <label text="Collagen type VII fibril:Laminin-332"/>
+            <bbox w="134.0" h="37.0" x="626.0" y="114.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_2328145_105">
+            <label text="Laminin-111 binds collagen type IV"/>
+            <bbox w="10.0" h="10.0" x="819.0" y="323.0"/>
+            <port id="reactionVertex_2328145.1" x="815.6667" y="328.0"/>
+            <port id="reactionVertex_2328145.2" x="832.3333" y="329.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_101_input_91" source="entityVertex_2465899_101" target="reactionVertex_2396083.1">
+            <start x="649.0" y="908.0"/>
+            <next x="613.0" y="926.0"/>
+            <end x="613.0" y="926.0"/>
+        </arc>
+        <arc class="consumption" id="arc_123_input_125" source="entityVertex_2214333_123" target="reactionVertex_4084501.1">
+            <start x="579.0" y="98.0"/>
+            <next x="781.0" y="103.0"/>
+            <end x="781.0" y="103.0"/>
+        </arc>
+        <arc class="consumption" id="arc_47_input_46" source="entityVertex_3907291_47" target="reactionVertex_216051.1">
+            <start x="306.0" y="414.0"/>
+            <next x="307.0" y="446.0"/>
+            <end x="307.0" y="446.0"/>
+        </arc>
+        <arc class="consumption" id="arc_65_input_64" source="entityVertex_1011570_65" target="reactionVertex_4084505.1">
+            <start x="593.0" y="669.0"/>
+            <next x="630.0" y="696.0"/>
+            <end x="630.0" y="696.0"/>
+        </arc>
+        <arc class="consumption" id="arc_19_input_14" source="entityVertex_204443_19" target="reactionVertex_3907292.1">
+            <start x="291.0" y="687.0"/>
+            <next x="291.0" y="720.0"/>
+            <end x="291.0" y="720.0"/>
+        </arc>
+        <arc class="production" id="arc_90_output_89" source="reactionVertex_2426530.2" target="entityVertex_2426291_90">
+            <start x="727.0" y="617.0"/>
+            <end x="727.0" y="617.0"/>
+        </arc>
+        <arc class="consumption" id="arc_63_input_89" source="entityVertex_2426517_63" target="reactionVertex_2426530.1">
+            <start x="658.0" y="608.0"/>
+            <next x="701.0" y="617.0"/>
+            <end x="701.0" y="617.0"/>
+        </arc>
+        <arc class="consumption" id="arc_37_input_36" source="entityVertex_3907299_37" target="reactionVertex_216058.1">
+            <start x="372.0" y="889.0"/>
+            <next x="294.0" y="904.0"/>
+            <end x="294.0" y="904.0"/>
+        </arc>
+        <arc class="consumption" id="arc_128_input_127" source="entityVertex_4084521_128" target="reactionVertex_4084507.1">
+            <start x="709.0" y="405.0"/>
+            <next x="801.0" y="387.0"/>
+            <end x="801.0" y="387.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3_input_2" source="entityVertex_2426651_3" target="reactionVertex_2426676.1">
+            <start x="614.0" y="842.0"/>
+            <end x="632.0" y="843.0"/>
+        </arc>
+        <arc class="production" id="arc_4_output_2" source="reactionVertex_2426676.2" target="entityVertex_2426622_4">
+            <start x="632.0" y="843.0"/>
+            <end x="632.0" y="843.0"/>
+        </arc>
+        <arc class="production" id="arc_63_output_55" source="reactionVertex_2327803.2" target="entityVertex_2426517_63">
+            <start x="591.0" y="539.0"/>
+            <end x="591.0" y="539.0"/>
+        </arc>
+        <arc class="consumption" id="arc_53_input_52" source="entityVertex_114561_53" target="reactionVertex_349626.1">
+            <start x="310.0" y="197.0"/>
+            <next x="314.0" y="215.0"/>
+            <end x="314.0" y="215.0"/>
+        </arc>
+        <arc class="production" id="arc_106_output_105" source="reactionVertex_2328145.2" target="entityVertex_2426371_106">
+            <start x="824.0" y="328.0"/>
+            <end x="824.0" y="328.0"/>
+        </arc>
+        <arc class="consumption" id="arc_63_input_103" source="entityVertex_2426517_63" target="reactionVertex_2426450.1">
+            <start x="640.0" y="564.0"/>
+            <next x="772.0" y="515.0"/>
+            <end x="772.0" y="515.0"/>
+        </arc>
+        <arc class="consumption" id="arc_65_input_89" source="entityVertex_1011570_65" target="reactionVertex_2426530.1">
+            <start x="625.0" y="636.0"/>
+            <next x="701.0" y="617.0"/>
+            <end x="701.0" y="617.0"/>
+        </arc>
+        <arc class="consumption" id="arc_44_input_103" source="entityVertex_2564668_44" target="reactionVertex_2426450.1">
+            <start x="772.0" y="219.0"/>
+            <next x="772.0" y="515.0"/>
+            <end x="772.0" y="515.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7_input_5" source="entityVertex_2426352_7" target="reactionVertex_216048.1">
+            <start x="397.0" y="56.0"/>
+            <next x="312.0" y="68.0"/>
+            <end x="312.0" y="68.0"/>
+        </arc>
+        <arc class="consumption" id="arc_66_input_64" source="entityVertex_4084530_66" target="reactionVertex_4084505.1">
+            <start x="652.0" y="688.0"/>
+            <next x="630.0" y="696.0"/>
+            <end x="630.0" y="696.0"/>
+        </arc>
+        <arc class="consumption" id="arc_44_input_125" source="entityVertex_2564668_44" target="reactionVertex_4084501.1">
+            <start x="773.0" y="184.0"/>
+            <next x="781.0" y="103.0"/>
+            <end x="781.0" y="103.0"/>
+        </arc>
+        <arc class="production" id="arc_9_output_5" source="reactionVertex_216048.2" target="entityVertex_3907294_9">
+            <start x="312.0" y="89.0"/>
+            <end x="312.0" y="89.0"/>
+        </arc>
+        <arc class="consumption" id="arc_15_input_14" source="entityVertex_3907306_15" target="reactionVertex_3907292.1">
+            <start x="369.0" y="711.0"/>
+            <next x="291.0" y="720.0"/>
+            <end x="291.0" y="720.0"/>
+        </arc>
+        <arc class="consumption" id="arc_123_input_122" source="entityVertex_2214333_123" target="reactionVertex_3787997.1">
+            <start x="531.0" y="118.0"/>
+            <next x="567.0" y="135.0"/>
+            <end x="567.0" y="135.0"/>
+        </arc>
+        <arc class="consumption" id="arc_6_input_5" source="entityVertex_2426349_6" target="reactionVertex_216048.1">
+            <start x="308.0" y="44.0"/>
+            <next x="312.0" y="68.0"/>
+            <end x="312.0" y="68.0"/>
+        </arc>
+        <arc class="production" id="arc_126_output_125" source="reactionVertex_4084501.2" target="entityVertex_4084523_126">
+            <start x="805.0" y="104.0"/>
+            <end x="805.0" y="104.0"/>
+        </arc>
+        <arc class="consumption" id="arc_11_input_52" source="entityVertex_216001_11" target="reactionVertex_349626.1">
+            <start x="378.0" y="204.0"/>
+            <next x="314.0" y="215.0"/>
+            <end x="314.0" y="215.0"/>
+        </arc>
+        <arc class="consumption" id="arc_44_input_105" source="entityVertex_2564668_44" target="reactionVertex_2328145.1">
+            <start x="774.0" y="219.0"/>
+            <next x="796.0" y="328.0"/>
+            <end x="796.0" y="328.0"/>
+        </arc>
+        <arc class="consumption" id="arc_92_input_91" source="entityVertex_2328121_92" target="reactionVertex_2396083.1">
+            <start x="585.0" y="898.0"/>
+            <next x="613.0" y="926.0"/>
+            <end x="613.0" y="926.0"/>
+        </arc>
+        <arc class="consumption" id="arc_56_input_55" source="entityVertex_388771_56" target="reactionVertex_2327803.1">
+            <start x="553.0" y="499.0"/>
+            <next x="589.0" y="520.0"/>
+            <end x="589.0" y="520.0"/>
+        </arc>
+        <arc class="production" id="arc_73_output_64" source="reactionVertex_4084505.2" target="entityVertex_4084512_73">
+            <start x="634.0" y="718.0"/>
+            <end x="634.0" y="718.0"/>
+        </arc>
+        <arc class="consumption" id="arc_11_input_122" source="entityVertex_216001_11" target="reactionVertex_3787997.1">
+            <start x="446.0" y="185.0"/>
+            <next x="567.0" y="135.0"/>
+            <end x="567.0" y="135.0"/>
+        </arc>
+        <arc class="production" id="arc_20_output_14" source="reactionVertex_3907292.2" target="entityVertex_3907287_20">
+            <start x="294.0" y="743.0"/>
+            <end x="294.0" y="743.0"/>
+        </arc>
+        <arc class="consumption" id="arc_50_input_127" source="entityVertex_215989_50" target="reactionVertex_4084507.1">
+            <start x="543.0" y="384.0"/>
+            <next x="801.0" y="387.0"/>
+            <end x="801.0" y="387.0"/>
+        </arc>
+        <arc class="production" id="arc_102_output_91" source="reactionVertex_2396083.2" target="entityVertex_2465849_102">
+            <start x="613.0" y="940.0"/>
+            <end x="613.0" y="940.0"/>
+        </arc>
+        <arc class="production" id="arc_54_output_52" source="reactionVertex_349626.2" target="entityVertex_349628_54">
+            <start x="315.0" y="236.0"/>
+            <end x="315.0" y="236.0"/>
+        </arc>
+        <arc class="production" id="arc_51_output_46" source="reactionVertex_216051.2" target="entityVertex_3907290_51">
+            <start x="305.0" y="475.0"/>
+            <end x="305.0" y="475.0"/>
+        </arc>
+        <arc class="production" id="arc_129_output_127" source="reactionVertex_4084507.2" target="entityVertex_4084617_129">
+            <start x="824.0" y="387.0"/>
+            <end x="824.0" y="387.0"/>
+        </arc>
+        <arc class="consumption" id="arc_50_input_105" source="entityVertex_215989_50" target="reactionVertex_2328145.1">
+            <start x="543.0" y="375.0"/>
+            <next x="796.0" y="328.0"/>
+            <end x="796.0" y="328.0"/>
+        </arc>
+        <arc class="consumption" id="arc_57_input_55" source="entityVertex_2426529_57" target="reactionVertex_2327803.1">
+            <start x="612.0" y="509.0"/>
+            <next x="589.0" y="520.0"/>
+            <end x="589.0" y="520.0"/>
+        </arc>
+        <arc class="consumption" id="arc_50_input_46" source="entityVertex_215989_50" target="reactionVertex_216051.1">
+            <start x="457.0" y="400.0"/>
+            <next x="307.0" y="446.0"/>
+            <end x="307.0" y="446.0"/>
+        </arc>
+        <arc class="consumption" id="arc_41_input_36" source="entityVertex_215998_41" target="reactionVertex_216058.1">
+            <start x="291.0" y="872.0"/>
+            <next x="294.0" y="904.0"/>
+            <end x="294.0" y="904.0"/>
+        </arc>
+        <arc class="production" id="arc_42_output_36" source="reactionVertex_216058.2" target="entityVertex_215995_42">
+            <start x="296.0" y="925.0"/>
+            <end x="296.0" y="925.0"/>
+        </arc>
+        <arc class="production" id="arc_124_output_122" source="reactionVertex_3787997.2" target="entityVertex_2220790_124">
+            <start x="599.0" y="134.0"/>
+            <end x="599.0" y="134.0"/>
+        </arc>
+        <arc class="production" id="arc_104_output_103" source="reactionVertex_2426450.2" target="entityVertex_2426607_104">
+            <start x="802.0" y="513.0"/>
+            <end x="802.0" y="513.0"/>
+        </arc>
+    </map>
+</sbgn>

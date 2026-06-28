@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_44" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="29.0" y="1874.0"/>
+            </label>
+            <bbox w="1936.0" h="1972.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_45" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="101.0" y="1786.0"/>
+            </label>
+            <bbox w="1722.0" h="1467.0" x="39.0" y="379.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9720037_203614">
+            <label text="TP53 mutants (tetramerization)"/>
+            <bbox w="40.0" h="22.0" x="422.0" y="670.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9723906_203613">
+            <label text="Defective TP53 does not tetramerize"/>
+            <bbox w="12.0" h="12.0" x="539.0" y="675.0"/>
+            <port id="reactionVertex_9723906.1" x="535.0" y="681.0"/>
+            <port id="reactionVertex_9723906.2" x="555.0" y="679.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_203614_input_203613" source="entityVertex_9720037_203614" target="reactionVertex_9723906.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9720037_INPUT_9723906">
+                <label text="4"/>
+                <bbox w="12.0" h="12.0" x="500.0" y="675.0"/>
+            </glyph>
+            <start x="468.0" y="681.0"/>
+            <end x="545.0" y="681.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_7660_1" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="34.0" y="498.0"/>
+            </label>
+            <bbox w="745.0" h="545.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113560_8">
+            <label text="Ac-CoA"/>
+            <bbox w="59.0" h="31.0" x="276.0" y="288.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9922976_3">
+            <label text="p-S90-BMAL1:p-T451,T461-CLOCK:target gene"/>
+            <bbox w="306.0" h="41.0" x="206.0" y="42.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113582_5">
+            <label text="ADP"/>
+            <bbox w="50.0" h="31.0" x="271.0" y="181.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9923022_6">
+            <label text="p-S90-BMAL1:p-T451,T461,S440,S441,S446-CLOCK:target gene"/>
+            <bbox w="408.0" h="40.0" x="163.0" y="233.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9920716_7">
+            <label text="CLOCK acetylates BMAL1 on lysine-538"/>
+            <bbox w="12.0" h="12.0" x="361.0" y="336.0"/>
+            <port id="reactionVertex_9920716.1" x="367.0" y="352.0"/>
+            <port id="reactionVertex_9920716.2" x="368.0" y="332.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29358_4">
+            <label text="ATP"/>
+            <bbox w="47.0" h="31.0" x="267.0" y="93.0"/>
+        </glyph>
+        <glyph class="uncertain process" id="reactionVertex_9920724_2">
+            <label text="p-T451,T461-CLOCK is phosphorylated on serines-440,441,446"/>
+            <bbox w="12.0" h="12.0" x="354.0" y="144.0"/>
+            <port id="reactionVertex_9920724.1" x="359.0" y="160.0"/>
+            <port id="reactionVertex_9920724.2" x="363.0" y="140.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9923009_9">
+            <label text="p-S90,Ac-K538-BMAL1:p-T451,T461,S440,S441,S446-CLOCK:target gene"/>
+            <bbox w="479.0" h="44.0" x="132.0" y="443.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2485002_10">
+            <label text="CoA-SH"/>
+            <bbox w="62.0" h="31.0" x="274.0" y="372.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_6_input_7" source="entityVertex_9923022_6" target="reactionVertex_9920716.1">
+            <start x="360.0" y="279.0"/>
+            <next x="367.0" y="312.0"/>
+            <end x="367.0" y="312.0"/>
+        </arc>
+        <arc class="production" id="arc_9_output_7" source="reactionVertex_9920716.2" target="entityVertex_9923009_9">
+            <start x="370.0" y="437.0"/>
+            <next x="368.0" y="368.0"/>
+            <end x="368.0" y="368.0"/>
+        </arc>
+        <arc class="production" id="arc_6_output_2" source="reactionVertex_9920724.2" target="entityVertex_9923022_6">
+            <start x="365.0" y="227.0"/>
+            <next x="363.0" y="182.0"/>
+            <end x="363.0" y="182.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_2" source="entityVertex_29358_4" target="reactionVertex_9920724.1">
+            <glyph class="stoichiometry" id="Stoichiometry_29358_INPUT_9920724">
+                <label text="3"/>
+                <bbox w="12.0" h="12.0" x="332.0" y="110.0"/>
+            </glyph>
+            <start x="317.0" y="112.0"/>
+            <next x="359.0" y="120.0"/>
+            <end x="359.0" y="120.0"/>
+        </arc>
+        <arc class="production" id="arc_5_output_2" source="reactionVertex_9920724.2" target="entityVertex_113582_5">
+            <glyph class="stoichiometry" id="Stoichiometry_113582_OUTPUT_9920724">
+                <label text="3"/>
+                <bbox w="12.0" h="12.0" x="337.0" y="180.0"/>
+            </glyph>
+            <start x="324.0" y="190.0"/>
+            <next x="363.0" y="182.0"/>
+            <end x="363.0" y="182.0"/>
+        </arc>
+        <arc class="consumption" id="arc_8_input_7" source="entityVertex_113560_8" target="reactionVertex_9920716.1">
+            <start x="338.0" y="307.0"/>
+            <next x="367.0" y="312.0"/>
+            <end x="367.0" y="312.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_6_catalyst_7" source="entityVertex_9923022_6" target="reactionVertex_9920716_7">
+            <start x="367.0" y="279.0"/>
+            <next x="367.0" y="326.0"/>
+            <end x="367.0" y="326.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3_input_2" source="entityVertex_9922976_3" target="reactionVertex_9920724.1">
+            <start x="359.0" y="89.0"/>
+            <next x="359.0" y="120.0"/>
+            <end x="359.0" y="120.0"/>
+        </arc>
+        <arc class="production" id="arc_10_output_7" source="reactionVertex_9920716.2" target="entityVertex_2485002_10">
+            <start x="339.0" y="377.0"/>
+            <next x="368.0" y="368.0"/>
+            <end x="368.0" y="368.0"/>
+        </arc>
+    </map>
+</sbgn>

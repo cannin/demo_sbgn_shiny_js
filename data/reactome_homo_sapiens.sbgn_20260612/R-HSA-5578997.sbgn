@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1681.0" y="841.0"/>
+            </label>
+            <bbox w="4538.0" h="1801.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_1554" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="4277.0" y="524.0"/>
+            </label>
+            <bbox w="246.0" h="304.0" x="4266.0" y="265.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17927_308" compartmentOrder="10.0">
+            <label text="mitochondrial intermembrane space">
+                <bbox w="280.0" h="24.0" x="1950.0" y="1034.0"/>
+            </label>
+            <bbox w="1743.0" h="611.0" x="1933.0" y="1031.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_27" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="571.0" y="1490.0"/>
+            </label>
+            <bbox w="557.0" h="887.0" x="225.0" y="653.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_1708" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="41.0" y="533.0"/>
+            </label>
+            <bbox w="248.0" h="363.0" x="27.0" y="226.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_733" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="2732.0" y="33.0"/>
+            </label>
+            <bbox w="660.0" h="152.0" x="2559.0" y="20.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_223" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="3231.0" y="1081.0"/>
+            </label>
+            <bbox w="1681.0" h="549.0" x="1962.0" y="1068.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29356_138">
+            <label text="H2O"/>
+            <bbox w="43.0" h="31.0" x="3697.0" y="768.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_71285_111">
+            <label text="AdoHcy"/>
+            <bbox w="61.0" h="31.0" x="3808.0" y="727.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9638054_123523">
+            <label text="AHCY mutants:NAD+ tetramer"/>
+            <bbox w="85.0" h="37.0" x="3578.0" y="668.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5579084_123522">
+            <label text="Defective AHCY does not hydrolyse AdoHcy"/>
+            <bbox w="12.0" h="12.0" x="3613.0" y="735.0"/>
+            <port id="reactionVertex_5579084.1" x="3609.0" y="741.0"/>
+            <port id="reactionVertex_5579084.2" x="3629.0" y="741.0"/>
+        </glyph>
+        <arc class="catalysis" id="arc_123523_catalyst_123522" source="entityVertex_9638054_123523" target="reactionVertex_5579084_123522">
+            <start x="3619.0" y="708.0"/>
+            <next x="3619.0" y="725.0"/>
+            <end x="3619.0" y="725.0"/>
+        </arc>
+        <arc class="consumption" id="arc_111_input_123522" source="entityVertex_71285_111" target="reactionVertex_5579084.1">
+            <start x="3805.0" y="741.0"/>
+            <next x="3672.0" y="741.0"/>
+            <end x="3672.0" y="741.0"/>
+        </arc>
+        <arc class="consumption" id="arc_138_input_123522" source="entityVertex_29356_138" target="reactionVertex_5579084.1">
+            <start x="3701.0" y="765.0"/>
+            <next x="3672.0" y="741.0"/>
+            <end x="3672.0" y="741.0"/>
+        </arc>
+    </map>
+</sbgn>

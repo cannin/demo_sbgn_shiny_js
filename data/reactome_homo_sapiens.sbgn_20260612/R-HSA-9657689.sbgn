@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1212.0" y="442.0"/>
+            </label>
+            <bbox w="1114.0" h="356.0" x="442.0" y="333.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_168" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="1341.0" y="498.0"/>
+            </label>
+            <bbox w="135.0" h="192.0" x="1330.0" y="426.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9650455_182782">
+            <label text="Non-secretable SERPING1 variants"/>
+            <bbox w="66.0" h="23.0" x="1360.0" y="456.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_158306_34">
+            <label text="factor XIIa"/>
+            <bbox w="67.0" h="23.0" x="879.0" y="95.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_158140_164">
+            <label text="Plasma kallikrein"/>
+            <bbox w="106.0" h="13.0" x="1266.0" y="732.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9650447_182781">
+            <label text="SERPING1 variant is not secreted"/>
+            <bbox w="12.0" h="12.0" x="1455.0" y="461.0"/>
+            <port id="reactionVertex_9650447.1" x="1451.0" y="467.0"/>
+            <port id="reactionVertex_9650447.2" x="1471.0" y="431.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9651456_182778">
+            <label text="SERPING1 variant does not bind factor XIIa"/>
+            <bbox w="12.0" h="12.0" x="1758.0" y="374.0"/>
+            <port id="reactionVertex_9651456.1" x="1754.0" y="380.0"/>
+            <port id="reactionVertex_9651456.2" x="1774.0" y="407.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9650491_182779">
+            <label text="HAE type 2-causing SERPING1 variants"/>
+            <bbox w="66.0" h="23.0" x="1593.0" y="412.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9651467_182780">
+            <label text="SERPING1 variant does not bind kallikrein"/>
+            <bbox w="12.0" h="12.0" x="1715.0" y="479.0"/>
+            <port id="reactionVertex_9651467.1" x="1711.0" y="486.0"/>
+            <port id="reactionVertex_9651467.2" x="1731.0" y="484.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_182779_input_182778" source="entityVertex_9650491_182779" target="reactionVertex_9651456.1">
+            <start x="1655.0" y="406.0"/>
+            <next x="1736.0" y="380.0"/>
+            <end x="1736.0" y="380.0"/>
+        </arc>
+        <arc class="consumption" id="arc_182779_input_182780" source="entityVertex_9650491_182779" target="reactionVertex_9651467.1">
+            <start x="1638.0" y="441.0"/>
+            <next x="1697.0" y="486.0"/>
+            <end x="1697.0" y="486.0"/>
+        </arc>
+        <arc class="consumption" id="arc_34_input_182778" source="entityVertex_158306_34" target="reactionVertex_9651456.1">
+            <start x="922.0" y="92.0"/>
+            <next x="942.0" y="74.0"/>
+            <next x="1729.0" y="65.0"/>
+            <next x="1736.0" y="380.0"/>
+            <end x="1736.0" y="380.0"/>
+        </arc>
+        <arc class="consumption" id="arc_182782_input_182781" source="entityVertex_9650455_182782" target="reactionVertex_9650447.1">
+            <start x="1432.0" y="467.0"/>
+            <end x="1461.0" y="467.0"/>
+        </arc>
+        <arc class="consumption" id="arc_164_input_182780" source="entityVertex_158140_164" target="reactionVertex_9651467.1">
+            <start x="1375.0" y="737.0"/>
+            <next x="1564.0" y="736.0"/>
+            <next x="1697.0" y="486.0"/>
+            <end x="1697.0" y="486.0"/>
+        </arc>
+    </map>
+</sbgn>

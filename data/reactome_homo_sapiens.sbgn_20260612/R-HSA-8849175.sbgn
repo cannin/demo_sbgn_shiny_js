@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_8987" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="19.0" y="306.0"/>
+            </label>
+            <bbox w="710.0" h="352.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_936714_8994">
+            <label text="2OBUTA"/>
+            <bbox w="64.0" h="30.0" x="274.0" y="145.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_9929622_9139">
+            <label text="2-iminobutanoate"/>
+            <bbox w="124.0" h="31.0" x="534.0" y="168.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29356_9140">
+            <label text="H2O"/>
+            <bbox w="43.0" h="31.0" x="516.0" y="213.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9014634_8996">
+            <label text="HRSP12"/>
+            <bbox w="55.0" h="22.0" x="421.0" y="116.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9014641_8993">
+            <label text="HRSP12 deaminates 2-iminobutanoate to 2OBUTA"/>
+            <bbox w="12.0" h="12.0" x="440.0" y="176.0"/>
+            <port id="reactionVertex_9014641.1" x="436.0" y="182.0"/>
+            <port id="reactionVertex_9014641.2" x="456.0" y="181.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_31633_9023">
+            <label text="NH4+"/>
+            <bbox w="53.0" h="31.0" x="280.0" y="214.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9014724_8997">
+            <label text="PXLP-SDS dimers"/>
+            <bbox w="110.0" h="22.0" x="109.0" y="116.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_351990_8989">
+            <label text="L-Thr"/>
+            <bbox w="50.0" h="30.0" x="52.0" y="167.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9014627_8988">
+            <label text="SDS dimers:PXLP convert L-Thr to 2OBUTA"/>
+            <bbox w="12.0" h="12.0" x="158.0" y="176.0"/>
+            <port id="reactionVertex_9014627.1" x="154.0" y="182.0"/>
+            <port id="reactionVertex_9014627.2" x="174.0" y="182.0"/>
+        </glyph>
+        <arc class="production" id="arc_9023_output_8993" source="reactionVertex_9014641.2" target="entityVertex_31633_9023">
+            <start x="336.0" y="215.0"/>
+            <next x="397.0" y="181.0"/>
+            <end x="397.0" y="181.0"/>
+        </arc>
+        <arc class="consumption" id="arc_9139_input_8993" source="entityVertex_9929622_9139" target="reactionVertex_9014641.1">
+            <start x="531.0" y="182.0"/>
+            <next x="484.0" y="182.0"/>
+            <end x="484.0" y="182.0"/>
+        </arc>
+        <arc class="consumption" id="arc_9140_input_8993" source="entityVertex_29356_9140" target="reactionVertex_9014641.1">
+            <start x="519.0" y="210.0"/>
+            <next x="484.0" y="182.0"/>
+            <end x="484.0" y="182.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_8997_catalyst_8988" source="entityVertex_9014724_8997" target="reactionVertex_9014627_8988">
+            <start x="164.0" y="144.0"/>
+            <next x="164.0" y="166.0"/>
+            <end x="164.0" y="166.0"/>
+        </arc>
+        <arc class="consumption" id="arc_8989_input_8988" source="entityVertex_351990_8989" target="reactionVertex_9014627.1">
+            <start x="105.0" y="182.0"/>
+            <end x="164.0" y="182.0"/>
+        </arc>
+        <arc class="production" id="arc_9023_output_8988" source="reactionVertex_9014627.2" target="entityVertex_31633_9023">
+            <start x="277.0" y="215.0"/>
+            <next x="211.0" y="182.0"/>
+            <end x="211.0" y="182.0"/>
+        </arc>
+        <arc class="production" id="arc_8994_output_8993" source="reactionVertex_9014641.2" target="entityVertex_936714_8994">
+            <start x="341.0" y="167.0"/>
+            <next x="397.0" y="181.0"/>
+            <end x="397.0" y="181.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_8996_catalyst_8993" source="entityVertex_9014634_8996" target="reactionVertex_9014641_8993">
+            <start x="447.0" y="141.0"/>
+            <next x="446.0" y="166.0"/>
+            <end x="446.0" y="166.0"/>
+        </arc>
+        <arc class="production" id="arc_8994_output_8988" source="reactionVertex_9014627.2" target="entityVertex_936714_8994">
+            <start x="271.0" y="167.0"/>
+            <next x="211.0" y="182.0"/>
+            <end x="211.0" y="182.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="733.0" y="406.0"/>
+            </label>
+            <bbox w="2297.0" h="933.0" x="166.0" y="137.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5627725_145797">
+            <label text="SLC26A3 mutants"/>
+            <bbox w="76.0" h="25.0" x="911.0" y="128.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_111627_44">
+            <label text="HCO3-"/>
+            <bbox w="56.0" h="31.0" x="1115.0" y="219.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5627737_145796">
+            <label text="SLC26A3 does not exchange Cl- for HCO3-"/>
+            <bbox w="12.0" h="12.0" x="1020.0" y="134.0"/>
+            <port id="reactionVertex_5627737.1" x="1025.0" y="150.0"/>
+            <port id="reactionVertex_5627737.2" x="1026.0" y="130.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_188972_43">
+            <label text="Cl-"/>
+            <bbox w="33.0" h="31.0" x="927.0" y="8.0"/>
+        </glyph>
+        <arc class="catalysis" id="arc_145797_catalyst_145796" source="entityVertex_5627725_145797" target="reactionVertex_5627737_145796">
+            <start x="993.0" y="140.0"/>
+            <next x="1010.0" y="140.0"/>
+            <end x="1010.0" y="140.0"/>
+        </arc>
+        <arc class="consumption" id="arc_44_input_145796" source="entityVertex_111627_44" target="reactionVertex_5627737.1">
+            <start x="1123.0" y="216.0"/>
+            <end x="1025.0" y="140.0"/>
+        </arc>
+        <arc class="consumption" id="arc_43_input_145796" source="entityVertex_188972_43" target="reactionVertex_5627737.1">
+            <start x="953.0" y="42.0"/>
+            <end x="1025.0" y="140.0"/>
+        </arc>
+    </map>
+</sbgn>

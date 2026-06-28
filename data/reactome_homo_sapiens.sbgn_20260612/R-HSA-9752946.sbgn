@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="17.0" y="738.0"/>
+            </label>
+            <bbox w="741.0" h="805.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_2" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="62.0" y="394.0"/>
+            </label>
+            <bbox w="606.0" h="403.0" x="46.0" y="42.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_12" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="166.0" y="682.0"/>
+            </label>
+            <bbox w="413.0" h="249.0" x="151.0" y="483.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9010567_8">
+            <label text="LDB1 homodimer"/>
+            <bbox w="124.0" h="25.0" x="295.0" y="79.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9011100_5">
+            <label text="LHX2"/>
+            <bbox w="54.0" h="24.0" x="280.0" y="116.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9752948_6">
+            <label text="Intergenic Olfactory Enhancer"/>
+            <bbox w="190.0" h="41.0" x="436.0" y="76.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_8939766_22">
+            <label text="REEP1"/>
+            <bbox w="60.0" h="27.0" x="523.0" y="683.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9752476_4">
+            <label text="Olfactory Receptor Gene"/>
+            <bbox w="174.0" h="34.0" x="65.0" y="219.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9752977_13">
+            <label text="RTP1S and RTP2 bind underrepresented Olfactory Receptors (uORs)"/>
+            <bbox w="10.0" h="10.0" x="533.0" y="566.0"/>
+            <port id="reactionVertex_9752977.1" x="540.0" y="579.3333"/>
+            <port id="reactionVertex_9752977.2" x="544.0" y="562.6667"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9752981_21">
+            <label text="RTP1S:RTP2:uOR"/>
+            <bbox w="150.0" h="30.0" x="687.0" y="602.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9752945_9">
+            <label text="EBF1:LDB1:LHX2:Intergenic olfactory enhancer:Olfactory Receptor gene"/>
+            <bbox w="166.0" h="56.0" x="435.0" y="210.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9752951_3">
+            <label text="LHX2, LDB1, and EBF1 bind Olfactory Receptor gene and intergenic olfactory enhancers"/>
+            <bbox w="10.0" h="10.0" x="365.0" y="231.0"/>
+            <port id="reactionVertex_9752951.1" x="361.66666" y="214.0"/>
+            <port id="reactionVertex_9752951.2" x="378.33334" y="236.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9752983_18">
+            <label text="RTP1S:RTP2:uOR"/>
+            <bbox w="130.0" h="30.0" x="483.0" y="604.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9752950_10">
+            <label text="Expression of Olfactory Receptor"/>
+            <bbox w="12.0" h="12.0" x="145.0" y="384.0"/>
+            <port id="reactionVertex_9752950.1" x="151.0" y="400.0"/>
+            <port id="reactionVertex_9752950.2" x="155.0" y="380.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9752975_16">
+            <label text="RTP1S dimer"/>
+            <bbox w="99.0" h="25.0" x="414.0" y="473.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9752980_20">
+            <label text="RTP1S:RTP2:underrepresented Olfactory Receptor translocates from the endoplasmic reticulum membrane to the plasma membrane"/>
+            <bbox w="12.0" h="12.0" x="647.0" y="612.0"/>
+            <port id="reactionVertex_9752980.1" x="643.0" y="618.0"/>
+            <port id="reactionVertex_9752980.2" x="663.0" y="617.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9751605_11">
+            <label text="Olfactory Receptor"/>
+            <bbox w="138.0" h="38.0" x="87.0" y="487.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_158571_7">
+            <label text="EBF1"/>
+            <bbox w="57.0" h="29.0" x="239.0" y="161.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9752979_14">
+            <label text="underrepresented Olfactory Receptor"/>
+            <bbox w="137.0" h="39.0" x="252.0" y="471.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9752982_17">
+            <label text="RTP2"/>
+            <bbox w="60.0" h="26.0" x="528.0" y="474.0"/>
+        </glyph>
+        <arc class="production" id="arc_11_output_10" source="reactionVertex_9752950.2" target="entityVertex_9751605_11">
+            <start x="151.0" y="390.0"/>
+            <end x="151.0" y="390.0"/>
+        </arc>
+        <arc class="consumption" id="arc_8_input_3" source="entityVertex_9010567_8" target="reactionVertex_9752951.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9010567_INPUT_9752951">
+                <label text="10"/>
+                <bbox w="12.0" h="12.0" x="334.0" y="154.0"/>
+            </glyph>
+            <start x="353.0" y="107.0"/>
+            <next x="327.0" y="214.0"/>
+            <end x="327.0" y="214.0"/>
+        </arc>
+        <arc class="production" id="arc_18_output_13" source="reactionVertex_9752977.2" target="entityVertex_9752983_18">
+            <start x="538.0" y="571.0"/>
+            <end x="538.0" y="571.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7_input_3" source="entityVertex_158571_7" target="reactionVertex_9752951.1">
+            <glyph class="stoichiometry" id="Stoichiometry_158571_INPUT_9752951">
+                <label text="20"/>
+                <bbox w="12.0" h="12.0" x="302.0" y="197.0"/>
+            </glyph>
+            <start x="289.0" y="193.0"/>
+            <next x="327.0" y="214.0"/>
+            <end x="327.0" y="214.0"/>
+        </arc>
+        <arc class="consumption" id="arc_6_input_3" source="entityVertex_9752948_6" target="reactionVertex_9752951.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9752948_INPUT_9752951">
+                <label text="10"/>
+                <bbox w="12.0" h="12.0" x="405.0" y="161.0"/>
+            </glyph>
+            <start x="495.0" y="120.0"/>
+            <next x="327.0" y="214.0"/>
+            <end x="327.0" y="214.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_22_activator_20" source="entityVertex_8939766_22" target="reactionVertex_9752980_20">
+            <start x="570.0" y="680.0"/>
+            <next x="646.0" y="623.0"/>
+            <end x="646.0" y="623.0"/>
+        </arc>
+        <arc class="consumption" id="arc_17_input_13" source="entityVertex_9752982_17" target="reactionVertex_9752977.1">
+            <start x="553.0" y="503.0"/>
+            <next x="540.0" y="539.0"/>
+            <end x="540.0" y="539.0"/>
+        </arc>
+        <arc class="consumption" id="arc_18_input_20" source="entityVertex_9752983_18" target="reactionVertex_9752980.1">
+            <start x="616.0" y="618.0"/>
+            <end x="653.0" y="618.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5_input_3" source="entityVertex_9011100_5" target="reactionVertex_9752951.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9011100_INPUT_9752951">
+                <label text="20"/>
+                <bbox w="12.0" h="12.0" x="312.0" y="172.0"/>
+            </glyph>
+            <start x="309.0" y="143.0"/>
+            <next x="327.0" y="214.0"/>
+            <end x="327.0" y="214.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_3" source="entityVertex_9752476_4" target="reactionVertex_9752951.1">
+            <start x="245.0" y="225.0"/>
+            <next x="327.0" y="214.0"/>
+            <end x="327.0" y="214.0"/>
+        </arc>
+        <arc class="consumption" id="arc_16_input_13" source="entityVertex_9752975_16" target="reactionVertex_9752977.1">
+            <start x="480.0" y="501.0"/>
+            <next x="540.0" y="539.0"/>
+            <end x="540.0" y="539.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_9_activator_10" source="entityVertex_9752945_9" target="reactionVertex_9752950_10">
+            <start x="450.0" y="269.0"/>
+            <next x="159.0" y="387.0"/>
+            <end x="159.0" y="387.0"/>
+        </arc>
+        <arc class="production" id="arc_9_output_3" source="reactionVertex_9752951.2" target="entityVertex_9752945_9">
+            <start x="370.0" y="236.0"/>
+            <end x="370.0" y="236.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4_input_10" source="entityVertex_9752476_4" target="reactionVertex_9752950.1">
+            <start x="151.0" y="390.0"/>
+            <end x="155.0" y="481.0"/>
+        </arc>
+        <arc class="consumption" id="arc_14_input_13" source="entityVertex_9752979_14" target="reactionVertex_9752977.1">
+            <start x="395.0" y="505.0"/>
+            <next x="540.0" y="539.0"/>
+            <end x="540.0" y="539.0"/>
+        </arc>
+        <arc class="production" id="arc_21_output_20" source="reactionVertex_9752980.2" target="entityVertex_9752981_21">
+            <start x="653.0" y="618.0"/>
+            <end x="653.0" y="618.0"/>
+        </arc>
+    </map>
+</sbgn>

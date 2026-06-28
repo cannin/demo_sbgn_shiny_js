@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_13" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="987.0" y="874.0"/>
+            </label>
+            <bbox w="3089.0" h="1276.0" x="0.0" y="47.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9665708_186713">
+            <label text="ERBB2 TMD/JMD mutants do not bind pertuzumab"/>
+            <bbox w="12.0" h="12.0" x="829.0" y="77.0"/>
+            <port id="reactionVertex_9665708.1" x="825.0" y="119.0"/>
+            <port id="reactionVertex_9665708.2" x="845.0" y="96.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9665971_2929">
+            <label text="pertuzumab"/>
+            <bbox w="117.0" h="24.0" x="760.0" y="5.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9665969_186714">
+            <label text="ERBB2 TMD/JMD mutants (pertuzumab resistant):ERBIN:HSP90:CDC37"/>
+            <bbox w="177.0" h="32.0" x="631.0" y="354.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_186714_input_186713" source="entityVertex_9665969_186714" target="reactionVertex_9665708.1">
+            <start x="717.0" y="351.0"/>
+            <next x="688.0" y="119.0"/>
+            <end x="688.0" y="119.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2929_input_186713" source="entityVertex_9665971_2929" target="reactionVertex_9665708.1">
+            <start x="802.0" y="32.0"/>
+            <next x="688.0" y="119.0"/>
+            <end x="688.0" y="119.0"/>
+        </arc>
+    </map>
+</sbgn>

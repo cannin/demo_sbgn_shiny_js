@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_16" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="154.0" y="1194.0"/>
+            </label>
+            <bbox w="1358.0" h="1625.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_17" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="907.0" y="238.0"/>
+            </label>
+            <bbox w="907.0" h="1464.0" x="399.0" y="133.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9914266_214440">
+            <label text="mutant AUH hexamer"/>
+            <bbox w="89.0" h="23.0" x="549.0" y="1268.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113521_179">
+            <label text="H2O"/>
+            <bbox w="43.0" h="31.0" x="704.0" y="1197.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_70772_178">
+            <label text="bMG-CoA"/>
+            <bbox w="74.0" h="31.0" x="606.0" y="1202.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9914271_214439">
+            <label text="AUH mutants don't synthesize 3-hydroxy-methylglutaryl-CoA"/>
+            <bbox w="12.0" h="12.0" x="694.0" y="1274.0"/>
+            <port id="reactionVertex_9914271.1" x="700.0" y="1290.0"/>
+            <port id="reactionVertex_9914271.2" x="700.0" y="1270.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_179_input_214439" source="entityVertex_113521_179" target="reactionVertex_9914271.1">
+            <start x="713.0" y="1231.0"/>
+            <next x="700.0" y="1247.0"/>
+            <end x="700.0" y="1247.0"/>
+        </arc>
+        <arc class="consumption" id="arc_178_input_214439" source="entityVertex_70772_178" target="reactionVertex_9914271.1">
+            <start x="672.0" y="1236.0"/>
+            <next x="700.0" y="1247.0"/>
+            <end x="700.0" y="1247.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_214440_catalyst_214439" source="entityVertex_9914266_214440" target="reactionVertex_9914271_214439">
+            <start x="641.0" y="1279.0"/>
+            <next x="684.0" y="1280.0"/>
+            <end x="684.0" y="1280.0"/>
+        </arc>
+    </map>
+</sbgn>

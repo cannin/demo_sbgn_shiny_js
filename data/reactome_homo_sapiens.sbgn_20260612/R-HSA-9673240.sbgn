@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="37.0" y="1642.0"/>
+            </label>
+            <bbox w="2751.0" h="1722.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_2" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="1535.0" y="1260.0"/>
+            </label>
+            <bbox w="756.0" h="1289.0" x="905.0" y="42.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_3" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="135.0" y="1512.0"/>
+            </label>
+            <bbox w="761.0" h="1551.0" x="100.0" y="39.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_1093" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="2217.0" y="404.0"/>
+            </label>
+            <bbox w="740.0" h="398.0" x="1969.0" y="54.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9673231_190554">
+            <label text="GGCX does not gamma-carboxylate 3D-F9(29-461) (pro-factor IX)"/>
+            <bbox w="12.0" h="12.0" x="556.0" y="129.0"/>
+            <port id="reactionVertex_9673231.1" x="552.0" y="135.0"/>
+            <port id="reactionVertex_9673231.2" x="572.0" y="136.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_6806362_853">
+            <label text="MK4"/>
+            <bbox w="43.0" h="30.0" x="384.0" y="185.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_6806664_1017">
+            <label text="Metabolism of vitamin K"/>
+            <bbox w="114.0" h="62.0" x="482.0" y="172.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_6806362_857">
+            <label text="MK4"/>
+            <bbox w="43.0" h="30.0" x="385.0" y="1016.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113534_855">
+            <label text="O2"/>
+            <bbox w="35.0" h="30.0" x="231.0" y="185.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_159751_25">
+            <label text="CO2"/>
+            <bbox w="45.0" h="30.0" x="308.0" y="185.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_6806664_1020">
+            <label text="Metabolism of vitamin K"/>
+            <bbox w="114.0" h="62.0" x="493.0" y="436.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_6806664_1029">
+            <label text="Metabolism of vitamin K"/>
+            <bbox w="114.0" h="62.0" x="500.0" y="1004.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_6806664_1033">
+            <label text="Metabolism of vitamin K"/>
+            <bbox w="114.0" h="62.0" x="497.0" y="1230.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9673245_190555">
+            <label text="3OHD110-F9(29-461) variant"/>
+            <bbox w="127.0" h="36.0" x="185.0" y="119.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_6806362_833">
+            <label text="MK4"/>
+            <bbox w="43.0" h="30.0" x="384.0" y="739.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_6806664_1025">
+            <label text="Metabolism of vitamin K"/>
+            <bbox w="114.0" h="62.0" x="497.0" y="723.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_159860_12">
+            <label text="GGCX"/>
+            <bbox w="65.0" h="34.0" x="85.0" y="405.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_6806362_846">
+            <label text="MK4"/>
+            <bbox w="43.0" h="30.0" x="384.0" y="454.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_6806362_988">
+            <label text="MK4"/>
+            <bbox w="43.0" h="30.0" x="397.0" y="1243.0"/>
+        </glyph>
+        <arc class="catalysis" id="arc_12_catalyst_190554" source="entityVertex_159860_12" target="reactionVertex_9673231_190554">
+            <start x="119.0" y="402.0"/>
+            <next x="161.0" y="70.0"/>
+            <next x="560.0" y="69.0"/>
+            <next x="562.0" y="119.0"/>
+            <end x="562.0" y="119.0"/>
+        </arc>
+        <arc class="consumption" id="arc_855_input_190554" source="entityVertex_113534_855" target="reactionVertex_9673231.1">
+            <glyph class="stoichiometry" id="Stoichiometry_113534_INPUT_9673231">
+                <label text="12"/>
+                <bbox w="12.0" h="12.0" x="350.0" y="158.0"/>
+            </glyph>
+            <start x="269.0" y="194.0"/>
+            <next x="443.0" y="135.0"/>
+            <end x="443.0" y="135.0"/>
+        </arc>
+        <arc class="consumption" id="arc_25_input_190554" source="entityVertex_159751_25" target="reactionVertex_9673231.1">
+            <glyph class="stoichiometry" id="Stoichiometry_159751_INPUT_9673231">
+                <label text="12"/>
+                <bbox w="12.0" h="12.0" x="393.0" y="155.0"/>
+            </glyph>
+            <start x="356.0" y="187.0"/>
+            <next x="443.0" y="135.0"/>
+            <end x="443.0" y="135.0"/>
+        </arc>
+        <arc class="consumption" id="arc_853_input_190554" source="entityVertex_6806362_853" target="reactionVertex_9673231.1">
+            <glyph class="stoichiometry" id="Stoichiometry_6806362_INPUT_9673231">
+                <label text="12"/>
+                <bbox w="12.0" h="12.0" x="422.0" y="152.0"/>
+            </glyph>
+            <start x="413.0" y="182.0"/>
+            <next x="443.0" y="135.0"/>
+            <end x="443.0" y="135.0"/>
+        </arc>
+        <arc class="consumption" id="arc_190555_input_190554" source="entityVertex_9673245_190555" target="reactionVertex_9673231.1">
+            <start x="318.0" y="136.0"/>
+            <next x="443.0" y="135.0"/>
+            <end x="443.0" y="135.0"/>
+        </arc>
+    </map>
+</sbgn>

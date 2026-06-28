@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_459_3159" compartmentOrder="10.0">
+            <label text="cytoplasm">
+                <bbox w="80.0" h="24.0" x="14.0" y="13.0"/>
+            </label>
+            <bbox w="948.0" h="487.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_3160" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="226.0" y="82.0"/>
+            </label>
+            <bbox w="476.0" h="354.0" x="213.0" y="69.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9760062_3148">
+            <label text="p-AcK-NFE2L2:CREBBP, EP300"/>
+            <bbox w="103.0" h="51.0" x="235.0" y="153.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_381084_3154">
+            <label text="ATF4"/>
+            <bbox w="90.0" h="23.0" x="776.0" y="254.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9796068_3150">
+            <label text="AcK-NFE2L2 binds the ATF4 gene"/>
+            <bbox w="10.0" h="10.0" x="417.0" y="198.0"/>
+            <port id="reactionVertex_9796068.1" x="413.66666" y="203.0"/>
+            <port id="reactionVertex_9796068.2" x="430.33334" y="202.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9796061_3149">
+            <label text="NFE2L2 dependent ATF4 expression"/>
+            <bbox w="12.0" h="12.0" x="549.0" y="257.0"/>
+            <port id="reactionVertex_9796061.1" x="545.0" y="262.0"/>
+            <port id="reactionVertex_9796061.2" x="565.0" y="264.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_1008242_3151">
+            <label text="MAFK"/>
+            <bbox w="125.0" h="23.0" x="357.0" y="128.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9795746_3153">
+            <label text="ATF4 gene"/>
+            <bbox w="89.0" h="66.0" x="233.0" y="260.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9795972_3152">
+            <label text="NFE2L2:ATF4 gene complex"/>
+            <bbox w="123.0" h="51.0" x="495.0" y="177.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9633012_3170">
+            <label text="Response of EIF2AK4 (GCN2) to amino acid deficiency"/>
+            <bbox w="162.0" h="83.0" x="745.0" y="328.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_3153_input_3150" source="entityVertex_9795746_3153" target="reactionVertex_9796068.1">
+            <start x="331.0" y="262.0"/>
+            <end x="421.0" y="203.0"/>
+        </arc>
+        <arc class="production" id="arc_3154_output_3149" source="reactionVertex_9796061.2" target="entityVertex_381084_3154">
+            <start x="555.0" y="263.0"/>
+            <end x="555.0" y="263.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3148_input_3150" source="entityVertex_9760062_3148" target="reactionVertex_9796068.1">
+            <start x="341.0" y="187.0"/>
+            <end x="421.0" y="203.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_3152_activator_3149" source="entityVertex_9795972_3152" target="reactionVertex_9796061_3149">
+            <start x="555.0" y="231.0"/>
+            <next x="555.0" y="254.0"/>
+            <end x="555.0" y="254.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3153_input_3149" source="entityVertex_9795746_3153" target="reactionVertex_9796061.1">
+            <start x="555.0" y="263.0"/>
+            <end x="773.0" y="264.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3151_input_3150" source="entityVertex_1008242_3151" target="reactionVertex_9796068.1">
+            <start x="419.0" y="154.0"/>
+            <end x="421.0" y="203.0"/>
+        </arc>
+        <arc class="production" id="arc_3152_output_3150" source="reactionVertex_9796068.2" target="entityVertex_9795972_3152">
+            <start x="422.0" y="203.0"/>
+            <end x="422.0" y="203.0"/>
+        </arc>
+    </map>
+</sbgn>

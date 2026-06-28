@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1098.0" y="516.0"/>
+            </label>
+            <bbox w="2225.0" h="1194.0" x="179.0" y="108.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29468_1089">
+            <label text="L-Arg"/>
+            <bbox w="47.0" h="31.0" x="1754.0" y="1194.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9631849_155162">
+            <label text="SLC3A2:SLC7A7 mutants"/>
+            <bbox w="100.0" h="37.0" x="1946.0" y="1282.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5660910_155161">
+            <label text="Defective SLC7A7 does not exchange L-Arg for L-Leu, Na+ across the plasma membrane"/>
+            <bbox w="12.0" h="12.0" x="1891.0" y="1293.0"/>
+            <port id="reactionVertex_5660910.1" x="1896.0" y="1309.0"/>
+            <port id="reactionVertex_5660910.2" x="1898.0" y="1289.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_74113_1097">
+            <label text="Na+"/>
+            <bbox w="35.0" h="31.0" x="1881.0" y="1372.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_351964_1090">
+            <label text="L-Leu"/>
+            <bbox w="47.0" h="31.0" x="1822.0" y="1370.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_1097_input_155161" source="entityVertex_74113_1097" target="reactionVertex_5660910.1">
+            <start x="1897.0" y="1369.0"/>
+            <end x="1896.0" y="1299.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1090_input_155161" source="entityVertex_351964_1090" target="reactionVertex_5660910.1">
+            <start x="1854.0" y="1367.0"/>
+            <end x="1896.0" y="1299.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_155162_catalyst_155161" source="entityVertex_9631849_155162" target="reactionVertex_5660910_155161">
+            <start x="1943.0" y="1299.0"/>
+            <next x="1913.0" y="1299.0"/>
+            <end x="1913.0" y="1299.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1089_input_155161" source="entityVertex_29468_1089" target="reactionVertex_5660910.1">
+            <start x="1797.0" y="1228.0"/>
+            <end x="1896.0" y="1299.0"/>
+        </arc>
+    </map>
+</sbgn>

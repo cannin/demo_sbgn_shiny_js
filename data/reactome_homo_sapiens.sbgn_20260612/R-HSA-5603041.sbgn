@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_6" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="552.0" y="553.0"/>
+            </label>
+            <bbox w="1418.0" h="882.0" x="93.0" y="104.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5602353_140570">
+            <label text="Defective IRAK4 does not bind MyD88:MAL:BTK:activated TLR2/4"/>
+            <bbox w="12.0" h="12.0" x="131.0" y="664.0"/>
+            <port id="reactionVertex_5602353.1" x="127.0" y="648.0"/>
+            <port id="reactionVertex_5602353.2" x="147.0" y="682.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_937033_746">
+            <label text="oligo-MyD88:TIRAP:BTK:activated TLR"/>
+            <bbox w="126.0" h="36.0" x="14.0" y="588.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5602412_140571">
+            <label text="IRAK4 variants"/>
+            <bbox w="43.0" h="22.0" x="203.0" y="622.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_140571_input_140570" source="entityVertex_5602412_140571" target="reactionVertex_5602353.1">
+            <glyph class="stoichiometry" id="Stoichiometry_5602412_INPUT_5602353">
+                <label text="4"/>
+                <bbox w="12.0" h="12.0" x="161.0" y="636.0"/>
+            </glyph>
+            <start x="197.0" y="636.0"/>
+            <next x="138.0" y="648.0"/>
+            <end x="138.0" y="648.0"/>
+        </arc>
+        <arc class="consumption" id="arc_746_input_140570" source="entityVertex_937033_746" target="reactionVertex_5602353.1">
+            <start x="103.0" y="627.0"/>
+            <next x="138.0" y="648.0"/>
+            <end x="138.0" y="648.0"/>
+        </arc>
+    </map>
+</sbgn>

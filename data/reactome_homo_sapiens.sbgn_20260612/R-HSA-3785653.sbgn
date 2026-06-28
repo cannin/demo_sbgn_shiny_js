@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_161320_1090" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="66.0" y="1130.0"/>
+            </label>
+            <bbox w="500.0" h="194.0" x="40.0" y="984.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_7" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1503.0" y="1382.0"/>
+            </label>
+            <bbox w="1590.0" h="1431.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_3797212_105882">
+            <label text="NHLRC1 mutants"/>
+            <bbox w="57.0" h="23.0" x="1351.0" y="1043.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_113595_1073">
+            <label text="Ub"/>
+            <bbox w="25.0" h="23.0" x="1375.0" y="1104.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_3797226_105881">
+            <label text="Defective NHLRC1 does not ubiquitinate EPM2A (laforin) and PPP1R3C (PTG) (type 2B disease)"/>
+            <bbox w="12.0" h="12.0" x="1438.0" y="1048.0"/>
+            <port id="reactionVertex_3797226.1" x="1445.0" y="1064.0"/>
+            <port id="reactionVertex_3797226.2" x="1445.0" y="1044.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_3791349_105883">
+            <label text="Defective EPM2A does not dephosphorylate phosphoglycogen (type 2A disease)"/>
+            <bbox w="12.0" h="12.0" x="1292.0" y="1346.0"/>
+            <port id="reactionVertex_3791349.1" x="1288.0" y="1352.0"/>
+            <port id="reactionVertex_3791349.2" x="1308.0" y="1354.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_3780999_1055">
+            <label text="EPM2A:PPP1R3C:phosphoglycogen-GYG1:GYS1-a tetramer"/>
+            <bbox w="116.0" h="65.0" x="1114.0" y="1320.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29356_1065">
+            <label text="H2O"/>
+            <bbox w="43.0" h="31.0" x="1255.0" y="1299.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9037665_105884">
+            <label text="mutant EPM2A:PPP1R3C:phosphoglycogen-GYG1:GYS1-a tetramer"/>
+            <bbox w="116.0" h="65.0" x="1114.0" y="1320.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_1065_input_105883" source="entityVertex_29356_1065" target="reactionVertex_3791349.1">
+            <start x="1275.0" y="1333.0"/>
+            <next x="1274.0" y="1352.0"/>
+            <end x="1274.0" y="1352.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_105882_catalyst_105881" source="entityVertex_3797212_105882" target="reactionVertex_3797226_105881">
+            <start x="1414.0" y="1054.0"/>
+            <next x="1428.0" y="1054.0"/>
+            <end x="1428.0" y="1054.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1073_input_105881" source="entityVertex_113595_1073" target="reactionVertex_3797226.1">
+            <glyph class="stoichiometry" id="Stoichiometry_113595_INPUT_3797226">
+                <label text="2"/>
+                <bbox w="12.0" h="12.0" x="1419.0" y="1094.0"/>
+            </glyph>
+            <start x="1406.0" y="1109.0"/>
+            <next x="1445.0" y="1091.0"/>
+            <end x="1445.0" y="1091.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1055_input_105883" source="entityVertex_3780999_1055" target="reactionVertex_3791349.1">
+            <start x="1233.0" y="1352.0"/>
+            <next x="1274.0" y="1352.0"/>
+            <end x="1274.0" y="1352.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_105884_catalyst_105883" source="entityVertex_9037665_105884" target="reactionVertex_3791349_105883">
+            <start x="1171.0" y="1388.0"/>
+            <next x="1171.0" y="1405.0"/>
+            <next x="1299.0" y="1405.0"/>
+            <next x="1298.0" y="1368.0"/>
+            <end x="1298.0" y="1368.0"/>
+        </arc>
+    </map>
+</sbgn>

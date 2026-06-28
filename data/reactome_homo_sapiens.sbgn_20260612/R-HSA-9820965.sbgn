@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_2754" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1117.0" y="789.0"/>
+            </label>
+            <bbox w="2085.0" h="813.0" x="0.0" y="49.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_2762" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="1477.0" y="314.0"/>
+            </label>
+            <bbox w="174.0" h="307.0" x="1467.0" y="97.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9828647_2742">
+            <label text="m7G(5')pppAm-capped,polyadenylated N mRNA"/>
+            <bbox w="302.0" h="45.0" x="967.0" y="409.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828716_2738">
+            <label text="G mRNA is translated into membrane-bound G protein"/>
+            <bbox w="12.0" h="12.0" x="1332.0" y="152.0"/>
+            <port id="reactionVertex_9828716.1" x="1328.0" y="162.0"/>
+            <port id="reactionVertex_9828716.2" x="1348.0" y="140.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9845222_8694">
+            <label text="Lumicitabine binds RdRP on nucleocapsid"/>
+            <bbox w="10.0" h="10.0" x="559.0" y="305.0"/>
+            <port id="reactionVertex_9845222.1" x="555.6667" y="304.0"/>
+            <port id="reactionVertex_9845222.2" x="572.3333" y="399.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_264476_8649">
+            <label text="HSPA8"/>
+            <bbox w="47.0" h="22.0" x="480.0" y="365.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9828651_2745">
+            <label text="m7G(5')pppAm-capped,polyadenylated P mRNA"/>
+            <bbox w="308.0" h="46.0" x="960.0" y="559.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9833110_7805">
+            <label text="RSV-host interactions"/>
+            <bbox w="104.0" h="53.0" x="49.0" y="674.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9828691_2719">
+            <label text="Nascent L"/>
+            <bbox w="79.0" h="23.0" x="1419.0" y="628.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9828693_7040">
+            <label text="M2-2"/>
+            <bbox w="53.0" h="23.0" x="326.0" y="367.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9837392_7656">
+            <label text="Packaging of antigenomic RNA of human respiratory syncytial virus"/>
+            <bbox w="12.0" h="12.0" x="288.0" y="352.0"/>
+            <port id="reactionVertex_9837392.1" x="284.0" y="297.0"/>
+            <port id="reactionVertex_9837392.2" x="304.0" y="391.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9833031_5833">
+            <label text="Polyadenylation of respiratory syncytial virus subgenomic positive-sense mRNAs"/>
+            <bbox w="12.0" h="12.0" x="788.0" y="599.0"/>
+            <port id="reactionVertex_9833031.1" x="784.0" y="648.0"/>
+            <port id="reactionVertex_9833031.2" x="804.0" y="494.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9828643_2714">
+            <label text="m7G(5')pppAm-capped,polyadenylated NS1 mRNA"/>
+            <bbox w="308.0" h="46.0" x="964.0" y="461.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29356_4365">
+            <label text="H2O"/>
+            <bbox w="40.0" h="30.0" x="360.0" y="473.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828723_2739">
+            <label text="M2 mRNA is translated into protein M2-1"/>
+            <bbox w="12.0" h="12.0" x="1321.0" y="729.0"/>
+            <port id="reactionVertex_9828723.1" x="1317.0" y="736.0"/>
+            <port id="reactionVertex_9828723.2" x="1337.0" y="729.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9828650_2727">
+            <label text="m7G(5')pppAm-capped,polyadenylated L mRNA"/>
+            <bbox w="312.0" h="46.0" x="965.0" y="618.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9828680_2729">
+            <label text="Nascent SH"/>
+            <bbox w="83.0" h="23.0" x="1444.0" y="274.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_9639443_4367">
+            <label text="S-adenosyl-L-homocysteine"/>
+            <bbox w="116.0" h="44.0" x="591.0" y="587.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9830283_2971">
+            <label text="RdRP:p-M2-1"/>
+            <bbox w="88.0" h="30.0" x="495.0" y="123.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9833931_2972">
+            <label text="RdRP:p-M2-1:hRSV A nucleocapsid"/>
+            <bbox w="124.0" h="36.0" x="381.0" y="261.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9828696_2730">
+            <label text="Nascent G"/>
+            <bbox w="79.0" h="23.0" x="1447.0" y="123.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9828652_2741">
+            <label text="m7G(5')pppAm-capped,polyadenylated SH mRNA"/>
+            <bbox w="306.0" h="46.0" x="973.0" y="284.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9717498_2736">
+            <label text="NS2"/>
+            <bbox w="50.0" h="23.0" x="1384.0" y="527.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828722_2718">
+            <label text="SH mRNA is translated into protein SH"/>
+            <bbox w="12.0" h="12.0" x="1379.0" y="277.0"/>
+            <port id="reactionVertex_9828722.1" x="1375.0" y="292.0"/>
+            <port id="reactionVertex_9828722.2" x="1395.0" y="284.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9825338_2851">
+            <label text="hRSV A nucleocapsid"/>
+            <bbox w="96.0" h="36.0" x="336.0" y="121.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9820960_8650">
+            <label text="Respiratory syncytial virus (RSV) attachment and entry"/>
+            <bbox w="194.0" h="75.0" x="338.0" y="0.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9834001_4371">
+            <label text="RSV m7G(5')pppGm-mRNAs:RdRP:p-M2-1"/>
+            <bbox w="108.0" h="50.0" x="743.0" y="711.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828717_2743">
+            <label text="G mRNA is translated into nascent secreted G protein"/>
+            <bbox w="12.0" h="12.0" x="1331.0" y="180.0"/>
+            <port id="reactionVertex_9828717.1" x="1327.0" y="183.0"/>
+            <port id="reactionVertex_9828717.2" x="1347.0" y="188.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9828649_2716">
+            <label text="m7G(5')pppAm-capped,polyadenylated G mRNA"/>
+            <bbox w="309.0" h="43.0" x="975.0" y="156.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_6806881_3258">
+            <label text="NTP"/>
+            <bbox w="64.0" h="31.0" x="350.0" y="317.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9833933_2970">
+            <label text="RdRP binds hRSV nucleocapsid"/>
+            <bbox w="10.0" h="10.0" x="435.0" y="215.0"/>
+            <port id="reactionVertex_9833933.1" x="435.0" y="228.33333"/>
+            <port id="reactionVertex_9833933.2" x="442.0" y="211.66667"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9837511_8099">
+            <label text="Abortive replication of hRSV A"/>
+            <bbox w="12.0" h="12.0" x="188.0" y="512.0"/>
+            <port id="reactionVertex_9837511.1" x="184.0" y="489.0"/>
+            <port id="reactionVertex_9837511.2" x="204.0" y="617.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9828693_2734">
+            <label text="M2-2"/>
+            <bbox w="53.0" h="23.0" x="1508.0" y="759.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9834740_7989">
+            <label text="hRSV A antigenomic (+)ssRNA"/>
+            <bbox w="126.0" h="50.0" x="150.0" y="153.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9828641_2723">
+            <label text="m7G(5')pppAm-capped,polyadenylated F mRNA"/>
+            <bbox w="312.0" h="43.0" x="974.0" y="221.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9837507_8100">
+            <label text="hRSV A cbVGs"/>
+            <bbox w="91.0" h="22.0" x="125.0" y="623.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9831695_2761">
+            <label text="Nascent P"/>
+            <bbox w="65.0" h="23.0" x="1398.0" y="572.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9828646_2725">
+            <label text="m7G(5')pppAm-capped,polyadenylated M2 mRNA"/>
+            <bbox w="308.0" h="44.0" x="959.0" y="719.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9834730_7291">
+            <label text="Replicated hRSV A genomic (-)ssRNA"/>
+            <bbox w="131.0" h="48.0" x="201.0" y="571.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9828672_2724">
+            <label text="Nascent M"/>
+            <bbox w="70.0" h="25.0" x="1427.0" y="674.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9845187_8661">
+            <label text="asvasiran:N mRNA"/>
+            <bbox w="71.0" h="34.0" x="1136.0" y="362.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113592_5834">
+            <label text="ATP"/>
+            <bbox w="40.0" h="30.0" x="704.0" y="641.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828725_2720">
+            <label text="M mRNA is translated into protein M"/>
+            <bbox w="12.0" h="12.0" x="1322.0" y="682.0"/>
+            <port id="reactionVertex_9828725.1" x="1318.0" y="688.0"/>
+            <port id="reactionVertex_9828725.2" x="1338.0" y="686.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828718_2722">
+            <label text="NS2 (1B) mRNA is translated into protein NS2"/>
+            <bbox w="12.0" h="12.0" x="1327.0" y="524.0"/>
+            <port id="reactionVertex_9828718.1" x="1323.0" y="531.0"/>
+            <port id="reactionVertex_9828718.2" x="1343.0" y="535.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828727_2735">
+            <label text="N mRNA is translated into protein N"/>
+            <bbox w="12.0" h="12.0" x="1324.0" y="428.0"/>
+            <port id="reactionVertex_9828727.1" x="1320.0" y="433.0"/>
+            <port id="reactionVertex_9828727.2" x="1340.0" y="435.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9845174_8660">
+            <label text="asvasiran"/>
+            <bbox w="92.0" h="39.0" x="911.0" y="355.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_111294_4366">
+            <label text="PPi"/>
+            <bbox w="36.0" h="30.0" x="530.0" y="525.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828715_2737">
+            <label text="F mRNA is translated into nascent protein F"/>
+            <bbox w="12.0" h="12.0" x="1336.0" y="228.0"/>
+            <port id="reactionVertex_9828715.1" x="1332.0" y="236.0"/>
+            <port id="reactionVertex_9828715.2" x="1352.0" y="234.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828714_2740">
+            <label text="M2 mRNA is translated into protein M2-2"/>
+            <bbox w="12.0" h="12.0" x="1317.0" y="753.0"/>
+            <port id="reactionVertex_9828714.1" x="1313.0" y="754.0"/>
+            <port id="reactionVertex_9828714.2" x="1333.0" y="768.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9823350_7001">
+            <label text="Protein N hendecamer"/>
+            <bbox w="100.0" h="37.0" x="140.0" y="277.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9828705_2733">
+            <label text="Nascent sG"/>
+            <bbox w="87.0" h="23.0" x="1429.0" y="179.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9834005_4369">
+            <label text="RSV m7GpppG-mRNAs:RdRP:p-M2-1"/>
+            <bbox w="134.0" h="37.0" x="386.0" y="688.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_9845196_8695">
+            <label text="lumicitabine"/>
+            <bbox w="82.0" h="31.0" x="586.0" y="196.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9834004_4220">
+            <label text="hRSV A nascent mRNAs:RdRP:p-M2-1"/>
+            <bbox w="139.0" h="37.0" x="382.0" y="415.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29372_4368">
+            <label text="Pi"/>
+            <bbox w="28.0" h="30.0" x="380.0" y="611.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9828806_2835">
+            <label text="Maturation of hRSV A proteins"/>
+            <bbox w="159.0" h="85.0" x="1851.0" y="392.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9828687_2721">
+            <label text="Nascent M2-1"/>
+            <bbox w="107.0" h="22.0" x="1427.0" y="715.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828724_2717">
+            <label text="NS1 (1C) mRNA is translated into protein NS1 (1C)"/>
+            <bbox w="12.0" h="12.0" x="1323.0" y="482.0"/>
+            <port id="reactionVertex_9828724.1" x="1319.0" y="486.0"/>
+            <port id="reactionVertex_9828724.2" x="1339.0" y="486.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828726_2731">
+            <label text="P mRNA is translated into protein P"/>
+            <bbox w="12.0" h="12.0" x="1320.0" y="581.0"/>
+            <port id="reactionVertex_9828726.1" x="1316.0" y="585.0"/>
+            <port id="reactionVertex_9828726.2" x="1336.0" y="584.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9828644_2749">
+            <label text="m7G(5')pppAm-capped,polyadenylated NS2 mRNA"/>
+            <bbox w="312.0" h="46.0" x="963.0" y="511.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9845201_8696">
+            <label text="lumicitabine:RdRP:p-M2-1:nucleocapsid"/>
+            <bbox w="109.0" h="45.0" x="535.0" y="402.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29438_4363">
+            <label text="GTP"/>
+            <bbox w="35.0" h="27.0" x="376.0" y="521.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_9639461_4364">
+            <label text="S-adenosyl-L-methionine"/>
+            <bbox w="103.0" h="42.0" x="269.0" y="655.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9834003_4370">
+            <label text="L protein acts as a cap 2'-O-methyltransferase to modify RSV mRNAs"/>
+            <bbox w="12.0" h="12.0" x="593.0" y="706.0"/>
+            <port id="reactionVertex_9834003.1" x="589.0" y="714.0"/>
+            <port id="reactionVertex_9834003.2" x="609.0" y="714.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9834736_7000">
+            <label text="Synthesis of antigenomic RNA of human respiratory syncytial virus"/>
+            <bbox w="12.0" h="12.0" x="321.0" y="280.0"/>
+            <port id="reactionVertex_9834736.1" x="317.0" y="250.0"/>
+            <port id="reactionVertex_9834736.2" x="337.0" y="198.0"/>
+        </glyph>
+        <glyph class="uncertain process" id="reactionVertex_9837448_8062">
+            <label text="Formation of hRSV A dsRNA intermediate form"/>
+            <bbox w="12.0" h="12.0" x="108.0" y="466.0"/>
+            <port id="reactionVertex_9837448.1" x="104.0" y="427.0"/>
+            <port id="reactionVertex_9837448.2" x="124.0" y="532.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9717482_2746">
+            <label text="NS1"/>
+            <bbox w="50.0" h="23.0" x="1394.0" y="475.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9820962_7329">
+            <label text="Assembly and release of respiratory syncytial virus (RSV) virions"/>
+            <bbox w="134.0" h="81.0" x="175.0" y="746.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828639_2850">
+            <label text="Transcription of respiratory syncytial virus subgenomic positive sense mRNAs"/>
+            <bbox w="12.0" h="12.0" x="438.0" y="364.0"/>
+            <port id="reactionVertex_9828639.1" x="441.0" y="380.0"/>
+            <port id="reactionVertex_9828639.2" x="448.0" y="360.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828720_2728">
+            <label text="SH mRNA is translated into protein SHt"/>
+            <bbox w="12.0" h="12.0" x="1355.0" y="331.0"/>
+            <port id="reactionVertex_9828720.1" x="1351.0" y="326.0"/>
+            <port id="reactionVertex_9828720.2" x="1371.0" y="349.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9828695_2726">
+            <label text="Nascent F"/>
+            <bbox w="79.0" h="23.0" x="1435.0" y="224.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9830848_4362">
+            <label text="L protein acts as a cap N7 methyltransferase to modify RSV mRNAs"/>
+            <bbox w="12.0" h="12.0" x="453.0" y="566.0"/>
+            <port id="reactionVertex_9830848.1" x="453.0" y="582.0"/>
+            <port id="reactionVertex_9830848.2" x="462.0" y="562.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9831167_2744">
+            <label text="Nascent N"/>
+            <bbox w="79.0" h="23.0" x="1382.0" y="426.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9828719_2715">
+            <label text="L mRNA is translated into protein L"/>
+            <bbox w="12.0" h="12.0" x="1333.0" y="632.0"/>
+            <port id="reactionVertex_9828719.1" x="1329.0" y="638.0"/>
+            <port id="reactionVertex_9828719.2" x="1349.0" y="638.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9834751_7003">
+            <label text="RdRP:p-M2-1:antigenomic hRSV A nucleocapsid"/>
+            <bbox w="130.0" h="46.0" x="191.0" y="394.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9828648_2748">
+            <label text="m7G(5')pppAm-capped,polyadenylated M mRNA"/>
+            <bbox w="311.0" h="44.0" x="963.0" y="669.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9834719_7290">
+            <label text="Synthesis of negative sense genomic RNA of respiratory syncytial virus"/>
+            <bbox w="12.0" h="12.0" x="302.0" y="521.0"/>
+            <port id="reactionVertex_9834719.1" x="288.0" y="537.0"/>
+            <port id="reactionVertex_9834719.2" x="280.0" y="517.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_6806881_7293">
+            <label text="NTP"/>
+            <bbox w="59.0" h="30.0" x="226.0" y="509.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9693660_8502">
+            <label text="HSP90 dimer"/>
+            <bbox w="85.0" h="22.0" x="229.0" y="114.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9828710_2747">
+            <label text="SHt"/>
+            <bbox w="50.0" h="23.0" x="1445.0" y="342.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9823349_7002">
+            <label text="Protein N decamer"/>
+            <bbox w="123.0" h="22.0" x="136.0" y="340.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9845192_8659">
+            <label text="Asvasiran binds N mRNA"/>
+            <bbox w="10.0" h="10.0" x="1063.0" y="388.0"/>
+            <port id="reactionVertex_9845192.1" x="1059.6666" y="396.0"/>
+            <port id="reactionVertex_9845192.2" x="1076.3334" y="383.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_8985053_7768">
+            <label text="hRSV A dsRNA intermediate form"/>
+            <bbox w="113.0" h="36.0" x="50.0" y="535.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_6806881_7076">
+            <label text="NTP"/>
+            <bbox w="64.0" h="31.0" x="304.0" y="184.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9834766_5835">
+            <label text="RSV m7G(5')pppAm-capped, polyadenylated mRNAs"/>
+            <bbox w="116.0" h="64.0" x="685.0" y="330.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_2723_input_2737" source="entityVertex_9828641_2723" target="reactionVertex_9828715.1">
+            <start x="1289.0" y="236.0"/>
+            <end x="1342.0" y="234.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2727_input_2715" source="entityVertex_9828650_2727" target="reactionVertex_9828719.1">
+            <start x="1280.0" y="638.0"/>
+            <end x="1339.0" y="638.0"/>
+        </arc>
+        <arc class="production" id="arc_2734_output_2740" source="reactionVertex_9828714.2" target="entityVertex_9828693_2734">
+            <start x="1323.0" y="759.0"/>
+            <end x="1323.0" y="759.0"/>
+        </arc>
+        <arc class="production" id="arc_2726_output_2737" source="reactionVertex_9828715.2" target="entityVertex_9828695_2726">
+            <start x="1342.0" y="234.0"/>
+            <end x="1342.0" y="234.0"/>
+        </arc>
+        <arc class="production" id="arc_2719_output_2715" source="reactionVertex_9828719.2" target="entityVertex_9828691_2719">
+            <start x="1339.0" y="638.0"/>
+            <end x="1339.0" y="638.0"/>
+        </arc>
+        <arc class="production" id="arc_2746_output_2717" source="reactionVertex_9828724.2" target="entityVertex_9717482_2746">
+            <start x="1329.0" y="488.0"/>
+            <end x="1329.0" y="488.0"/>
+        </arc>
+        <arc class="production" id="arc_7768_output_8062" source="reactionVertex_9837448.2" target="entityVertex_8985053_7768">
+            <start x="114.0" y="472.0"/>
+            <end x="114.0" y="472.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_7003_catalyst_8099" source="entityVertex_9834751_7003" target="reactionVertex_9837511_8099">
+            <start x="212.0" y="443.0"/>
+            <next x="175.0" y="460.0"/>
+            <next x="189.0" y="503.0"/>
+            <end x="189.0" y="503.0"/>
+        </arc>
+        <arc class="production" id="arc_2724_output_2720" source="reactionVertex_9828725.2" target="entityVertex_9828672_2724">
+            <start x="1328.0" y="688.0"/>
+            <end x="1328.0" y="688.0"/>
+        </arc>
+        <arc class="production" id="arc_4366_output_5833" source="reactionVertex_9833031.2" target="entityVertex_111294_4366">
+            <start x="569.0" y="533.0"/>
+            <next x="680.0" y="494.0"/>
+            <end x="680.0" y="494.0"/>
+        </arc>
+        <arc class="production" id="arc_7989_output_7000" source="reactionVertex_9834736.2" target="entityVertex_9834740_7989">
+            <start x="327.0" y="286.0"/>
+            <end x="327.0" y="286.0"/>
+        </arc>
+        <arc class="production" id="arc_2747_output_2728" source="reactionVertex_9828720.2" target="entityVertex_9828710_2747">
+            <start x="1361.0" y="337.0"/>
+            <end x="1361.0" y="337.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2971_input_2970" source="entityVertex_9830283_2971" target="reactionVertex_9833933.1">
+            <start x="499.0" y="156.0"/>
+            <next x="435.0" y="177.0"/>
+            <end x="435.0" y="177.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2745_input_2731" source="entityVertex_9828651_2745" target="reactionVertex_9828726.1">
+            <start x="1271.0" y="585.0"/>
+            <end x="1326.0" y="587.0"/>
+        </arc>
+        <arc class="production" id="arc_7291_output_7290" source="reactionVertex_9834719.2" target="entityVertex_9834730_7291">
+            <start x="308.0" y="527.0"/>
+            <end x="308.0" y="527.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_8502_activator_7000" source="entityVertex_9693660_8502" target="reactionVertex_9834736_7000">
+            <start x="274.0" y="139.0"/>
+            <next x="324.0" y="278.0"/>
+            <end x="324.0" y="278.0"/>
+        </arc>
+        <arc class="production" id="arc_2972_output_2970" source="reactionVertex_9833933.2" target="entityVertex_9833931_2972">
+            <start x="440.0" y="220.0"/>
+            <end x="440.0" y="220.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7293_input_8099" source="entityVertex_6806881_7293" target="reactionVertex_9837511.1">
+            <start x="236.0" y="506.0"/>
+            <next x="211.0" y="489.0"/>
+            <end x="211.0" y="489.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2714_input_2717" source="entityVertex_9828643_2714" target="reactionVertex_9828724.1">
+            <start x="1329.0" y="488.0"/>
+            <end x="1391.0" y="486.0"/>
+        </arc>
+        <arc class="production" id="arc_2729_output_2718" source="reactionVertex_9828722.2" target="entityVertex_9828680_2729">
+            <start x="1385.0" y="283.0"/>
+            <end x="1385.0" y="283.0"/>
+        </arc>
+        <arc class="production" id="arc_2730_output_2738" source="reactionVertex_9828716.2" target="entityVertex_9828696_2730">
+            <start x="1338.0" y="158.0"/>
+            <end x="1338.0" y="158.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_7003_catalyst_7290" source="entityVertex_9834751_7003" target="reactionVertex_9834719_7290">
+            <start x="286.0" y="443.0"/>
+            <next x="334.0" y="476.0"/>
+            <next x="315.0" y="513.0"/>
+            <end x="315.0" y="513.0"/>
+        </arc>
+        <arc class="production" id="arc_2744_output_2735" source="reactionVertex_9828727.2" target="entityVertex_9831167_2744">
+            <start x="1330.0" y="434.0"/>
+            <end x="1330.0" y="434.0"/>
+        </arc>
+        <arc class="production" id="arc_4368_output_4362" source="reactionVertex_9830848.2" target="entityVertex_29372_4368">
+            <start x="411.0" y="621.0"/>
+            <next x="462.0" y="605.0"/>
+            <end x="462.0" y="605.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_7040_activator_7000" source="entityVertex_9828693_7040" target="reactionVertex_9834736_7000">
+            <start x="348.0" y="364.0"/>
+            <next x="329.0" y="295.0"/>
+            <end x="329.0" y="295.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4363_input_4362" source="entityVertex_29438_4363" target="reactionVertex_9830848.1">
+            <start x="414.0" y="530.0"/>
+            <next x="453.0" y="522.0"/>
+            <end x="453.0" y="522.0"/>
+        </arc>
+        <arc class="production" id="arc_4366_output_4362" source="reactionVertex_9830848.2" target="entityVertex_111294_4366">
+            <start x="527.0" y="553.0"/>
+            <next x="462.0" y="605.0"/>
+            <end x="462.0" y="605.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4365_input_4362" source="entityVertex_29356_4365" target="reactionVertex_9830848.1">
+            <start x="403.0" y="497.0"/>
+            <next x="453.0" y="522.0"/>
+            <end x="453.0" y="522.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2971_input_7656" source="entityVertex_9830283_2971" target="reactionVertex_9837392.1">
+            <start x="536.0" y="120.0"/>
+            <next x="533.0" y="96.0"/>
+            <next x="144.0" y="97.0"/>
+            <next x="140.0" y="219.0"/>
+            <next x="290.0" y="297.0"/>
+            <end x="290.0" y="297.0"/>
+        </arc>
+        <arc class="production" id="arc_8696_output_8694" source="reactionVertex_9845222.2" target="entityVertex_9845201_8696">
+            <start x="564.0" y="310.0"/>
+            <end x="564.0" y="310.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4369_input_4370" source="entityVertex_9834005_4369" target="reactionVertex_9834003.1">
+            <start x="523.0" y="710.0"/>
+            <next x="567.0" y="714.0"/>
+            <end x="567.0" y="714.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_4220_catalyst_4362" source="entityVertex_9834004_4220" target="reactionVertex_9830848_4362">
+            <start x="461.0" y="455.0"/>
+            <next x="491.0" y="506.0"/>
+            <next x="466.0" y="558.0"/>
+            <end x="466.0" y="558.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3258_input_2850" source="entityVertex_6806881_3258" target="reactionVertex_9828639.1">
+            <start x="417.0" y="336.0"/>
+            <next x="441.0" y="341.0"/>
+            <end x="441.0" y="341.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2851_input_2970" source="entityVertex_9825338_2851" target="reactionVertex_9833933.1">
+            <start x="408.0" y="160.0"/>
+            <next x="435.0" y="177.0"/>
+            <end x="435.0" y="177.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2742_input_2735" source="entityVertex_9828647_2742" target="reactionVertex_9828727.1">
+            <start x="1330.0" y="434.0"/>
+            <end x="1379.0" y="435.0"/>
+        </arc>
+        <arc class="production" id="arc_4367_output_4362" source="reactionVertex_9830848.2" target="entityVertex_9639443_4367">
+            <start x="588.0" y="607.0"/>
+            <next x="462.0" y="605.0"/>
+            <end x="462.0" y="605.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2749_input_2722" source="entityVertex_9828644_2749" target="reactionVertex_9828718.1">
+            <start x="1278.0" y="531.0"/>
+            <end x="1333.0" y="530.0"/>
+        </arc>
+        <arc class="production" id="arc_7003_output_7656" source="reactionVertex_9837392.2" target="entityVertex_9834751_7003">
+            <start x="294.0" y="358.0"/>
+            <end x="294.0" y="358.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2972_input_8694" source="entityVertex_9833931_2972" target="reactionVertex_9845222.1">
+            <start x="508.0" y="291.0"/>
+            <next x="564.0" y="304.0"/>
+            <end x="564.0" y="304.0"/>
+        </arc>
+        <arc class="production" id="arc_2736_output_2722" source="reactionVertex_9828718.2" target="entityVertex_9717498_2736">
+            <start x="1333.0" y="530.0"/>
+            <end x="1333.0" y="530.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7003_input_7290" source="entityVertex_9834751_7003" target="reactionVertex_9834719.1">
+            <start x="266.0" y="443.0"/>
+            <next x="288.0" y="485.0"/>
+            <end x="288.0" y="485.0"/>
+        </arc>
+        <arc class="production" id="arc_2721_output_2739" source="reactionVertex_9828723.2" target="entityVertex_9828687_2721">
+            <start x="1327.0" y="735.0"/>
+            <end x="1327.0" y="735.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5834_input_5833" source="entityVertex_113592_5834" target="reactionVertex_9833031.1">
+            <start x="747.0" y="653.0"/>
+            <next x="796.0" y="648.0"/>
+            <end x="796.0" y="648.0"/>
+        </arc>
+        <arc class="consumption" id="arc_8695_input_8694" source="entityVertex_9845196_8695" target="reactionVertex_9845222.1">
+            <start x="616.0" y="230.0"/>
+            <next x="564.0" y="304.0"/>
+            <end x="564.0" y="304.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_4371_catalyst_5833" source="entityVertex_9834001_4371" target="reactionVertex_9833031_5833">
+            <start x="808.0" y="708.0"/>
+            <next x="837.0" y="652.0"/>
+            <next x="805.0" y="617.0"/>
+            <end x="805.0" y="617.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_4369_catalyst_4370" source="entityVertex_9834005_4369" target="reactionVertex_9834003_4370">
+            <start x="523.0" y="694.0"/>
+            <next x="571.0" y="686.0"/>
+            <next x="587.0" y="701.0"/>
+            <end x="587.0" y="701.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2725_input_2739" source="entityVertex_9828646_2725" target="reactionVertex_9828723.1">
+            <start x="1327.0" y="735.0"/>
+            <end x="1424.0" y="729.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2741_input_2718" source="entityVertex_9828652_2741" target="reactionVertex_9828722.1">
+            <start x="1385.0" y="283.0"/>
+            <end x="1441.0" y="284.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_7040_inhibitor_2850" source="entityVertex_9828693_7040" target="reactionVertex_9828639_2850">
+            <start x="382.0" y="375.0"/>
+            <next x="435.0" y="371.0"/>
+            <end x="435.0" y="371.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2748_input_2720" source="entityVertex_9828648_2748" target="reactionVertex_9828725.1">
+            <start x="1328.0" y="688.0"/>
+            <end x="1424.0" y="686.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_2972_catalyst_2850" source="entityVertex_9833931_2972" target="reactionVertex_9828639_2850">
+            <start x="461.0" y="300.0"/>
+            <next x="508.0" y="341.0"/>
+            <next x="459.0" y="363.0"/>
+            <end x="459.0" y="363.0"/>
+        </arc>
+        <arc class="production" id="arc_8100_output_8099" source="reactionVertex_9837511.2" target="entityVertex_9837507_8100">
+            <start x="194.0" y="518.0"/>
+            <end x="194.0" y="518.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2741_input_2728" source="entityVertex_9828652_2741" target="reactionVertex_9828720.1">
+            <start x="1361.0" y="337.0"/>
+            <end x="1442.0" y="349.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7989_input_7656" source="entityVertex_9834740_7989" target="reactionVertex_9837392.1">
+            <start x="229.0" y="198.0"/>
+            <next x="290.0" y="297.0"/>
+            <end x="290.0" y="297.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7291_input_8062" source="entityVertex_9834730_7291" target="reactionVertex_9837448.1">
+            <start x="257.0" y="614.0"/>
+            <next x="217.0" y="737.0"/>
+            <next x="37.0" y="740.0"/>
+            <next x="41.0" y="461.0"/>
+            <next x="76.0" y="427.0"/>
+            <end x="76.0" y="427.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2716_input_2743" source="entityVertex_9828649_2716" target="reactionVertex_9828717.1">
+            <start x="1287.0" y="183.0"/>
+            <end x="1337.0" y="186.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2972_input_7000" source="entityVertex_9833931_2972" target="reactionVertex_9834736.1">
+            <start x="378.0" y="263.0"/>
+            <next x="329.0" y="250.0"/>
+            <end x="329.0" y="250.0"/>
+        </arc>
+        <arc class="consumption" id="arc_8660_input_8659" source="entityVertex_9845174_8660" target="reactionVertex_9845192.1">
+            <start x="1006.0" y="382.0"/>
+            <end x="1070.0" y="396.0"/>
+        </arc>
+        <arc class="production" id="arc_4220_output_2850" source="reactionVertex_9828639.2" target="entityVertex_9834004_4220">
+            <start x="444.0" y="370.0"/>
+            <end x="444.0" y="370.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2716_input_2738" source="entityVertex_9828649_2716" target="reactionVertex_9828716.1">
+            <start x="1338.0" y="158.0"/>
+            <end x="1444.0" y="140.0"/>
+        </arc>
+        <arc class="production" id="arc_2761_output_2731" source="reactionVertex_9828726.2" target="entityVertex_9831695_2761">
+            <start x="1326.0" y="587.0"/>
+            <end x="1326.0" y="587.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2972_input_2850" source="entityVertex_9833931_2972" target="reactionVertex_9828639.1">
+            <start x="442.0" y="300.0"/>
+            <next x="441.0" y="341.0"/>
+            <end x="441.0" y="341.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7989_input_8062" source="entityVertex_9834740_7989" target="reactionVertex_9837448.1">
+            <start x="147.0" y="181.0"/>
+            <next x="70.0" y="185.0"/>
+            <next x="76.0" y="427.0"/>
+            <end x="76.0" y="427.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4364_input_4370" source="entityVertex_9639461_4364" target="reactionVertex_9834003.1">
+            <start x="320.0" y="700.0"/>
+            <next x="324.0" y="772.0"/>
+            <next x="555.0" y="772.0"/>
+            <next x="567.0" y="714.0"/>
+            <end x="567.0" y="714.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4364_input_4362" source="entityVertex_9639461_4364" target="reactionVertex_9830848.1">
+            <start x="338.0" y="652.0"/>
+            <next x="453.0" y="522.0"/>
+            <end x="453.0" y="522.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4371_input_5833" source="entityVertex_9834001_4371" target="reactionVertex_9833031.1">
+            <start x="796.0" y="708.0"/>
+            <next x="796.0" y="648.0"/>
+            <end x="796.0" y="648.0"/>
+        </arc>
+        <arc class="production" id="arc_2971_output_5833" source="reactionVertex_9833031.2" target="entityVertex_9830283_2971">
+            <start x="544.0" y="156.0"/>
+            <next x="680.0" y="494.0"/>
+            <end x="680.0" y="494.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7076_input_7000" source="entityVertex_6806881_7076" target="reactionVertex_9834736.1">
+            <start x="333.0" y="218.0"/>
+            <next x="329.0" y="250.0"/>
+            <end x="329.0" y="250.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4220_input_4362" source="entityVertex_9834004_4220" target="reactionVertex_9830848.1">
+            <start x="451.0" y="455.0"/>
+            <next x="453.0" y="522.0"/>
+            <end x="453.0" y="522.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7002_input_7656" source="entityVertex_9823349_7002" target="reactionVertex_9837392.1">
+            <start x="215.0" y="337.0"/>
+            <next x="290.0" y="297.0"/>
+            <end x="290.0" y="297.0"/>
+        </arc>
+        <arc class="production" id="arc_5835_output_5833" source="reactionVertex_9833031.2" target="entityVertex_9834766_5835">
+            <start x="727.0" y="400.0"/>
+            <next x="680.0" y="494.0"/>
+            <end x="680.0" y="494.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7003_input_8099" source="entityVertex_9834751_7003" target="reactionVertex_9837511.1">
+            <start x="241.0" y="443.0"/>
+            <next x="211.0" y="489.0"/>
+            <end x="211.0" y="489.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_8649_activator_2850" source="entityVertex_264476_8649" target="reactionVertex_9828639_2850">
+            <start x="477.0" y="373.0"/>
+            <next x="453.0" y="371.0"/>
+            <end x="453.0" y="371.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2742_input_8659" source="entityVertex_9828647_2742" target="reactionVertex_9845192.1">
+            <start x="1087.0" y="414.0"/>
+            <end x="1070.0" y="396.0"/>
+        </arc>
+        <arc class="production" id="arc_4369_output_4362" source="reactionVertex_9830848.2" target="entityVertex_9834005_4369">
+            <start x="454.0" y="685.0"/>
+            <next x="462.0" y="605.0"/>
+            <end x="462.0" y="605.0"/>
+        </arc>
+        <arc class="production" id="arc_4367_output_4370" source="reactionVertex_9834003.2" target="entityVertex_9639443_4367">
+            <start x="647.0" y="634.0"/>
+            <next x="640.0" y="714.0"/>
+            <end x="640.0" y="714.0"/>
+        </arc>
+        <arc class="production" id="arc_8661_output_8659" source="reactionVertex_9845192.2" target="entityVertex_9845187_8661">
+            <start x="1068.0" y="393.0"/>
+            <end x="1068.0" y="393.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7001_input_7656" source="entityVertex_9823350_7001" target="reactionVertex_9837392.1">
+            <start x="243.0" y="296.0"/>
+            <next x="290.0" y="297.0"/>
+            <end x="290.0" y="297.0"/>
+        </arc>
+        <arc class="production" id="arc_4371_output_4370" source="reactionVertex_9834003.2" target="entityVertex_9834001_4371">
+            <start x="740.0" y="728.0"/>
+            <next x="640.0" y="714.0"/>
+            <end x="640.0" y="714.0"/>
+        </arc>
+        <arc class="consumption" id="arc_7293_input_7290" source="entityVertex_6806881_7293" target="reactionVertex_9834719.1">
+            <start x="267.0" y="506.0"/>
+            <next x="288.0" y="485.0"/>
+            <end x="288.0" y="485.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_2972_catalyst_7000" source="entityVertex_9833931_2972" target="reactionVertex_9834736_7000">
+            <start x="378.0" y="282.0"/>
+            <next x="343.0" y="285.0"/>
+            <end x="343.0" y="285.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2725_input_2740" source="entityVertex_9828646_2725" target="reactionVertex_9828714.1">
+            <start x="1323.0" y="759.0"/>
+            <end x="1505.0" y="768.0"/>
+        </arc>
+        <arc class="production" id="arc_2733_output_2743" source="reactionVertex_9828717.2" target="entityVertex_9828705_2733">
+            <start x="1337.0" y="186.0"/>
+            <end x="1337.0" y="186.0"/>
+        </arc>
+    </map>
+</sbgn>

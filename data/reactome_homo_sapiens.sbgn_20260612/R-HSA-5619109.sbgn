@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_886" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1305.0" y="547.0"/>
+            </label>
+            <bbox w="2670.0" h="840.0" x="0.0" y="144.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_20600_1352" compartmentOrder="10.0">
+            <label text="synaptic vesicle">
+                <bbox w="121.0" h="24.0" x="1759.0" y="600.0"/>
+            </label>
+            <bbox w="392.0" h="218.0" x="1496.0" y="457.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_74113_1342">
+            <label text="Na+"/>
+            <bbox w="34.0" h="34.0" x="740.0" y="14.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5659764_148325">
+            <label text="Defective SLC6A2 does not cotransport NAd, Na+ from extracellular region to cytosol"/>
+            <bbox w="12.0" h="12.0" x="692.0" y="148.0"/>
+            <port id="reactionVertex_5659764.1" x="696.0" y="164.0"/>
+            <port id="reactionVertex_5659764.2" x="698.0" y="144.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_374935_829">
+            <label text="NAd"/>
+            <bbox w="41.0" h="37.0" x="615.0" y="10.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_5659768_148326">
+            <label text="SLC6A2 A457P"/>
+            <bbox w="61.0" h="29.0" x="767.0" y="140.0"/>
+        </glyph>
+        <arc class="catalysis" id="arc_148326_catalyst_148325" source="entityVertex_5659768_148326" target="reactionVertex_5659764_148325">
+            <start x="764.0" y="154.0"/>
+            <next x="714.0" y="154.0"/>
+            <end x="714.0" y="154.0"/>
+        </arc>
+        <arc class="consumption" id="arc_829_input_148325" source="entityVertex_374935_829" target="reactionVertex_5659764.1">
+            <start x="644.0" y="50.0"/>
+            <end x="696.0" y="151.0"/>
+        </arc>
+        <arc class="consumption" id="arc_1342_input_148325" source="entityVertex_74113_1342" target="reactionVertex_5659764.1">
+            <start x="748.0" y="51.0"/>
+            <end x="696.0" y="151.0"/>
+        </arc>
+    </map>
+</sbgn>

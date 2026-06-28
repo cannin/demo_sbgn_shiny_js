@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_27" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="485.0" y="190.0"/>
+            </label>
+            <bbox w="1030.0" h="379.0" x="0.0" y="18.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_29" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="278.0" y="235.0"/>
+            </label>
+            <bbox w="326.0" h="100.0" x="119.0" y="192.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_31" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="588.0" y="241.0"/>
+            </label>
+            <bbox w="456.0" h="98.0" x="461.0" y="193.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1638840_13">
+            <label text="C1P"/>
+            <bbox w="47.0" h="35.0" x="218.0" y="5.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5340320_8">
+            <label text="GLTP transports GSL from plasma membrane to ER membrane"/>
+            <bbox w="12.0" h="12.0" x="762.0" y="110.0"/>
+            <port id="reactionVertex_5340320.1" x="766.0" y="126.0"/>
+            <port id="reactionVertex_5340320.2" x="770.0" y="106.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_5216109_7">
+            <label text="GLTP"/>
+            <bbox w="57.0" h="25.0" x="836.0" y="104.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_8857663_20">
+            <label text="ESYT1:ESYT2:ESYT3"/>
+            <bbox w="52.0" h="51.0" x="663.0" y="168.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9850728_19">
+            <label text="GSL"/>
+            <bbox w="35.0" h="31.0" x="140.0" y="9.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_8857646_24">
+            <label text="GPL"/>
+            <bbox w="39.0" h="39.0" x="588.0" y="7.0"/>
+        </glyph>
+        <glyph class="uncertain process" id="reactionVertex_9844955_14">
+            <label text="CLN3 transports GalCer to plasma membrane"/>
+            <bbox w="12.0" h="12.0" x="508.0" y="106.0"/>
+            <port id="reactionVertex_9844955.1" x="513.0" y="122.0"/>
+            <port id="reactionVertex_9844955.2" x="515.0" y="102.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_5340299_17">
+            <label text="GSL"/>
+            <bbox w="44.0" h="37.0" x="749.0" y="181.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_6785915_22">
+            <label text="GalCer"/>
+            <bbox w="50.0" h="35.0" x="488.0" y="181.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_8857662_18">
+            <label text="ESYT1:ESYT2:ESYT3 transport GPL from plasma membrane to ER membrane"/>
+            <bbox w="12.0" h="12.0" x="600.0" y="110.0"/>
+            <port id="reactionVertex_8857662.1" x="606.0" y="126.0"/>
+            <port id="reactionVertex_8857662.2" x="606.0" y="106.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9845060_11">
+            <label text="ARF1:PLEKHA8:PI4P dimer"/>
+            <bbox w="65.0" h="68.0" x="286.0" y="163.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_5339515_3">
+            <label text="C1P"/>
+            <bbox w="36.0" h="35.0" x="224.0" y="180.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1660674_26">
+            <label text="GlcCer"/>
+            <bbox w="51.0" h="39.0" x="359.0" y="179.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_8857684_16">
+            <label text="GPL"/>
+            <bbox w="41.0" h="39.0" x="587.0" y="181.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9845055_25">
+            <label text="PLEKHA8 catalyzes transport of GlcCer to plasma membrane"/>
+            <bbox w="12.0" h="12.0" x="380.0" y="107.0"/>
+            <port id="reactionVertex_9845055.1" x="384.0" y="123.0"/>
+            <port id="reactionVertex_9845055.2" x="386.0" y="103.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_5216088_12">
+            <label text="CPTP"/>
+            <bbox w="43.0" h="23.0" x="285.0" y="102.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_9844957_15">
+            <label text="GalCer"/>
+            <bbox w="54.0" h="31.0" x="489.0" y="7.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_428157_33">
+            <label text="Sphingolipid metabolism"/>
+            <bbox w="98.0" h="53.0" x="410.0" y="311.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1861782_4">
+            <label text="GlcCer"/>
+            <bbox w="50.0" h="43.0" x="362.0" y="1.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_74016_21">
+            <label text="Ca2+"/>
+            <bbox w="49.0" h="41.0" x="658.0" y="78.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_5340315_5">
+            <label text="GSL"/>
+            <bbox w="39.0" h="41.0" x="747.0" y="3.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9844960_10">
+            <label text="CLN3"/>
+            <bbox w="45.0" h="27.0" x="434.0" y="184.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9850724_23">
+            <label text="GSL"/>
+            <bbox w="40.0" h="32.0" x="138.0" y="178.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5339535_9">
+            <label text="CPTP transports C1P from plasma membrane to Golgi membrane"/>
+            <bbox w="12.0" h="12.0" x="235.0" y="107.0"/>
+            <port id="reactionVertex_5339535.1" x="241.0" y="123.0"/>
+            <port id="reactionVertex_5339535.2" x="241.0" y="103.0"/>
+        </glyph>
+        <glyph class="uncertain process" id="reactionVertex_9850731_6">
+            <label text="Vesicles transport GSL from Golgi to plasma membrane"/>
+            <bbox w="12.0" h="12.0" x="150.0" y="107.0"/>
+            <port id="reactionVertex_9850731.1" x="157.0" y="123.0"/>
+            <port id="reactionVertex_9850731.2" x="156.0" y="103.0"/>
+        </glyph>
+        <arc class="production" id="arc_16_output_18" source="reactionVertex_8857662.2" target="entityVertex_8857684_16">
+            <start x="606.0" y="116.0"/>
+            <end x="606.0" y="116.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_21_activator_18" source="entityVertex_74016_21" target="reactionVertex_8857662_18">
+            <start x="655.0" y="103.0"/>
+            <next x="615.0" y="114.0"/>
+            <end x="615.0" y="114.0"/>
+        </arc>
+        <arc class="consumption" id="arc_13_input_9" source="entityVertex_1638840_13" target="reactionVertex_5339535.1">
+            <start x="241.0" y="43.0"/>
+            <end x="241.0" y="113.0"/>
+        </arc>
+        <arc class="production" id="arc_19_output_6" source="reactionVertex_9850731.2" target="entityVertex_9850728_19">
+            <start x="156.0" y="113.0"/>
+            <end x="156.0" y="113.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_20_catalyst_18" source="entityVertex_8857663_20" target="reactionVertex_8857662_18">
+            <start x="660.0" y="168.0"/>
+            <next x="618.0" y="127.0"/>
+            <end x="618.0" y="127.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_11_catalyst_25" source="entityVertex_9845060_11" target="reactionVertex_9845055_25">
+            <start x="345.0" y="160.0"/>
+            <next x="375.0" y="125.0"/>
+            <end x="375.0" y="125.0"/>
+        </arc>
+        <arc class="consumption" id="arc_24_input_18" source="entityVertex_8857646_24" target="reactionVertex_8857662.1">
+            <start x="606.0" y="116.0"/>
+            <end x="606.0" y="178.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_10_catalyst_14" source="entityVertex_9844960_10" target="reactionVertex_9844955_14">
+            <start x="465.0" y="181.0"/>
+            <next x="505.0" y="125.0"/>
+            <end x="505.0" y="125.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_7_catalyst_8" source="entityVertex_5216109_7" target="reactionVertex_5340320_8">
+            <start x="833.0" y="116.0"/>
+            <next x="784.0" y="116.0"/>
+            <end x="784.0" y="116.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_12_catalyst_9" source="entityVertex_5216088_12" target="reactionVertex_5339535_9">
+            <start x="282.0" y="113.0"/>
+            <next x="257.0" y="113.0"/>
+            <end x="257.0" y="113.0"/>
+        </arc>
+        <arc class="consumption" id="arc_23_input_6" source="entityVertex_9850724_23" target="reactionVertex_9850731.1">
+            <start x="156.0" y="113.0"/>
+            <end x="156.0" y="46.0"/>
+        </arc>
+        <arc class="production" id="arc_15_output_14" source="reactionVertex_9844955.2" target="entityVertex_9844957_15">
+            <start x="514.0" y="112.0"/>
+            <end x="514.0" y="112.0"/>
+        </arc>
+        <arc class="consumption" id="arc_26_input_25" source="entityVertex_1660674_26" target="reactionVertex_9845055.1">
+            <start x="384.0" y="176.0"/>
+            <end x="386.0" y="113.0"/>
+        </arc>
+        <arc class="production" id="arc_4_output_25" source="reactionVertex_9845055.2" target="entityVertex_1861782_4">
+            <start x="386.0" y="113.0"/>
+            <end x="386.0" y="113.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5_input_8" source="entityVertex_5340315_5" target="reactionVertex_5340320.1">
+            <start x="766.0" y="47.0"/>
+            <end x="768.0" y="116.0"/>
+        </arc>
+        <arc class="production" id="arc_3_output_9" source="reactionVertex_5339535.2" target="entityVertex_5339515_3">
+            <start x="241.0" y="113.0"/>
+            <end x="241.0" y="113.0"/>
+        </arc>
+        <arc class="production" id="arc_17_output_8" source="reactionVertex_5340320.2" target="entityVertex_5340299_17">
+            <start x="768.0" y="116.0"/>
+            <end x="768.0" y="116.0"/>
+        </arc>
+        <arc class="consumption" id="arc_22_input_14" source="entityVertex_6785915_22" target="reactionVertex_9844955.1">
+            <start x="514.0" y="112.0"/>
+            <end x="515.0" y="41.0"/>
+        </arc>
+    </map>
+</sbgn>

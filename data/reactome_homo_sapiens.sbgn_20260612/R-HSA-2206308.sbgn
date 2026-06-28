@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="23.0" y="78.0"/>
+            </label>
+            <bbox w="2379.0" h="1090.0" x="0.0" y="65.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_161320_2" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="1254.0" y="207.0"/>
+            </label>
+            <bbox w="1144.0" h="890.0" x="1070.0" y="191.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_9" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="174.0" y="198.0"/>
+            </label>
+            <bbox w="872.0" h="888.0" x="154.0" y="185.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_2104997_474">
+            <label text="Gal-GlcNAc(S)-Gal-GlcNAc(S)-Gal"/>
+            <bbox w="116.0" h="45.0" x="1241.0" y="645.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_2265534_92843">
+            <label text="Defective GLB1 does not hydrolyse a glycosaminoglycan"/>
+            <bbox w="12.0" h="12.0" x="1457.0" y="663.0"/>
+            <port id="reactionVertex_2265534.1" x="1453.0" y="669.0"/>
+            <port id="reactionVertex_2265534.2" x="1473.0" y="671.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2262737_92844">
+            <label text="GLB1 mutants"/>
+            <bbox w="39.0" h="23.0" x="1446.0" y="710.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1605715_478">
+            <label text="H2O"/>
+            <bbox w="41.0" h="31.0" x="1349.0" y="703.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_478_input_92843" source="entityVertex_1605715_478" target="reactionVertex_2265534.1">
+            <start x="1386.0" y="700.0"/>
+            <next x="1425.0" y="669.0"/>
+            <end x="1425.0" y="669.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_92844_catalyst_92843" source="entityVertex_2262737_92844" target="reactionVertex_2265534_92843">
+            <start x="1464.0" y="704.0"/>
+            <next x="1463.0" y="685.0"/>
+            <end x="1463.0" y="685.0"/>
+        </arc>
+        <arc class="consumption" id="arc_474_input_92843" source="entityVertex_2104997_474" target="reactionVertex_2265534.1">
+            <start x="1360.0" y="667.0"/>
+            <next x="1425.0" y="669.0"/>
+            <end x="1425.0" y="669.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_5460_113" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="8483.0" y="1288.0"/>
+            </label>
+            <bbox w="1315.0" h="625.0" x="8434.0" y="1094.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17927_114" compartmentOrder="10.0">
+            <label text="mitochondrial intermembrane space">
+                <bbox w="280.0" h="24.0" x="8521.0" y="1018.0"/>
+            </label>
+            <bbox w="1513.0" h="807.0" x="8266.0" y="958.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_372" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="4756.0" y="157.0"/>
+            </label>
+            <bbox w="9823.0" h="1866.0" x="0.0" y="135.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_2516" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="6579.0" y="1659.0"/>
+            </label>
+            <bbox w="377.0" h="146.0" x="6531.0" y="1640.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_23" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="4803.0" y="696.0"/>
+            </label>
+            <bbox w="7560.0" h="943.0" x="218.0" y="419.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_13977_2557" compartmentOrder="10.0">
+            <label text="lipid droplet">
+                <bbox w="89.0" h="24.0" x="1005.0" y="251.0"/>
+            </label>
+            <bbox w="114.0" h="104.0" x="994.0" y="216.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_1133" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="1805.0" y="162.0"/>
+            </label>
+            <bbox w="261.0" h="85.0" x="1789.0" y="152.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_13946_2558" compartmentOrder="10.0">
+            <label text="transport vesicle membrane">
+                <bbox w="219.0" h="24.0" x="1276.0" y="287.0"/>
+            </label>
+            <bbox w="190.0" h="54.0" x="1272.0" y="277.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17951_479" compartmentOrder="10.0">
+            <label text="peroxisomal matrix">
+                <bbox w="150.0" h="24.0" x="8701.0" y="470.0"/>
+            </label>
+            <bbox w="838.0" h="366.0" x="8698.0" y="467.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113601_418">
+            <label text="NADPH"/>
+            <bbox w="59.0" h="31.0" x="695.0" y="1314.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_30373_421">
+            <label text="TMA"/>
+            <bbox w="43.0" h="31.0" x="699.0" y="1272.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5602966_133961">
+            <label text="Defective FMO3 does not N-oxidise TMA"/>
+            <bbox w="12.0" h="12.0" x="845.0" y="1281.0"/>
+            <port id="reactionVertex_5602966.1" x="841.0" y="1288.0"/>
+            <port id="reactionVertex_5602966.2" x="861.0" y="1288.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113534_416">
+            <label text="O2"/>
+            <bbox w="34.0" h="31.0" x="721.0" y="1217.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_156540_428">
+            <label text="H+"/>
+            <bbox w="36.0" h="31.0" x="674.0" y="1233.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9631787_133962">
+            <label text="FMO3 mutants:FAD"/>
+            <bbox w="69.0" h="23.0" x="818.0" y="1347.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_421_input_133961" source="entityVertex_30373_421" target="reactionVertex_5602966.1">
+            <start x="745.0" y="1287.0"/>
+            <next x="797.0" y="1288.0"/>
+            <end x="797.0" y="1288.0"/>
+        </arc>
+        <arc class="consumption" id="arc_428_input_133961" source="entityVertex_156540_428" target="reactionVertex_5602966.1">
+            <start x="713.0" y="1254.0"/>
+            <next x="797.0" y="1288.0"/>
+            <end x="797.0" y="1288.0"/>
+        </arc>
+        <arc class="consumption" id="arc_416_input_133961" source="entityVertex_113534_416" target="reactionVertex_5602966.1">
+            <start x="754.0" y="1251.0"/>
+            <next x="797.0" y="1288.0"/>
+            <end x="797.0" y="1288.0"/>
+        </arc>
+        <arc class="consumption" id="arc_418_input_133961" source="entityVertex_113601_418" target="reactionVertex_5602966.1">
+            <start x="751.0" y="1311.0"/>
+            <next x="797.0" y="1288.0"/>
+            <end x="797.0" y="1288.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_133962_catalyst_133961" source="entityVertex_9631787_133962" target="reactionVertex_5602966_133961">
+            <start x="851.0" y="1344.0"/>
+            <next x="851.0" y="1303.0"/>
+            <end x="851.0" y="1303.0"/>
+        </arc>
+    </map>
+</sbgn>

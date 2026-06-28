@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_16" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="154.0" y="1194.0"/>
+            </label>
+            <bbox w="1358.0" h="1625.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_17" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="907.0" y="238.0"/>
+            </label>
+            <bbox w="907.0" h="1464.0" x="399.0" y="133.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9916727_214975">
+            <label text="HIBCH mutants don't synthesize beta-hydroxyisobutyrate"/>
+            <bbox w="12.0" h="12.0" x="1134.0" y="1165.0"/>
+            <port id="reactionVertex_9916727.1" x="1140.0" y="1181.0"/>
+            <port id="reactionVertex_9916727.2" x="1140.0" y="1161.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113521_242">
+            <label text="H2O"/>
+            <bbox w="43.0" h="31.0" x="1155.0" y="1095.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9916724_214976">
+            <label text="HIBCH mutants"/>
+            <bbox w="45.0" h="23.0" x="1174.0" y="1159.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_71847_239">
+            <label text="bHIB-CoA"/>
+            <bbox w="74.0" h="31.0" x="1053.0" y="1092.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_239_input_214975" source="entityVertex_71847_239" target="reactionVertex_9916727.1">
+            <start x="1110.0" y="1126.0"/>
+            <next x="1140.0" y="1145.0"/>
+            <end x="1140.0" y="1145.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_214976_catalyst_214975" source="entityVertex_9916724_214976" target="reactionVertex_9916727_214975">
+            <start x="1168.0" y="1170.0"/>
+            <next x="1156.0" y="1170.0"/>
+            <end x="1156.0" y="1170.0"/>
+        </arc>
+        <arc class="consumption" id="arc_242_input_214975" source="entityVertex_113521_242" target="reactionVertex_9916727.1">
+            <start x="1160.0" y="1129.0"/>
+            <next x="1140.0" y="1145.0"/>
+            <end x="1140.0" y="1145.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="297.0" y="571.0"/>
+            </label>
+            <bbox w="579.0" h="339.0" x="35.0" y="545.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_986" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1893.0" y="426.0"/>
+            </label>
+            <bbox w="1040.0" h="661.0" x="1256.0" y="383.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_1130" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="201.0" y="1137.0"/>
+            </label>
+            <bbox w="325.0" h="129.0" x="103.0" y="1074.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_1084" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="82.0" y="1035.0"/>
+            </label>
+            <bbox w="408.0" h="234.0" x="60.0" y="1022.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9853849_211904">
+            <label text="Defective ANO6 does not expose PS, PE on the platelet membrane"/>
+            <bbox w="12.0" h="12.0" x="1309.0" y="372.0"/>
+            <port id="reactionVertex_9853849.1" x="1305.0" y="404.0"/>
+            <port id="reactionVertex_9853849.2" x="1325.0" y="380.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9853842_211905">
+            <label text="ANO6 variant:Ca2+"/>
+            <bbox w="118.0" h="23.0" x="1213.0" y="419.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_947588_1026">
+            <label text="APLs"/>
+            <bbox w="36.0" h="23.0" x="1361.0" y="404.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_1026_input_211904" source="entityVertex_947588_1026" target="reactionVertex_9853849.1">
+            <start x="1355.0" y="404.0"/>
+            <end x="1315.0" y="378.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_211905_catalyst_211904" source="entityVertex_9853842_211905" target="reactionVertex_9853849_211904">
+            <start x="1276.0" y="416.0"/>
+            <next x="1294.0" y="374.0"/>
+            <next x="1299.0" y="375.0"/>
+            <end x="1299.0" y="375.0"/>
+        </arc>
+    </map>
+</sbgn>

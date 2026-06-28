@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_426" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="747.0" y="331.0"/>
+            </label>
+            <bbox w="851.0" h="440.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17957_4462" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="602.0" y="178.0"/>
+            </label>
+            <bbox w="249.0" h="120.0" x="572.0" y="135.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_13977_431" compartmentOrder="10.0">
+            <label text="lipid droplet">
+                <bbox w="89.0" h="24.0" x="171.0" y="349.0"/>
+            </label>
+            <bbox w="280.0" h="334.0" x="142.0" y="70.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_549167_4690">
+            <label text="TAG"/>
+            <bbox w="42.0" h="30.0" x="524.0" y="181.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_8862370_4456">
+            <label text="HSD17B13:lipid droplet"/>
+            <bbox w="108.0" h="36.0" x="346.0" y="276.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_8862380_5984">
+            <label text="HSD17B13 binds lipid droplets"/>
+            <bbox w="12.0" h="12.0" x="273.0" y="287.0"/>
+            <port id="reactionVertex_8862380.1" x="269.0" y="293.0"/>
+            <port id="reactionVertex_8862380.2" x="289.0" y="293.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_8856630_5964">
+            <label text="CIDEA:CIDEC binds lipid droplets"/>
+            <bbox w="12.0" h="12.0" x="272.0" y="116.0"/>
+            <port id="reactionVertex_8856630.1" x="268.0" y="122.0"/>
+            <port id="reactionVertex_8856630.2" x="288.0" y="122.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_8866926_4689">
+            <label text="lipid droplet"/>
+            <bbox w="80.0" h="22.0" x="113.0" y="161.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_8858285_4433">
+            <label text="HILPDA"/>
+            <bbox w="52.0" h="24.0" x="49.0" y="200.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_8856647_4431">
+            <label text="CIDEA:CIDEC:lipid droplet"/>
+            <bbox w="96.0" h="37.0" x="353.0" y="104.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_8857686_5967">
+            <label text="FITM2 binds TAGs"/>
+            <bbox w="12.0" h="12.0" x="660.0" y="242.0"/>
+            <port id="reactionVertex_8857686.1" x="656.0" y="249.0"/>
+            <port id="reactionVertex_8857686.2" x="676.0" y="248.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9942194_5977">
+            <label text="FITM2:TAGs"/>
+            <bbox w="79.0" h="23.0" x="718.0" y="238.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9942190_5978">
+            <label text="FITM1 binds TAGs"/>
+            <bbox w="12.0" h="12.0" x="662.0" y="135.0"/>
+            <port id="reactionVertex_9942190.1" x="658.0" y="141.0"/>
+            <port id="reactionVertex_9942190.2" x="678.0" y="141.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_8858270_5965">
+            <label text="HILPDA binds lipid droplets"/>
+            <bbox w="12.0" h="12.0" x="277.0" y="205.0"/>
+            <port id="reactionVertex_8858270.1" x="273.0" y="213.0"/>
+            <port id="reactionVertex_8858270.2" x="293.0" y="212.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_8862029_4455">
+            <label text="HSD17B13"/>
+            <bbox w="77.0" h="23.0" x="40.0" y="283.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_8856629_4429">
+            <label text="CIDEA:CIDEC"/>
+            <bbox w="50.0" h="34.0" x="47.0" y="105.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_8857678_5976">
+            <label text="FITM2"/>
+            <bbox w="44.0" h="23.0" x="556.0" y="237.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_8857655_5982">
+            <label text="FITM1"/>
+            <bbox w="44.0" h="23.0" x="556.0" y="131.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_8858282_4434">
+            <label text="HILPDA:lipid droplet"/>
+            <bbox w="95.0" h="37.0" x="352.0" y="195.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9942191_5981">
+            <label text="FITM1:TAGs"/>
+            <bbox w="79.0" h="23.0" x="725.0" y="131.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_4429_input_5964" source="entityVertex_8856629_4429" target="reactionVertex_8856630.1">
+            <start x="100.0" y="122.0"/>
+            <next x="210.0" y="122.0"/>
+            <end x="210.0" y="122.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5982_input_5978" source="entityVertex_8857655_5982" target="reactionVertex_9942190.1">
+            <start x="603.0" y="141.0"/>
+            <next x="635.0" y="141.0"/>
+            <end x="635.0" y="141.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4433_input_5965" source="entityVertex_8858285_4433" target="reactionVertex_8858270.1">
+            <start x="104.0" y="212.0"/>
+            <next x="206.0" y="213.0"/>
+            <end x="206.0" y="213.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4455_input_5984" source="entityVertex_8862029_4455" target="reactionVertex_8862380.1">
+            <start x="120.0" y="293.0"/>
+            <next x="192.0" y="293.0"/>
+            <end x="192.0" y="293.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_4433_catalyst_5965" source="entityVertex_8858285_4433" target="reactionVertex_8858270_5965">
+            <start x="104.0" y="216.0"/>
+            <next x="283.0" y="247.0"/>
+            <next x="283.0" y="227.0"/>
+            <end x="283.0" y="227.0"/>
+        </arc>
+        <arc class="consumption" id="arc_5976_input_5967" source="entityVertex_8857678_5976" target="reactionVertex_8857686.1">
+            <start x="603.0" y="248.0"/>
+            <next x="633.0" y="249.0"/>
+            <end x="633.0" y="249.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_4429_catalyst_5964" source="entityVertex_8856629_4429" target="reactionVertex_8856630_5964">
+            <start x="100.0" y="117.0"/>
+            <next x="279.0" y="86.0"/>
+            <next x="278.0" y="106.0"/>
+            <end x="278.0" y="106.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4690_input_5978" source="entityVertex_549167_4690" target="reactionVertex_9942190.1">
+            <start x="569.0" y="183.0"/>
+            <next x="635.0" y="141.0"/>
+            <end x="635.0" y="141.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4689_input_5965" source="entityVertex_8866926_4689" target="reactionVertex_8858270.1">
+            <start x="167.0" y="186.0"/>
+            <next x="206.0" y="213.0"/>
+            <end x="206.0" y="213.0"/>
+        </arc>
+        <arc class="production" id="arc_4456_output_5984" source="reactionVertex_8862380.2" target="entityVertex_8862370_4456">
+            <start x="279.0" y="293.0"/>
+            <end x="279.0" y="293.0"/>
+        </arc>
+        <arc class="production" id="arc_5981_output_5978" source="reactionVertex_9942190.2" target="entityVertex_9942191_5981">
+            <start x="668.0" y="141.0"/>
+            <end x="668.0" y="141.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_5982_catalyst_5978" source="entityVertex_8857655_5982" target="reactionVertex_9942190_5978">
+            <start x="603.0" y="132.0"/>
+            <next x="668.0" y="102.0"/>
+            <next x="668.0" y="125.0"/>
+            <end x="668.0" y="125.0"/>
+        </arc>
+        <arc class="production" id="arc_4434_output_5965" source="reactionVertex_8858270.2" target="entityVertex_8858282_4434">
+            <start x="283.0" y="211.0"/>
+            <end x="283.0" y="211.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_4455_catalyst_5984" source="entityVertex_8862029_4455" target="reactionVertex_8862380_5984">
+            <start x="120.0" y="301.0"/>
+            <next x="277.0" y="332.0"/>
+            <next x="278.0" y="309.0"/>
+            <end x="278.0" y="309.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4689_input_5984" source="entityVertex_8866926_4689" target="reactionVertex_8862380.1">
+            <start x="156.0" y="186.0"/>
+            <next x="192.0" y="293.0"/>
+            <end x="192.0" y="293.0"/>
+        </arc>
+        <arc class="production" id="arc_5977_output_5967" source="reactionVertex_8857686.2" target="entityVertex_9942194_5977">
+            <start x="666.0" y="248.0"/>
+            <end x="666.0" y="248.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_5976_catalyst_5967" source="entityVertex_8857678_5976" target="reactionVertex_8857686_5967">
+            <start x="599.0" y="263.0"/>
+            <next x="664.0" y="295.0"/>
+            <next x="665.0" y="264.0"/>
+            <end x="665.0" y="264.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4689_input_5964" source="entityVertex_8866926_4689" target="reactionVertex_8856630.1">
+            <start x="165.0" y="158.0"/>
+            <next x="210.0" y="122.0"/>
+            <end x="210.0" y="122.0"/>
+        </arc>
+        <arc class="consumption" id="arc_4690_input_5967" source="entityVertex_549167_4690" target="reactionVertex_8857686.1">
+            <start x="569.0" y="208.0"/>
+            <next x="633.0" y="249.0"/>
+            <end x="633.0" y="249.0"/>
+        </arc>
+        <arc class="production" id="arc_4431_output_5964" source="reactionVertex_8856630.2" target="entityVertex_8856647_4431">
+            <start x="278.0" y="122.0"/>
+            <end x="278.0" y="122.0"/>
+        </arc>
+    </map>
+</sbgn>

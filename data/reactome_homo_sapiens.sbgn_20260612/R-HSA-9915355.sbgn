@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_16" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="154.0" y="1194.0"/>
+            </label>
+            <bbox w="1358.0" h="1625.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_5460_17" compartmentOrder="10.0">
+            <label text="mitochondrial matrix">
+                <bbox w="160.0" h="24.0" x="907.0" y="238.0"/>
+            </label>
+            <bbox w="907.0" h="1464.0" x="399.0" y="133.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_70836_210">
+            <label text="2MACA-CoA"/>
+            <bbox w="89.0" h="31.0" x="868.0" y="1286.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29374_226">
+            <label text="CoA-SH"/>
+            <bbox w="62.0" h="31.0" x="772.0" y="1290.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9915356_214707">
+            <label text="ACAT1 mutants don't synthesize propionyl-CoA or acetyl-CoA"/>
+            <bbox w="12.0" h="12.0" x="893.0" y="1353.0"/>
+            <port id="reactionVertex_9915356.1" x="899.0" y="1369.0"/>
+            <port id="reactionVertex_9915356.2" x="899.0" y="1349.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9915351_214708">
+            <label text="ACAT1 mutant tetramer"/>
+            <bbox w="103.0" h="23.0" x="768.0" y="1346.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_226_input_214707" source="entityVertex_29374_226" target="reactionVertex_9915356.1">
+            <start x="837.0" y="1316.0"/>
+            <next x="899.0" y="1340.0"/>
+            <end x="899.0" y="1340.0"/>
+        </arc>
+        <arc class="consumption" id="arc_210_input_214707" source="entityVertex_70836_210" target="reactionVertex_9915356.1">
+            <start x="906.0" y="1320.0"/>
+            <next x="899.0" y="1340.0"/>
+            <end x="899.0" y="1340.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_214708_catalyst_214707" source="entityVertex_9915351_214708" target="reactionVertex_9915356_214707">
+            <start x="874.0" y="1358.0"/>
+            <next x="883.0" y="1358.0"/>
+            <end x="883.0" y="1358.0"/>
+        </arc>
+    </map>
+</sbgn>

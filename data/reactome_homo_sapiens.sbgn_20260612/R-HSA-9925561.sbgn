@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="submap" id="entityVertex_9937080_278">
+            <label text="Developmental Lineage of Multipotent Pancreatic Progenitor Cells"/>
+            <bbox w="412.0" h="77.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9909345_258">
+            <label text="pancretic tip progenitor cell"/>
+            <bbox w="137.0" h="80.0" x="139.0" y="344.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9909323_264">
+            <label text="primary multipotent pancreatic progenitor cell"/>
+            <bbox w="164.0" h="107.0" x="123.0" y="141.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9820464_277">
+            <label text="Pancreatic pro-acinar cell produces pancreatic acinar cell"/>
+            <bbox w="12.0" h="12.0" x="202.0" y="630.0"/>
+            <port id="reactionVertex_9820464.1" x="208.0" y="646.0"/>
+            <port id="reactionVertex_9820464.2" x="208.0" y="626.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9820466_256">
+            <label text="pancreatic acinar cell"/>
+            <bbox w="121.0" h="80.0" x="148.0" y="682.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9909347_271">
+            <label text="Primary multipotent pancreatic progenitor cell produces pancreatic tip progenitor cell"/>
+            <bbox w="12.0" h="12.0" x="199.0" y="281.0"/>
+            <port id="reactionVertex_9909347.1" x="205.0" y="297.0"/>
+            <port id="reactionVertex_9909347.2" x="206.0" y="277.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9910608_274">
+            <label text="Pancreatic tip progenitor cell produces pancreatic pro-acinar cell"/>
+            <bbox w="12.0" h="12.0" x="202.0" y="456.0"/>
+            <port id="reactionVertex_9910608.1" x="207.0" y="472.0"/>
+            <port id="reactionVertex_9910608.2" x="208.0" y="452.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9910606_267">
+            <label text="pancreatic pro-acinar cell"/>
+            <bbox w="149.0" h="81.0" x="135.0" y="514.0"/>
+        </glyph>
+        <arc class="production" id="arc_267_output_274" source="reactionVertex_9910608.2" target="entityVertex_9910606_267">
+            <start x="208.0" y="462.0"/>
+            <end x="208.0" y="462.0"/>
+        </arc>
+        <arc class="consumption" id="arc_267_input_277" source="entityVertex_9910606_267" target="reactionVertex_9820464.1">
+            <start x="208.0" y="598.0"/>
+            <end x="208.0" y="636.0"/>
+        </arc>
+        <arc class="consumption" id="arc_258_input_274" source="entityVertex_9909345_258" target="reactionVertex_9910608.1">
+            <start x="208.0" y="462.0"/>
+            <end x="208.0" y="511.0"/>
+        </arc>
+        <arc class="production" id="arc_258_output_271" source="reactionVertex_9909347.2" target="entityVertex_9909345_258">
+            <start x="205.0" y="287.0"/>
+            <end x="205.0" y="287.0"/>
+        </arc>
+        <arc class="production" id="arc_256_output_277" source="reactionVertex_9820464.2" target="entityVertex_9820466_256">
+            <start x="208.0" y="636.0"/>
+            <end x="208.0" y="636.0"/>
+        </arc>
+        <arc class="consumption" id="arc_264_input_271" source="entityVertex_9909323_264" target="reactionVertex_9909347.1">
+            <start x="205.0" y="287.0"/>
+            <end x="206.0" y="341.0"/>
+        </arc>
+    </map>
+</sbgn>

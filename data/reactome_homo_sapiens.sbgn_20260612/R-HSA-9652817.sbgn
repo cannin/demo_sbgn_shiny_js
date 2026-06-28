@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_304" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="711.0" y="1219.0"/>
+            </label>
+            <bbox w="4428.0" h="1701.0" x="318.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_171907_2854" compartmentOrder="10.0">
+            <label text="endosome lumen">
+                <bbox w="134.0" h="24.0" x="2569.0" y="1048.0"/>
+            </label>
+            <bbox w="477.0" h="135.0" x="2519.0" y="990.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_2905" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="1597.0" y="1397.0"/>
+            </label>
+            <bbox w="249.0" h="341.0" x="1529.0" y="1171.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_7660_2906" compartmentOrder="10.0">
+            <label text="nucleoplasm">
+                <bbox w="97.0" h="24.0" x="3743.0" y="1097.0"/>
+            </label>
+            <bbox w="639.0" h="277.0" x="3702.0" y="1024.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29356_3358">
+            <label text="H2O"/>
+            <bbox w="52.0" h="31.0" x="4030.0" y="779.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9652813_181771">
+            <label text="constitutively active MAPK1 mutants"/>
+            <bbox w="102.0" h="50.0" x="3910.0" y="882.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5675365_3346">
+            <label text="cytosolic MAPK DUSPs"/>
+            <bbox w="109.0" h="55.0" x="4154.0" y="735.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9652816_181770">
+            <label text="Constitutively active MAPK1 mutants are not dephosphorylated by DUSPs"/>
+            <bbox w="12.0" h="12.0" x="4064.0" y="712.0"/>
+            <port id="reactionVertex_9652816.1" x="4060.0" y="758.0"/>
+            <port id="reactionVertex_9652816.2" x="4080.0" y="656.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_181771_input_181770" source="entityVertex_9652813_181771" target="reactionVertex_9652816.1">
+            <start x="3973.0" y="876.0"/>
+            <next x="4038.0" y="758.0"/>
+            <end x="4038.0" y="758.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_3346_catalyst_181770" source="entityVertex_5675365_3346" target="reactionVertex_9652816_181770">
+            <start x="4148.0" y="744.0"/>
+            <next x="4085.0" y="723.0"/>
+            <end x="4085.0" y="723.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3358_input_181770" source="entityVertex_29356_3358" target="reactionVertex_9652816.1">
+            <start x="4048.0" y="776.0"/>
+            <next x="4038.0" y="758.0"/>
+            <end x="4038.0" y="758.0"/>
+        </arc>
+    </map>
+</sbgn>

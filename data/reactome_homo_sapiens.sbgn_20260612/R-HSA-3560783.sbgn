@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_3890" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="317.0" y="15.0"/>
+            </label>
+            <bbox w="1133.0" h="527.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_3891" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="235.0" y="99.0"/>
+            </label>
+            <bbox w="1038.0" h="423.0" x="45.0" y="68.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2064201_3912">
+            <label text="xylosyl-core proteins"/>
+            <bbox w="77.0" h="36.0" x="214.0" y="409.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_3560804_104043">
+            <label text="Defective B4GALT7 does not transfer Gal to xylosyl-unit of the tetrasaccharide linker"/>
+            <bbox w="12.0" h="12.0" x="349.0" y="422.0"/>
+            <port id="reactionVertex_3560804.1" x="345.0" y="428.0"/>
+            <port id="reactionVertex_3560804.2" x="365.0" y="427.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_735682_3916">
+            <label text="UDP-Gal"/>
+            <bbox w="40.0" h="36.0" x="271.0" y="362.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_3621716_104044">
+            <label text="B4GALT7 mutants"/>
+            <bbox w="62.0" h="23.0" x="327.0" y="473.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_3916_input_104043" source="entityVertex_735682_3916" target="reactionVertex_3560804.1">
+            <start x="306.0" y="401.0"/>
+            <next x="333.0" y="428.0"/>
+            <end x="333.0" y="428.0"/>
+        </arc>
+        <arc class="consumption" id="arc_3912_input_104043" source="entityVertex_2064201_3912" target="reactionVertex_3560804.1">
+            <start x="297.0" y="427.0"/>
+            <next x="333.0" y="428.0"/>
+            <end x="333.0" y="428.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_104044_catalyst_104043" source="entityVertex_3621716_104044" target="reactionVertex_3560804_104043">
+            <start x="357.0" y="467.0"/>
+            <next x="356.0" y="444.0"/>
+            <end x="356.0" y="444.0"/>
+        </arc>
+    </map>
+</sbgn>

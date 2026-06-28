@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_17957_4" compartmentOrder="10.0">
+            <label text="endoplasmic reticulum lumen">
+                <bbox w="226.0" h="24.0" x="1436.0" y="585.0"/>
+            </label>
+            <bbox w="663.0" h="165.0" x="1314.0" y="498.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_184" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="2446.0" y="550.0"/>
+            </label>
+            <bbox w="3325.0" h="730.0" x="67.0" y="306.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_17963_45" compartmentOrder="10.0">
+            <label text="Golgi lumen">
+                <bbox w="90.0" h="24.0" x="442.0" y="494.0"/>
+            </label>
+            <bbox w="838.0" h="155.0" x="328.0" y="470.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9673667_587">
+            <label text="cytosolic PDGFR fusion dimers"/>
+            <bbox w="122.0" h="36.0" x="960.0" y="759.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9673757_497">
+            <label text="Ligand-independent dimerization of cytosolic PDGFRA and PDGFRB fusion proteins"/>
+            <bbox w="12.0" h="12.0" x="913.0" y="764.0"/>
+            <port id="reactionVertex_9673757.1" x="909.0" y="773.0"/>
+            <port id="reactionVertex_9673757.2" x="929.0" y="772.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113592_501">
+            <label text="ATP"/>
+            <bbox w="34.0" h="30.0" x="1093.0" y="822.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29370_503">
+            <label text="ADP"/>
+            <bbox w="39.0" h="30.0" x="1180.0" y="817.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9673673_589">
+            <label text="cytosolic PDGFR fusions"/>
+            <bbox w="97.0" h="37.0" x="775.0" y="760.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9673719_591">
+            <label text="cytosolic p-Y PDGFR fusion dimers"/>
+            <bbox w="116.0" h="38.0" x="1224.0" y="754.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9673756_500">
+            <label text="Autophosphorylation of cytosolic PDGFRA and PDGFRB fusion proteins"/>
+            <bbox w="12.0" h="12.0" x="1139.0" y="770.0"/>
+            <port id="reactionVertex_9673756.1" x="1135.0" y="775.0"/>
+            <port id="reactionVertex_9673756.2" x="1155.0" y="776.0"/>
+        </glyph>
+        <arc class="catalysis" id="arc_587_catalyst_500" source="entityVertex_9673667_587" target="reactionVertex_9673756_500">
+            <start x="1049.0" y="753.0"/>
+            <next x="1099.0" y="727.0"/>
+            <next x="1134.0" y="764.0"/>
+            <end x="1134.0" y="764.0"/>
+        </arc>
+        <arc class="production" id="arc_591_output_500" source="reactionVertex_9673756.2" target="entityVertex_9673719_591">
+            <start x="1218.0" y="774.0"/>
+            <next x="1168.0" y="776.0"/>
+            <end x="1168.0" y="776.0"/>
+        </arc>
+        <arc class="consumption" id="arc_501_input_500" source="entityVertex_113592_501" target="reactionVertex_9673756.1">
+            <glyph class="stoichiometry" id="Stoichiometry_113592_INPUT_9673756">
+                <label text="12"/>
+                <bbox w="12.0" h="12.0" x="1107.0" y="791.0"/>
+            </glyph>
+            <start x="1111.0" y="819.0"/>
+            <next x="1116.0" y="775.0"/>
+            <end x="1116.0" y="775.0"/>
+        </arc>
+        <arc class="production" id="arc_503_output_500" source="reactionVertex_9673756.2" target="entityVertex_29370_503">
+            <glyph class="stoichiometry" id="Stoichiometry_29370_OUTPUT_9673756">
+                <label text="12"/>
+                <bbox w="12.0" h="12.0" x="1173.0" y="789.0"/>
+            </glyph>
+            <start x="1190.0" y="814.0"/>
+            <next x="1168.0" y="776.0"/>
+            <end x="1168.0" y="776.0"/>
+        </arc>
+        <arc class="consumption" id="arc_587_input_500" source="entityVertex_9673667_587" target="reactionVertex_9673756.1">
+            <start x="1088.0" y="775.0"/>
+            <next x="1116.0" y="775.0"/>
+            <end x="1116.0" y="775.0"/>
+        </arc>
+        <arc class="production" id="arc_587_output_497" source="reactionVertex_9673757.2" target="entityVertex_9673667_587">
+            <start x="919.0" y="770.0"/>
+            <end x="919.0" y="770.0"/>
+        </arc>
+        <arc class="consumption" id="arc_589_input_497" source="entityVertex_9673673_589" target="reactionVertex_9673757.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9673673_INPUT_9673757">
+                <label text="2"/>
+                <bbox w="12.0" h="12.0" x="892.0" y="765.0"/>
+            </glyph>
+            <start x="919.0" y="770.0"/>
+            <end x="954.0" y="772.0"/>
+        </arc>
+    </map>
+</sbgn>

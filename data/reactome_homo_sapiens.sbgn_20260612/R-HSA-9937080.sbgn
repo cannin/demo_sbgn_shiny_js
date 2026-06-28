@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="simple chemical" id="entityVertex_5246462_118">
+            <label text="atRA"/>
+            <bbox w="44.0" h="31.0" x="633.0" y="128.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9925563_252">
+            <label text="Developmental Lineage of Pancreatic Ductal Cells"/>
+            <bbox w="328.0" h="52.0" x="434.0" y="810.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_189898_114">
+            <label text="FGF2(143-288)"/>
+            <bbox w="92.0" h="23.0" x="269.0" y="222.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9911210_46">
+            <label text="Definitive endoderm cell produces dorsal foregut endoderm cell"/>
+            <bbox w="12.0" h="12.0" x="454.0" y="157.0"/>
+            <port id="reactionVertex_9911210.1" x="450.0" y="76.0"/>
+            <port id="reactionVertex_9911210.2" x="470.0" y="202.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9909323_53">
+            <label text="primary multipotent pancreatic progenitor cell"/>
+            <bbox w="154.0" h="111.0" x="312.0" y="652.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9907637_47">
+            <label text="dorsal foregut endoderm cell"/>
+            <bbox w="186.0" h="71.0" x="399.0" y="205.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9911211_49">
+            <label text="ventral foregut endoderm cell"/>
+            <bbox w="201.0" h="72.0" x="21.0" y="192.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_189884_238">
+            <label text="FGF7"/>
+            <bbox w="46.0" h="25.0" x="276.0" y="319.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_179863_250">
+            <label text="EGF"/>
+            <bbox w="38.0" h="25.0" x="291.0" y="490.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9909325_50">
+            <label text="Dorsal foregut endoderm cell produces duodeno-pancreatic endoderm cell"/>
+            <bbox w="12.0" h="12.0" x="542.0" y="357.0"/>
+            <port id="reactionVertex_9909325.1" x="538.0" y="279.0"/>
+            <port id="reactionVertex_9909325.2" x="558.0" y="414.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_189869_239">
+            <label text="FGF10"/>
+            <bbox w="49.0" h="23.0" x="254.0" y="411.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9909315_51">
+            <label text="duodeno-pancreatic endoderm cell"/>
+            <bbox w="232.0" h="97.0" x="453.0" y="417.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9911215_107">
+            <label text="Ventral foregut endoderm cell produces primary multipotent pancreatic progenitor cell"/>
+            <bbox w="12.0" h="12.0" x="116.0" y="343.0"/>
+            <port id="reactionVertex_9911215.1" x="112.0" y="267.0"/>
+            <port id="reactionVertex_9911215.2" x="132.0" y="649.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_9925561_251">
+            <label text="Developmental Lineage of Pancreatic Acinar Cells"/>
+            <bbox w="348.0" h="52.0" x="0.0" y="811.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9911214_48">
+            <label text="Definitive endoderm cell produces ventral foregut endoderm cell"/>
+            <bbox w="12.0" h="12.0" x="182.0" y="123.0"/>
+            <port id="reactionVertex_9911214.1" x="178.0" y="76.0"/>
+            <port id="reactionVertex_9911214.2" x="198.0" y="189.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9909305_52">
+            <label text="Duodeno-pancreatic endoderm cell produces primary multipotent pancreatic progenitor cell"/>
+            <bbox w="12.0" h="12.0" x="470.0" y="572.0"/>
+            <port id="reactionVertex_9909305.1" x="466.0" y="517.0"/>
+            <port id="reactionVertex_9909305.2" x="486.0" y="649.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_189907_117">
+            <label text="FGF4"/>
+            <bbox w="45.0" h="22.0" x="646.0" y="204.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9911207_44">
+            <label text="definitive endoderm cell"/>
+            <bbox w="167.0" h="73.0" x="236.0" y="0.0"/>
+        </glyph>
+        <arc class="stimulation" id="arc_117_activator_50" source="entityVertex_189907_117" target="reactionVertex_9909325_50">
+            <start x="659.0" y="229.0"/>
+            <next x="554.0" y="356.0"/>
+            <end x="554.0" y="356.0"/>
+        </arc>
+        <arc class="consumption" id="arc_44_input_48" source="entityVertex_9911207_44" target="reactionVertex_9911214.1">
+            <start x="267.0" y="76.0"/>
+            <end x="188.0" y="129.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_239_activator_107" source="entityVertex_189869_239" target="reactionVertex_9911215_107">
+            <start x="253.0" y="408.0"/>
+            <next x="130.0" y="353.0"/>
+            <end x="130.0" y="353.0"/>
+        </arc>
+        <arc class="production" id="arc_53_output_52" source="reactionVertex_9909305.2" target="entityVertex_9909323_53">
+            <start x="476.0" y="578.0"/>
+            <end x="476.0" y="578.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_118_activator_46" source="entityVertex_5246462_118" target="reactionVertex_9911210_46">
+            <start x="630.0" y="145.0"/>
+            <next x="469.0" y="162.0"/>
+            <end x="469.0" y="162.0"/>
+        </arc>
+        <arc class="consumption" id="arc_44_input_46" source="entityVertex_9911207_44" target="reactionVertex_9911210.1">
+            <start x="359.0" y="76.0"/>
+            <end x="460.0" y="163.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_114_activator_50" source="entityVertex_189898_114" target="reactionVertex_9909325_50">
+            <start x="335.0" y="248.0"/>
+            <next x="540.0" y="359.0"/>
+            <end x="540.0" y="359.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_238_activator_107" source="entityVertex_189884_238" target="reactionVertex_9911215_107">
+            <start x="273.0" y="333.0"/>
+            <next x="131.0" y="348.0"/>
+            <end x="131.0" y="348.0"/>
+        </arc>
+        <arc class="consumption" id="arc_47_input_50" source="entityVertex_9907637_47" target="reactionVertex_9909325.1">
+            <start x="508.0" y="279.0"/>
+            <end x="548.0" y="363.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_114_activator_46" source="entityVertex_189898_114" target="reactionVertex_9911210_46">
+            <start x="338.0" y="219.0"/>
+            <next x="452.0" y="167.0"/>
+            <end x="452.0" y="167.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_250_activator_52" source="entityVertex_179863_250" target="reactionVertex_9909305_52">
+            <start x="332.0" y="510.0"/>
+            <next x="468.0" y="574.0"/>
+            <end x="468.0" y="574.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_250_activator_107" source="entityVertex_179863_250" target="reactionVertex_9911215_107">
+            <start x="294.0" y="487.0"/>
+            <next x="129.0" y="355.0"/>
+            <end x="129.0" y="355.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_239_activator_52" source="entityVertex_189869_239" target="reactionVertex_9909305_52">
+            <start x="292.0" y="437.0"/>
+            <next x="469.0" y="573.0"/>
+            <end x="469.0" y="573.0"/>
+        </arc>
+        <arc class="production" id="arc_49_output_48" source="reactionVertex_9911214.2" target="entityVertex_9911211_49">
+            <start x="188.0" y="129.0"/>
+            <end x="188.0" y="129.0"/>
+        </arc>
+        <arc class="production" id="arc_47_output_46" source="reactionVertex_9911210.2" target="entityVertex_9907637_47">
+            <start x="460.0" y="163.0"/>
+            <end x="460.0" y="163.0"/>
+        </arc>
+        <arc class="consumption" id="arc_49_input_107" source="entityVertex_9911211_49" target="reactionVertex_9911215.1">
+            <start x="121.0" y="267.0"/>
+            <end x="122.0" y="349.0"/>
+        </arc>
+        <arc class="consumption" id="arc_51_input_52" source="entityVertex_9909315_51" target="reactionVertex_9909305.1">
+            <start x="476.0" y="578.0"/>
+            <end x="426.0" y="649.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_114_activator_48" source="entityVertex_189898_114" target="reactionVertex_9911214_48">
+            <start x="300.0" y="219.0"/>
+            <next x="195.0" y="135.0"/>
+            <end x="195.0" y="135.0"/>
+        </arc>
+        <arc class="production" id="arc_53_output_107" source="reactionVertex_9911215.2" target="entityVertex_9909323_53">
+            <start x="122.0" y="349.0"/>
+            <end x="122.0" y="349.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_117_activator_46" source="entityVertex_189907_117" target="reactionVertex_9911210_46">
+            <start x="643.0" y="209.0"/>
+            <next x="469.0" y="165.0"/>
+            <end x="469.0" y="165.0"/>
+        </arc>
+        <arc class="production" id="arc_51_output_50" source="reactionVertex_9909325.2" target="entityVertex_9909315_51">
+            <start x="548.0" y="363.0"/>
+            <end x="548.0" y="363.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_118_activator_50" source="entityVertex_5246462_118" target="reactionVertex_9909325_50">
+            <start x="647.0" y="162.0"/>
+            <next x="552.0" y="355.0"/>
+            <end x="552.0" y="355.0"/>
+        </arc>
+        <arc class="stimulation" id="arc_238_activator_52" source="entityVertex_189884_238" target="reactionVertex_9909305_52">
+            <start x="307.0" y="347.0"/>
+            <next x="471.0" y="571.0"/>
+            <end x="471.0" y="571.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_13" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="987.0" y="874.0"/>
+            </label>
+            <bbox w="3089.0" h="1276.0" x="0.0" y="47.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_9649872_185438">
+            <label text="Osimertinib"/>
+            <bbox w="144.0" h="77.0" x="486.0" y="430.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9665283_185437">
+            <label text="ERBB2 KD mutants (osimertinib resistant):ERBIN:HSP90:CDC37"/>
+            <bbox w="177.0" h="32.0" x="631.0" y="354.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9665280_185436">
+            <label text="ERBB2 KD mutants do not bind osimertinib"/>
+            <bbox w="12.0" h="12.0" x="535.0" y="269.0"/>
+            <port id="reactionVertex_9665280.1" x="531.0" y="342.0"/>
+            <port id="reactionVertex_9665280.2" x="551.0" y="198.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_185437_input_185436" source="entityVertex_9665283_185437" target="reactionVertex_9665280.1">
+            <start x="641.0" y="351.0"/>
+            <next x="584.0" y="342.0"/>
+            <end x="584.0" y="342.0"/>
+        </arc>
+        <arc class="consumption" id="arc_185438_input_185436" source="entityVertex_9649872_185438" target="reactionVertex_9665280.1">
+            <start x="565.0" y="427.0"/>
+            <next x="584.0" y="342.0"/>
+            <end x="584.0" y="342.0"/>
+        </arc>
+    </map>
+</sbgn>

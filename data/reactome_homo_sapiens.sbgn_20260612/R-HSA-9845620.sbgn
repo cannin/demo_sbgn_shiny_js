@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="717.0" y="376.0"/>
+            </label>
+            <bbox w="737.0" h="314.0" x="50.0" y="137.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9844251_211667">
+            <label text="GP1BA variant binds to VWF multimer:collagen"/>
+            <bbox w="10.0" h="10.0" x="806.0" y="163.0"/>
+            <port id="reactionVertex_9844251.1" x="802.6667" y="122.0"/>
+            <port id="reactionVertex_9844251.2" x="819.3333" y="186.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9822536_33">
+            <label text="Collagen type I fibril:VWF multimer"/>
+            <bbox w="128.0" h="37.0" x="625.0" y="50.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9844246_211669">
+            <label text="Collagen type I fibril:VWF multimer:GP1BA variant:GP1BB:GP9:GP5"/>
+            <bbox w="122.0" h="51.0" x="714.0" y="189.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9822744_39">
+            <label text="Caplacizumab:VWF:collagen type I"/>
+            <bbox w="123.0" h="37.0" x="885.0" y="6.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9844193_211668">
+            <label text="GP1BA variant:GP1BB:GP9:GP5"/>
+            <bbox w="122.0" h="37.0" x="640.0" y="119.0"/>
+        </glyph>
+        <arc class="production" id="arc_211669_output_211667" source="reactionVertex_9844251.2" target="entityVertex_9844246_211669">
+            <start x="811.0" y="168.0"/>
+            <end x="811.0" y="168.0"/>
+        </arc>
+        <arc class="inhibition" id="arc_39_inhibitor_211667" source="entityVertex_9822744_39" target="reactionVertex_9844251_211667">
+            <start x="967.0" y="46.0"/>
+            <next x="977.0" y="51.0"/>
+            <next x="975.0" y="168.0"/>
+            <next x="820.0" y="168.0"/>
+            <end x="820.0" y="168.0"/>
+        </arc>
+        <arc class="consumption" id="arc_33_input_211667" source="entityVertex_9822536_33" target="reactionVertex_9844251.1">
+            <start x="730.0" y="90.0"/>
+            <next x="811.0" y="122.0"/>
+            <end x="811.0" y="122.0"/>
+        </arc>
+        <arc class="consumption" id="arc_211668_input_211667" source="entityVertex_9844193_211668" target="reactionVertex_9844251.1">
+            <start x="765.0" y="128.0"/>
+            <next x="811.0" y="122.0"/>
+            <end x="811.0" y="122.0"/>
+        </arc>
+    </map>
+</sbgn>

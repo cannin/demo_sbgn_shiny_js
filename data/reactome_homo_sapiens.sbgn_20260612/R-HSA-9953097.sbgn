@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="631.0" y="97.0"/>
+            </label>
+            <bbox w="1395.0" h="725.0" x="0.0" y="79.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_161320_2" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="367.0" y="219.0"/>
+            </label>
+            <bbox w="1235.0" h="593.0" x="113.0" y="186.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_9832509_219988">
+            <label text="HYAL1 mutants"/>
+            <bbox w="68.0" h="38.0" x="754.0" y="475.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_1605715_124">
+            <label text="H2O"/>
+            <bbox w="40.0" h="31.0" x="689.0" y="452.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2065257_125">
+            <label text="Chondroitin chains"/>
+            <bbox w="111.0" h="23.0" x="587.0" y="386.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_2318585_219987">
+            <label text="Defective HYAL1 does not hydrolyse Chondroitin chains"/>
+            <bbox w="12.0" h="12.0" x="781.0" y="416.0"/>
+            <port id="reactionVertex_2318585.1" x="777.0" y="423.0"/>
+            <port id="reactionVertex_2318585.2" x="797.0" y="423.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_124_input_219987" source="entityVertex_1605715_124" target="reactionVertex_2318585.1">
+            <start x="722.0" y="449.0"/>
+            <next x="746.0" y="423.0"/>
+            <end x="746.0" y="423.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_219988_catalyst_219987" source="entityVertex_9832509_219988" target="reactionVertex_2318585_219987">
+            <start x="787.0" y="469.0"/>
+            <next x="787.0" y="438.0"/>
+            <end x="787.0" y="438.0"/>
+        </arc>
+        <arc class="consumption" id="arc_125_input_219987" source="entityVertex_2065257_125" target="reactionVertex_2318585.1">
+            <start x="688.0" y="415.0"/>
+            <next x="746.0" y="423.0"/>
+            <end x="746.0" y="423.0"/>
+        </arc>
+    </map>
+</sbgn>

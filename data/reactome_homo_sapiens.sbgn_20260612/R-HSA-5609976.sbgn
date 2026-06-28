@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_70101_1" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="334.0" y="274.0"/>
+            </label>
+            <bbox w="809.0" h="354.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5610011_140775">
+            <label text="GALK1 mutants"/>
+            <bbox w="49.0" h="22.0" x="263.0" y="38.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_5610026_140773">
+            <label text="Defective GALK1 does not phosphorylate Gal"/>
+            <bbox w="12.0" h="12.0" x="285.0" y="94.0"/>
+            <port id="reactionVertex_5610026.1" x="281.0" y="101.0"/>
+            <port id="reactionVertex_5610026.2" x="301.0" y="99.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_29590_140774">
+            <label text="Gal"/>
+            <bbox w="85.0" h="41.0" x="167.0" y="81.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="entityVertex_113592_26">
+            <label text="ATP"/>
+            <bbox w="40.0" h="31.0" x="229.0" y="120.0"/>
+        </glyph>
+        <arc class="catalysis" id="arc_140775_catalyst_140773" source="entityVertex_5610011_140775" target="reactionVertex_5610026_140773">
+            <start x="287.0" y="66.0"/>
+            <next x="289.0" y="84.0"/>
+            <end x="289.0" y="84.0"/>
+        </arc>
+        <arc class="consumption" id="arc_140774_input_140773" source="entityVertex_29590_140774" target="reactionVertex_5610026.1">
+            <start x="255.0" y="101.0"/>
+            <next x="283.0" y="101.0"/>
+            <end x="283.0" y="101.0"/>
+        </arc>
+        <arc class="consumption" id="arc_26_input_140773" source="entityVertex_113592_26" target="reactionVertex_5610026.1">
+            <start x="264.0" y="117.0"/>
+            <next x="283.0" y="101.0"/>
+            <end x="283.0" y="101.0"/>
+        </arc>
+    </map>
+</sbgn>

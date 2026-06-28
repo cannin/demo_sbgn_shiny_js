@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="compartmentVertex_161320_2113" compartmentOrder="10.0">
+            <label text="lysosomal lumen">
+                <bbox w="129.0" h="24.0" x="1741.0" y="793.0"/>
+            </label>
+            <bbox w="285.0" h="119.0" x="1665.0" y="739.0"/>
+        </glyph>
+        <glyph class="compartment" id="compartmentVertex_70101_387" compartmentOrder="10.0">
+            <label text="cytosol">
+                <bbox w="56.0" h="24.0" x="1691.0" y="41.0"/>
+            </label>
+            <bbox w="1983.0" h="994.0" x="0.0" y="8.0"/>
+        </glyph>
+        <glyph class="omitted process" id="reactionVertex_9686338_2114">
+            <label text="SARS-CoV-1 3a binds the lysosomal membrane"/>
+            <bbox w="12.0" h="12.0" x="1802.0" y="648.0"/>
+            <port id="reactionVertex_9686338.1" x="1809.0" y="664.0"/>
+            <port id="reactionVertex_9686338.2" x="1809.0" y="644.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_2672221_373">
+            <label text="active caspase-8:viral CRMA/SPI-2"/>
+            <bbox w="112.0" h="37.0" x="42.0" y="567.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9698671_2868">
+            <label text="MLKL:UL36"/>
+            <bbox w="73.0" h="23.0" x="1525.0" y="614.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9687467_2122">
+            <label text="HSV1 RIR1:RIPK1"/>
+            <bbox w="109.0" h="23.0" x="637.0" y="116.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_109581_452">
+            <label text="Apoptosis"/>
+            <bbox w="74.0" h="31.0" x="27.0" y="253.0"/>
+        </glyph>
+        <glyph class="process" id="reactionVertex_9693929_193990">
+            <label text="RIPK1 variant is not cleaved by CASP8"/>
+            <bbox w="12.0" h="12.0" x="198.0" y="674.0"/>
+            <port id="reactionVertex_9693929.1" x="194.0" y="680.0"/>
+            <port id="reactionVertex_9693929.2" x="214.0" y="681.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9686348_2108">
+            <label text="SARS-CoV-1 3a:(RIPK1:RIPK3) oligomer"/>
+            <bbox w="105.0" h="51.0" x="1554.0" y="533.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_168651_379">
+            <label text="RIPK1"/>
+            <bbox w="43.0" h="23.0" x="626.0" y="281.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9686279_2107">
+            <label text="O-glycosyl 3a"/>
+            <bbox w="88.0" h="23.0" x="1413.0" y="501.0"/>
+            <glyph class="unit of information" id="entityVertex_9683627_1_mt">
+                <label text="OG"/>
+                <bbox w="25.0" h="16.0" x="1495.0" y="515.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9687468_2133">
+            <label text="HSV1 RIR1:RIPK3"/>
+            <bbox w="109.0" h="23.0" x="647.0" y="145.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9687458_2129">
+            <label text="HSV1 RIR1 binds CASP8"/>
+            <bbox w="10.0" h="10.0" x="555.0" y="66.0"/>
+            <port id="reactionVertex_9687458.1" x="551.6667" y="72.0"/>
+            <port id="reactionVertex_9687458.2" x="568.3333" y="71.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_5218901_426">
+            <label text="MLKL"/>
+            <bbox w="39.0" h="23.0" x="1374.0" y="612.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_57031_2130">
+            <label text="CASP8(1-479)"/>
+            <bbox w="93.0" h="23.0" x="451.0" y="39.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9693918_193991">
+            <label text="TRADD:TRAF2:RIPK1 variant:FADD"/>
+            <bbox w="97.0" h="37.0" x="56.0" y="662.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_2672224_372">
+            <label text="viral serpins"/>
+            <bbox w="79.0" h="23.0" x="132.0" y="487.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_169143_2149">
+            <label text="NS1 dimer"/>
+            <bbox w="70.0" h="23.0" x="1420.0" y="698.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_2672196_370">
+            <label text="Viral serpin blocks caspase-8 activity"/>
+            <bbox w="10.0" h="10.0" x="207.0" y="548.0"/>
+            <port id="reactionVertex_2672196.1" x="203.66667" y="534.0"/>
+            <port id="reactionVertex_2672196.2" x="220.33333" y="569.0"/>
+        </glyph>
+        <glyph class="unspecified entity" id="entityVertex_5218908_424">
+            <label text="p-S-RIPK1:p-S199,227-RIPK3 oligomer"/>
+            <bbox w="128.0" h="37.0" x="1255.0" y="542.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_450328_380">
+            <label text="RIPK3"/>
+            <bbox w="43.0" h="23.0" x="703.0" y="281.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9686345_2106">
+            <label text="SARS-CoV-1 3a binds RIPK1:RIPK3 oligomer"/>
+            <bbox w="10.0" h="10.0" x="1488.0" y="555.0"/>
+            <port id="reactionVertex_9686345.1" x="1484.6666" y="559.0"/>
+            <port id="reactionVertex_9686345.2" x="1501.3334" y="558.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9692649_2174">
+            <label text="3a tetramer:(RIPK1:RIPK3) oligomer"/>
+            <bbox w="124.0" h="37.0" x="1748.0" y="729.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9687455_2132">
+            <label text="HSV1 RIR1 binds RIPK3"/>
+            <bbox w="10.0" h="10.0" x="593.0" y="150.0"/>
+            <port id="reactionVertex_9687455.1" x="589.6667" y="156.0"/>
+            <port id="reactionVertex_9687455.2" x="606.3333" y="155.0"/>
+        </glyph>
+        <glyph class="submap" id="entityVertex_168255_2276">
+            <label text="Influenza Infection"/>
+            <bbox w="122.0" h="31.0" x="1395.0" y="773.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_5692537_2867">
+            <label text="UL36"/>
+            <bbox w="39.0" h="23.0" x="1442.0" y="581.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9687483_2131">
+            <label text="HSV1 RIR1:CASP8"/>
+            <bbox w="112.0" h="23.0" x="594.0" y="62.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_2562550_371">
+            <label text="active caspase-8"/>
+            <bbox w="108.0" h="23.0" x="258.0" y="463.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9686343_2148">
+            <label text="NS1 binds MLKL"/>
+            <bbox w="10.0" h="10.0" x="1538.0" y="690.0"/>
+            <port id="reactionVertex_9686343.1" x="1534.6666" y="695.0"/>
+            <port id="reactionVertex_9686343.2" x="1551.3334" y="696.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9686336_2109">
+            <label text="SARS-CoV-1 3a oligomerizes"/>
+            <bbox w="10.0" h="10.0" x="1709.0" y="550.0"/>
+            <port id="reactionVertex_9686336.1" x="1705.6666" y="556.0"/>
+            <port id="reactionVertex_9686336.2" x="1722.3334" y="555.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9687465_2120">
+            <label text="HSV1 RIR1 binds RIPK1"/>
+            <bbox w="10.0" h="10.0" x="578.0" y="123.0"/>
+            <port id="reactionVertex_9687465.1" x="574.6667" y="128.0"/>
+            <port id="reactionVertex_9687465.2" x="591.3333" y="127.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9686346_2150">
+            <label text="NS1:MLKL"/>
+            <bbox w="66.0" h="23.0" x="1589.0" y="686.0"/>
+        </glyph>
+        <glyph class="association" id="reactionVertex_9698677_2866">
+            <label text="HCMV UL36 binds MLKL"/>
+            <bbox w="10.0" h="10.0" x="1481.0" y="618.0"/>
+            <port id="reactionVertex_9698677.1" x="1477.6666" y="622.0"/>
+            <port id="reactionVertex_9698677.2" x="1494.3334" y="624.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="entityVertex_9687459_2121">
+            <label text="RIR1"/>
+            <bbox w="36.0" h="23.0" x="493.0" y="86.0"/>
+        </glyph>
+        <glyph class="complex" id="entityVertex_9686334_2110">
+            <label text="3a tetramer:(RIPK1:RIPK3) oligomer"/>
+            <bbox w="124.0" h="37.0" x="1748.0" y="539.0"/>
+        </glyph>
+        <arc class="consumption" id="arc_2121_input_2120" source="entityVertex_9687459_2121" target="reactionVertex_9687465.1">
+            <start x="525.0" y="112.0"/>
+            <next x="550.0" y="128.0"/>
+            <end x="550.0" y="128.0"/>
+        </arc>
+        <arc class="production" id="arc_2133_output_2132" source="reactionVertex_9687455.2" target="entityVertex_9687468_2133">
+            <start x="598.0" y="155.0"/>
+            <end x="598.0" y="155.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2121_input_2129" source="entityVertex_9687459_2121" target="reactionVertex_9687458.1">
+            <start x="524.0" y="83.0"/>
+            <next x="540.0" y="72.0"/>
+            <end x="540.0" y="72.0"/>
+        </arc>
+        <arc class="production" id="arc_2122_output_2120" source="reactionVertex_9687465.2" target="entityVertex_9687467_2122">
+            <start x="583.0" y="128.0"/>
+            <end x="583.0" y="128.0"/>
+        </arc>
+        <arc class="consumption" id="arc_193991_input_193990" source="entityVertex_9693918_193991" target="reactionVertex_9693929.1">
+            <start x="156.0" y="680.0"/>
+            <end x="204.0" y="680.0"/>
+        </arc>
+        <arc class="production" id="arc_2108_output_2106" source="reactionVertex_9686345.2" target="entityVertex_9686348_2108">
+            <start x="1493.0" y="560.0"/>
+            <end x="1493.0" y="560.0"/>
+        </arc>
+        <arc class="consumption" id="arc_424_input_2106" source="entityVertex_5218908_424" target="reactionVertex_9686345.1">
+            <start x="1386.0" y="559.0"/>
+            <next x="1456.0" y="559.0"/>
+            <end x="1456.0" y="559.0"/>
+        </arc>
+        <arc class="consumption" id="arc_426_input_2148" source="entityVertex_5218901_426" target="reactionVertex_9686343.1">
+            <start x="1416.0" y="634.0"/>
+            <next x="1513.0" y="695.0"/>
+            <end x="1513.0" y="695.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2130_input_2129" source="entityVertex_57031_2130" target="reactionVertex_9687458.1">
+            <start x="519.0" y="65.0"/>
+            <next x="540.0" y="72.0"/>
+            <end x="540.0" y="72.0"/>
+        </arc>
+        <arc class="consumption" id="arc_380_input_2132" source="entityVertex_450328_380" target="reactionVertex_9687455.1">
+            <start x="708.0" y="278.0"/>
+            <next x="548.0" y="162.0"/>
+            <next x="568.0" y="156.0"/>
+            <end x="568.0" y="156.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2867_input_2866" source="entityVertex_5692537_2867" target="reactionVertex_9698677.1">
+            <start x="1459.0" y="607.0"/>
+            <next x="1458.0" y="622.0"/>
+            <end x="1458.0" y="622.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2121_input_2132" source="entityVertex_9687459_2121" target="reactionVertex_9687455.1">
+            <start x="522.0" y="112.0"/>
+            <next x="568.0" y="156.0"/>
+            <end x="568.0" y="156.0"/>
+        </arc>
+        <arc class="consumption" id="arc_372_input_370" source="entityVertex_2672224_372" target="reactionVertex_2672196.1">
+            <start x="183.0" y="516.0"/>
+            <next x="211.0" y="534.0"/>
+            <end x="211.0" y="534.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2110_input_2114" source="entityVertex_9686334_2110" target="reactionVertex_9686338.1">
+            <start x="1809.0" y="579.0"/>
+            <end x="1808.0" y="654.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2107_input_2106" source="entityVertex_9686279_2107" target="reactionVertex_9686345.1">
+            <glyph class="stoichiometry" id="Stoichiometry_9686279_INPUT_9686345">
+                <label text="4"/>
+                <bbox w="12.0" h="12.0" x="1450.0" y="537.0"/>
+            </glyph>
+            <start x="1456.0" y="527.0"/>
+            <next x="1456.0" y="559.0"/>
+            <end x="1456.0" y="559.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2149_input_2148" source="entityVertex_169143_2149" target="reactionVertex_9686343.1">
+            <start x="1493.0" y="700.0"/>
+            <next x="1513.0" y="695.0"/>
+            <end x="1513.0" y="695.0"/>
+        </arc>
+        <arc class="production" id="arc_2174_output_2114" source="reactionVertex_9686338.2" target="entityVertex_9692649_2174">
+            <start x="1808.0" y="654.0"/>
+            <end x="1808.0" y="654.0"/>
+        </arc>
+        <arc class="catalysis" id="arc_371_catalyst_193990" source="entityVertex_2562550_371" target="reactionVertex_9693929_193990">
+            <start x="305.0" y="489.0"/>
+            <next x="205.0" y="652.0"/>
+            <next x="205.0" y="664.0"/>
+            <end x="205.0" y="664.0"/>
+        </arc>
+        <arc class="production" id="arc_2110_output_2109" source="reactionVertex_9686336.2" target="entityVertex_9686334_2110">
+            <start x="1714.0" y="555.0"/>
+            <end x="1714.0" y="555.0"/>
+        </arc>
+        <arc class="production" id="arc_373_output_370" source="reactionVertex_2672196.2" target="entityVertex_2672221_373">
+            <start x="212.0" y="553.0"/>
+            <end x="212.0" y="553.0"/>
+        </arc>
+        <arc class="production" id="arc_2868_output_2866" source="reactionVertex_9698677.2" target="entityVertex_9698671_2868">
+            <start x="1486.0" y="623.0"/>
+            <end x="1486.0" y="623.0"/>
+        </arc>
+        <arc class="consumption" id="arc_2108_input_2109" source="entityVertex_9686348_2108" target="reactionVertex_9686336.1">
+            <start x="1714.0" y="555.0"/>
+            <end x="1745.0" y="555.0"/>
+        </arc>
+        <arc class="consumption" id="arc_371_input_370" source="entityVertex_2562550_371" target="reactionVertex_2672196.1">
+            <start x="292.0" y="489.0"/>
+            <next x="211.0" y="534.0"/>
+            <end x="211.0" y="534.0"/>
+        </arc>
+        <arc class="consumption" id="arc_426_input_2866" source="entityVertex_5218901_426" target="reactionVertex_9698677.1">
+            <start x="1416.0" y="622.0"/>
+            <next x="1458.0" y="622.0"/>
+            <end x="1458.0" y="622.0"/>
+        </arc>
+        <arc class="production" id="arc_2150_output_2148" source="reactionVertex_9686343.2" target="entityVertex_9686346_2150">
+            <start x="1543.0" y="695.0"/>
+            <end x="1543.0" y="695.0"/>
+        </arc>
+        <arc class="production" id="arc_2131_output_2129" source="reactionVertex_9687458.2" target="entityVertex_9687483_2131">
+            <start x="560.0" y="71.0"/>
+            <end x="560.0" y="71.0"/>
+        </arc>
+        <arc class="consumption" id="arc_379_input_2120" source="entityVertex_168651_379" target="reactionVertex_9687465.1">
+            <start x="636.0" y="278.0"/>
+            <next x="516.0" y="146.0"/>
+            <next x="550.0" y="128.0"/>
+            <end x="550.0" y="128.0"/>
+        </arc>
+    </map>
+</sbgn>
