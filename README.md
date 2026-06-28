@@ -49,6 +49,9 @@ the browser what to load. The browser then parses and draws the SBGN XML.
 │   ├── ReactomePathways.txt
 │   ├── highlighted_examples.json
 │   └── reactome_homo_sapiens.sbgn_20260612/
+├── docs/
+│   ├── dropdown-test.png
+│   └── table-test.png
 ├── www/
 │   ├── sbgn-cytoscape-shiny.js
 │   ├── styles.css
@@ -62,6 +65,7 @@ Important files:
 - `data/highlighted_examples.json`: the examples used by the table and
   highlighted rendering mode.
 - `data/reactome_homo_sapiens.sbgn_20260612/`: local SBGN pathway XML files.
+- `docs/`: screenshots used in this README.
 - `www/sbgn-cytoscape-shiny.js`: JavaScript that creates Cytoscape graphs and
   communicates with Shiny.
 - `www/vendor/`: local browser JavaScript dependencies used by the app.
@@ -91,6 +95,16 @@ Then open:
 ```text
 http://127.0.0.1:3877
 ```
+
+## Screenshots
+
+### Dropdown Test
+
+![Dropdown Test tab](docs/dropdown-test.png)
+
+### Table Test
+
+![Table Test tab](docs/table-test.png)
 
 ## How The Dropdown Tab Works
 
@@ -145,7 +159,7 @@ APP_URL=http://127.0.0.1:3877 node playwright_test.js
 The test writes screenshot files named `playwright_*.png`. Those files are
 ignored by git.
 
-## Notes For Students
+## Notes
 
 This app is larger than a minimal Shiny example because it includes real pathway
 data and a JavaScript renderer. When reading the code, start with `app.R`:
