@@ -6,7 +6,7 @@ pathway diagrams in the browser with Cytoscape.js.
 It is designed as a small teaching example for students learning how Shiny can
 coordinate R server logic with browser-side JavaScript.
 
-## What The App Shows
+## Shiny App Elements
 
 The app has two tabs:
 
@@ -24,7 +24,7 @@ The app has two tabs:
 Both tabs use the same basic idea: R decides which pathway should be shown, and
 JavaScript renders the graph.
 
-## Why This Is A Useful Shiny Example
+## Purpose
 
 This app demonstrates several common Shiny programming ideas:
 
