@@ -3,8 +3,8 @@
 This repository is a self-contained R Shiny app that displays Reactome SBGN
 pathway diagrams in the browser with Cytoscape.js.
 
-It is designed as a small teaching example for students learning how Shiny can
-coordinate R server logic with browser-side JavaScript.
+The example illustrates how Shiny can coordinate R server logic with
+browser-side JavaScript.
 
 ## Shiny App Elements
 
@@ -156,5 +156,5 @@ data and a JavaScript renderer. When reading the code, start with `app.R`:
 4. Read the server section.
 5. Then read `www/sbgn-cytoscape-shiny.js`.
 
-The main lesson is that Shiny can be the controller for an app even when the
-visualization itself is handled by a browser library.
+Shiny acts as the controller for the app, while the visualization itself is
+handled by a browser library.
